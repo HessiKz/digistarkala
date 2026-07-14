@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fa" dir="rtl" data-theme="dark">
+<html lang="fa" dir="rtl" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,7 +18,7 @@
     <script>
       try {
         var t = JSON.parse(localStorage.getItem("dsk-theme-v1") || "{}");
-        var m = t && t.state && t.state.mode === "light" ? "light" : "dark";
+        var m = t && t.state && t.state.mode === "dark" ? "dark" : "light";
         document.documentElement.setAttribute("data-theme", m);
       } catch (e) {}
     </script>

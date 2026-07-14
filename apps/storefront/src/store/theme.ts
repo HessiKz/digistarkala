@@ -31,7 +31,7 @@ function writeCssVars(palette: BannerPalette | null, mode: ColorMode) {
 export const useThemeStore = create<ThemeState>()(
   persist(
     (set, get) => ({
-      mode: "dark",
+      mode: "light",
       palette: null,
       setMode: (mode) => {
         set({ mode });
@@ -64,13 +64,13 @@ export function initThemeFromStorage() {
   try {
     const raw = localStorage.getItem("dsk-theme-v1");
     if (!raw) {
-      document.documentElement.setAttribute("data-theme", "dark");
+      document.documentElement.setAttribute("data-theme", "light");
       return;
     }
     const parsed = JSON.parse(raw) as { state?: { mode?: ColorMode } };
-    const mode = parsed.state?.mode === "light" ? "light" : "dark";
+    const mode = parsed.state?.mode === "dark" ? "dark" : "light";
     document.documentElement.setAttribute("data-theme", mode);
   } catch {
-    document.documentElement.setAttribute("data-theme", "dark");
+    document.documentElement.setAttribute("data-theme", "light");
   }
 }
