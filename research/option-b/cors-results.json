@@ -1,0 +1,99 @@
+{
+  "pageOrigin": "http://127.0.0.1:5173",
+  "target": "https://digistarkala.ir",
+  "capturedAt": "2026-07-13T23:05:05.570Z",
+  "results": [
+    {
+      "name": "init",
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/init",
+      "preflight": null,
+      "request": {
+        "error": "TypeError: Failed to fetch",
+        "networkOrCorsBlocked": true,
+        "message": "Failed to fetch"
+      }
+    },
+    {
+      "name": "home",
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/home?device=desktop",
+      "preflight": null,
+      "request": {
+        "error": "TypeError: Failed to fetch",
+        "networkOrCorsBlocked": true,
+        "message": "Failed to fetch"
+      }
+    },
+    {
+      "name": "search",
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/products/search?query=%D8%AC%D8%A7%D8%B1%D9%88&device=desktop",
+      "preflight": null,
+      "request": {
+        "error": "TypeError: Failed to fetch",
+        "networkOrCorsBlocked": true,
+        "message": "Failed to fetch"
+      }
+    },
+    {
+      "name": "product",
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/products/22",
+      "preflight": null,
+      "request": {
+        "error": "TypeError: Failed to fetch",
+        "networkOrCorsBlocked": true,
+        "message": "Failed to fetch"
+      }
+    },
+    {
+      "name": "cart_get",
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/cart",
+      "preflight": null,
+      "request": {
+        "error": "TypeError: Failed to fetch",
+        "networkOrCorsBlocked": true,
+        "message": "Failed to fetch"
+      }
+    },
+    {
+      "name": "cart_add",
+      "method": "POST",
+      "url": "https://digistarkala.ir/shop/api/cart/add",
+      "preflight": {
+        "error": "TypeError: Failed to fetch",
+        "networkBlocked": true
+      },
+      "request": {
+        "error": "TypeError: Failed to fetch",
+        "networkOrCorsBlocked": true,
+        "message": "Failed to fetch"
+      }
+    }
+  ],
+  "verdict": {
+    "anyAcaoAllowsForeign": false,
+    "anySuccessRead": false,
+    "preflightOk": false
+  },
+  "browserConsole": [
+    "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "error: Access to fetch at 'https://digistarkala.ir/shop/api/init' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "error: Failed to load resource: net::ERR_FAILED",
+    "error: Access to fetch at 'https://digistarkala.ir/shop/api/home?device=desktop' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "error: Failed to load resource: net::ERR_FAILED",
+    "error: Access to fetch at 'https://digistarkala.ir/shop/api/products/search?query=%D8%AC%D8%A7%D8%B1%D9%88&device=desktop' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "error: Failed to load resource: net::ERR_FAILED",
+    "error: Access to fetch at 'https://digistarkala.ir/shop/api/products/22' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "error: Failed to load resource: net::ERR_FAILED",
+    "error: Access to fetch at 'https://digistarkala.ir/shop/api/cart' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "error: Failed to load resource: net::ERR_FAILED",
+    "error: Access to fetch at 'https://digistarkala.ir/shop/api/cart/add' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "error: Failed to load resource: net::ERR_FAILED",
+    "error: Access to fetch at 'https://digistarkala.ir/shop/api/cart/add' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "error: Failed to load resource: net::ERR_FAILED",
+    "log: {pageOrigin: http://127.0.0.1:5173, target: https://digistarkala.ir, capturedAt: 2026-07-13T23:05:05.570Z, results: Array(6), verdict: Object}"
+  ]
+}

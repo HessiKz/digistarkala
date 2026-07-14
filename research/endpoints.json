@@ -1,0 +1,1925 @@
+{
+  "capturedAt": "2026-07-13T23:03:02.761Z",
+  "origin": "https://digistarkala.ir",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+  "pages": [
+    {
+      "name": "home",
+      "url": "https://digistarkala.ir/",
+      "status": 200,
+      "elapsedMs": 13166,
+      "title": "دیجی استار کالا"
+    },
+    {
+      "name": "category",
+      "url": "https://digistarkala.ir/products/categories/%D8%AC%D8%A7%D8%B1%D9%88-%D8%A8%D8%B1%D9%82%DB%8C",
+      "status": 200,
+      "elapsedMs": 6630,
+      "title": "فروشگاه دیجی استار کالا | جارو برقی"
+    },
+    {
+      "name": "product",
+      "url": "https://digistarkala.ir/products/22/%D8%AC%D8%A7%D8%B1%D9%88-%D8%A8%D8%B1%D9%82%DB%8C-%D8%B9%D8%B5%D8%A7%D8%A6%DB%8C",
+      "status": 200,
+      "elapsedMs": 7785,
+      "title": "دیجی استار کالا | جارو برقی عصائی کوماتسو 1192"
+    },
+    {
+      "name": "search",
+      "url": "https://digistarkala.ir/products?query=%D8%AC%D8%A7%D8%B1%D9%88",
+      "status": 200,
+      "elapsedMs": 7055,
+      "title": "فروشگاه دیجی استار کالا | لیست محصولات"
+    },
+    {
+      "name": "cart",
+      "url": "https://digistarkala.ir/cart",
+      "status": 200,
+      "elapsedMs": 10555,
+      "title": "ورود و ثبت نام دیجی استار کالا"
+    }
+  ],
+  "har": "research/captures/session.har",
+  "endpointCount": 45,
+  "endpoints": [
+    {
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/authentication/countries/code",
+      "resourceType": "xhr",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "lang": "fa",
+        "referer": "https://digistarkala.ir/login",
+        "accept-language": "fa-IR",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=v1.42.0,sentry-public_key=7ba386b1c302b580cdf29448a3190db4,sentry-trace_id=01aee6c947bc4c348202c3e9155a9912",
+        "sentry-trace": "01aee6c947bc4c348202c3e9155a9912-acf9cf3de18d168e",
+        "x-requested-with": "XMLHttpRequest",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "application/json",
+        "digistarkala-xsrf-token": "eyJpdiI6IlRGT2U3UjNFczg1ak9DQTJLVENKZnc9PSIsInZhbHVlIjoiSzdzM25sVklubHZDN0Q0b0t5Uk55dStZWDh6cGQ2UnRVdSszcXY5UGI3eWxRUzNYZWlqaklOMW9ONlM2VzJwcXF1WUVEc2JQSld0bXlvRG9qTUlWV3FnVGY5SkQ1OElWQXZ2UjdEeTVuTkp1NUhGQm9RSGZpcTcvZjEwQkQxTHkiLCJtYWMiOiI4OWY5MWQwZDMyNGYwZDY0NGQ3MTM5NjJmMmQ2NjNhZjYxNGUwOTRhZGFhNjE5NjMwODBlMzVhNDBhZGI5NjJlIiwidGFnIjoiIn0%3D"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"codes\":[{\"id\":1,\"name\":\"Iran\",\"code\":\"98\",\"flag\":\"https:\\/\\/digistarkala.ir\\/shop\\/images\\/flags\\/ir.svg\"},{\"id\":2,\"name\":\"Andorra\",\"code\":\"376\",\"flag\":\"https:\\/\\/digistarkala.ir\\/shop\\/images\\/flags\\/ad.svg\"},{\"id\":3,\"name\":\"United Arab Emirates\",\"code\":\"971\",\"flag\":\"https:\\/\\/digistarkala.ir\\/shop\\/images\\/flags\\/ae.svg\"},{\"id\":4,\"name\":\"Afghanistan\",\"code\":\"93\",\"flag\":\"https:\\/\\/digistarkala.ir\\/shop\\/images\\/flags\\/af.svg\"},{\"id\":5,\"name\":\"Antigua and Barbuda\",\"code\":\"1268\",\"flag\":\"https:\\",
+          "bodyFile": "research/captures/bodies/073_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/authentication/oauth/services",
+      "resourceType": "xhr",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "lang": "fa",
+        "referer": "https://digistarkala.ir/login",
+        "accept-language": "fa-IR",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=v1.42.0,sentry-public_key=7ba386b1c302b580cdf29448a3190db4,sentry-trace_id=01aee6c947bc4c348202c3e9155a9912",
+        "sentry-trace": "01aee6c947bc4c348202c3e9155a9912-90b39eec8abf24c4",
+        "x-requested-with": "XMLHttpRequest",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "application/json",
+        "digistarkala-xsrf-token": "eyJpdiI6IlRGT2U3UjNFczg1ak9DQTJLVENKZnc9PSIsInZhbHVlIjoiSzdzM25sVklubHZDN0Q0b0t5Uk55dStZWDh6cGQ2UnRVdSszcXY5UGI3eWxRUzNYZWlqaklOMW9ONlM2VzJwcXF1WUVEc2JQSld0bXlvRG9qTUlWV3FnVGY5SkQ1OElWQXZ2UjdEeTVuTkp1NUhGQm9RSGZpcTcvZjEwQkQxTHkiLCJtYWMiOiI4OWY5MWQwZDMyNGYwZDY0NGQ3MTM5NjJmMmQ2NjNhZjYxNGUwOTRhZGFhNjE5NjMwODBlMzVhNDBhZGI5NjJlIiwidGFnIjoiIn0%3D"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"services\":[]}",
+          "bodyFile": "research/captures/bodies/072_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "url": "https://digistarkala.ir/shop/api/cart/add",
+      "resourceType": "xhr",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "lang": "fa",
+        "referer": "https://digistarkala.ir/products/22/%D8%AC%D8%A7%D8%B1%D9%88-%D8%A8%D8%B1%D9%82%DB%8C-%D8%B9%D8%B5%D8%A7%D8%A6%DB%8C",
+        "accept-language": "fa-IR",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=v1.42.0,sentry-public_key=7ba386b1c302b580cdf29448a3190db4,sentry-trace_id=ef8df4affaff47a08de3a3c19051597e",
+        "sentry-trace": "ef8df4affaff47a08de3a3c19051597e-ba5748206044b65a",
+        "x-requested-with": "XMLHttpRequest",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "application/json",
+        "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryGX3H78NoKOxBdaFP",
+        "digistarkala-xsrf-token": "eyJpdiI6IlJEVkhEdE0yL0FCTTM1SGhTYWZaMUE9PSIsInZhbHVlIjoibkxyNEM5WXhOYWZFTmpnMkVLVUJyaGFGQ2J0RldpTlRXcm9BczNqT1BTazB3QkNSV3NkU3o4MkNYTTNmVzVkNTdpeGJwb0htWkdCQXFaV2tzR1ljdHpneG43YW9RZXN4SDRmNkFHNWp0SUhHejkwOXhCd0FHV0E2elRnQ0NBbDYiLCJtYWMiOiI5ZDAyZTJhMGIxNmQ4NGRlNzExYjRkZDk5MDY1OWY4M2IyMzU0MzliYmMwYmU2NDdlNmFkNDZhZjI2MmRjMGI2IiwidGFnIjoiIn0%3D"
+      },
+      "postData": "------WebKitFormBoundaryGX3H78NoKOxBdaFP\r\nContent-Disposition: form-data; name=\"product\"\r\n\r\n22\r\n------WebKitFormBoundaryGX3H78NoKOxBdaFP\r\nContent-Disposition: form-data; name=\"stock\"\r\n\r\n12\r\n------WebKitFormBoundaryGX3H78NoKOxBdaFP\r\nContent-Disposition: form-data; name=\"quantity\"\r\n\r\n1\r\n------WebKitFormBoundaryGX3H78NoKOxBdaFP--\r\n",
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"success\":true,\"message\":\"\\u0645\\u062d\\u0635\\u0648\\u0644 \\u0628\\u0627 \\u0645\\u0648\\u0641\\u0642\\u06cc\\u062a \\u0628\\u0647 \\u0633\\u0628\\u062f \\u062e\\u0631\\u06cc\\u062f \\u0634\\u0645\\u0627 \\u0627\\u0636\\u0627\\u0641\\u0647 \\u0634\\u062f\"}",
+          "bodyFile": "research/captures/bodies/095_POST_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/home?device=desktop",
+      "resourceType": "xhr",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "lang": "fa",
+        "referer": "https://digistarkala.ir/",
+        "accept-language": "fa-IR",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=v1.42.0,sentry-public_key=7ba386b1c302b580cdf29448a3190db4,sentry-trace_id=1a7b58d0c6b34342a10b2f8b92367b18",
+        "sentry-trace": "1a7b58d0c6b34342a10b2f8b92367b18-8d11ebfbda92e562",
+        "x-requested-with": "XMLHttpRequest",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "application/json",
+        "digistarkala-xsrf-token": "eyJpdiI6IkpJaDlDSGkwRVBJZDYvN0s4UFcrWHc9PSIsInZhbHVlIjoiRUVpR09Gd0lDK2ZpUGcxUURkVEVPa1kvRFNrckRBZUpaRnVCeERZK1M5S3Zab2k5Q0xhd3kzRUN5Z205Ulg2ZEE1UDhlWmJPUlpucElDcExocnZqejhUSXpJL00wdWdya1R5a1NFd2RWZEZmMkprTEVvWTBncDFxQzVZVy9lSVQiLCJtYWMiOiIxYTUwOGIxNTc3NDQxZjNhZjMzZGNjZjYzYzA1Y2JiYmQ0ZTAxZDAxMWViYzljMzYxMTMxYWYxYTFkYjA1ZWQwIiwidGFnIjoiIn0%3D"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"title\":\"\\u062f\\u06cc\\u062c\\u06cc \\u0627\\u0633\\u062a\\u0627\\u0631 \\u06a9\\u0627\\u0644\\u0627\",\"blocks\":[{\"id\":23,\"type\":\"slider\",\"y\":0,\"x\":0,\"width\":12,\"height\":2,\"component\":\"ModlandSliderBlock\",\"theme\":\"modland\",\"edit\":null,\"styles\":{\"full_width\":true,\"margin_top\":0,\"padding_left\":0,\"margin_bottom\":50,\"padding_right\":0},\"data\":[{\"id\":\"2f437e04-f8ea-4fc8-8096-3ecbf5654037\",\"url\":\"\\/products\",\"image\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/sliders\\/%D8%A8%D8%AE%D8%B1%D8%8C%D8%A8%D8%AE%D9%86%D8%",
+          "bodyFile": "research/captures/bodies/005_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/init",
+      "resourceType": "xhr",
+      "requestHeaders": {
+        "localechanged": "0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "lang": "fa",
+        "referer": "https://digistarkala.ir/",
+        "accept-language": "fa-IR",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=v1.42.0,sentry-public_key=7ba386b1c302b580cdf29448a3190db4,sentry-trace_id=1a7b58d0c6b34342a10b2f8b92367b18",
+        "sentry-trace": "1a7b58d0c6b34342a10b2f8b92367b18-92bd50bb2059749f",
+        "x-requested-with": "XMLHttpRequest",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "application/json"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"is_logged_in\":false,\"user\":null,\"cart\":{\"id\":null,\"total\":\"0\",\"subtotal\":\"0\",\"count\":0,\"need_shipment\":null,\"is_preorder\":false,\"items\":[]},\"logo\":{\"favicon\":\"https:\\/\\/digistarkala.ir\\/shop\\/favicon.ico\",\"header\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/images\\/36bdad89effa0a80020a77aeaa4feeb5.png\",\"footer\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/images\\/d63a36dd3592357bcb7014e8b3527a02.png\"},\"menu\":{\"top\":[{\"id\":1,\"title\":\"\\u062f\\u0633\\u062a\\u0647 \\u0628\\u0646\\u062f\\u06cc \\u0645\\u062d\\u",
+          "bodyFile": "research/captures/bodies/003_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"is_logged_in\":false,\"user\":null,\"cart\":{\"id\":null,\"total\":\"0\",\"subtotal\":\"0\",\"count\":0,\"need_shipment\":null,\"is_preorder\":false,\"items\":[]},\"logo\":{\"favicon\":\"https:\\/\\/digistarkala.ir\\/shop\\/favicon.ico\",\"header\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/images\\/36bdad89effa0a80020a77aeaa4feeb5.png\",\"footer\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/images\\/d63a36dd3592357bcb7014e8b3527a02.png\"},\"menu\":{\"top\":[{\"id\":1,\"title\":\"\\u062f\\u0633\\u062a\\u0647 \\u0628\\u0646\\u062f\\u06cc \\u0645\\u062d\\u",
+          "bodyFile": "research/captures/bodies/017_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"is_logged_in\":false,\"user\":null,\"cart\":{\"id\":null,\"total\":\"0\",\"subtotal\":\"0\",\"count\":0,\"need_shipment\":null,\"is_preorder\":false,\"items\":[]},\"logo\":{\"favicon\":\"https:\\/\\/digistarkala.ir\\/shop\\/favicon.ico\",\"header\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/images\\/36bdad89effa0a80020a77aeaa4feeb5.png\",\"footer\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/images\\/d63a36dd3592357bcb7014e8b3527a02.png\"},\"menu\":{\"top\":[{\"id\":1,\"title\":\"\\u062f\\u0633\\u062a\\u0647 \\u0628\\u0646\\u062f\\u06cc \\u0645\\u062d\\u",
+          "bodyFile": "research/captures/bodies/032_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"is_logged_in\":false,\"user\":null,\"cart\":{\"id\":null,\"total\":\"0\",\"subtotal\":\"0\",\"count\":0,\"need_shipment\":null,\"is_preorder\":false,\"items\":[]},\"logo\":{\"favicon\":\"https:\\/\\/digistarkala.ir\\/shop\\/favicon.ico\",\"header\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/images\\/36bdad89effa0a80020a77aeaa4feeb5.png\",\"footer\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/images\\/d63a36dd3592357bcb7014e8b3527a02.png\"},\"menu\":{\"top\":[{\"id\":1,\"title\":\"\\u062f\\u0633\\u062a\\u0647 \\u0628\\u0646\\u062f\\u06cc \\u0645\\u062d\\u",
+          "bodyFile": "research/captures/bodies/055_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"is_logged_in\":false,\"user\":null,\"cart\":{\"id\":null,\"total\":\"0\",\"subtotal\":\"0\",\"count\":0,\"need_shipment\":null,\"is_preorder\":false,\"items\":[]},\"logo\":{\"favicon\":\"https:\\/\\/digistarkala.ir\\/shop\\/favicon.ico\",\"header\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/images\\/36bdad89effa0a80020a77aeaa4feeb5.png\",\"footer\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/images\\/d63a36dd3592357bcb7014e8b3527a02.png\"},\"menu\":{\"top\":[{\"id\":1,\"title\":\"\\u062f\\u0633\\u062a\\u0647 \\u0628\\u0646\\u062f\\u06cc \\u0645\\u062d\\u",
+          "bodyFile": "research/captures/bodies/070_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"is_logged_in\":false,\"user\":null,\"cart\":{\"id\":null,\"total\":\"0\",\"subtotal\":\"0\",\"count\":0,\"need_shipment\":null,\"is_preorder\":false,\"items\":[]},\"logo\":{\"favicon\":\"https:\\/\\/digistarkala.ir\\/shop\\/favicon.ico\",\"header\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/images\\/36bdad89effa0a80020a77aeaa4feeb5.png\",\"footer\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/images\\/d63a36dd3592357bcb7014e8b3527a02.png\"},\"menu\":{\"top\":[{\"id\":1,\"title\":\"\\u062f\\u0633\\u062a\\u0647 \\u0628\\u0646\\u062f\\u06cc \\u0645\\u062d\\u",
+          "bodyFile": "research/captures/bodies/071_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"is_logged_in\":false,\"user\":null,\"cart\":{\"id\":null,\"total\":\"0\",\"subtotal\":\"0\",\"count\":0,\"need_shipment\":null,\"is_preorder\":false,\"items\":[]},\"logo\":{\"favicon\":\"https:\\/\\/digistarkala.ir\\/shop\\/favicon.ico\",\"header\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/images\\/36bdad89effa0a80020a77aeaa4feeb5.png\",\"footer\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/images\\/d63a36dd3592357bcb7014e8b3527a02.png\"},\"menu\":{\"top\":[{\"id\":1,\"title\":\"\\u062f\\u0633\\u062a\\u0647 \\u0628\\u0646\\u062f\\u06cc \\u0645\\u062d\\u",
+          "bodyFile": "research/captures/bodies/077_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"is_logged_in\":false,\"user\":null,\"cart\":{\"id\":1927,\"total\":\"20,850,000\",\"subtotal\":\"20,850,000\",\"count\":1,\"need_shipment\":true,\"is_preorder\":false,\"items\":[{\"id\":2115,\"stock_id\":12,\"product\":{\"id\":22,\"code\":\"KJ1192\",\"stock_id\":12,\"name\":\"\\u062c\\u0627\\u0631\\u0648 \\u0628\\u0631\\u0642\\u06cc \\u0639\\u0635\\u0627\\u0626\\u06cc \\u06a9\\u0648\\u0645\\u0627\\u062a\\u0633\\u0648 1192\",\"image\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/products\\/22\\/thumbnails\\/drTP3BXuk9dIQj9XdKlVJFx3VxccQ5engV7ZlFJg.jpg\",\"is_incr",
+          "bodyFile": "research/captures/bodies/096_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/products/22",
+      "resourceType": "xhr",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "lang": "fa",
+        "referer": "https://digistarkala.ir/products/22/%D8%AC%D8%A7%D8%B1%D9%88-%D8%A8%D8%B1%D9%82%DB%8C-%D8%B9%D8%B5%D8%A7%D8%A6%DB%8C",
+        "accept-language": "fa-IR",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=v1.42.0,sentry-public_key=7ba386b1c302b580cdf29448a3190db4,sentry-trace_id=46a674515ee14de3bd818c8ffb600b1c",
+        "sentry-trace": "46a674515ee14de3bd818c8ffb600b1c-970fe5e681a635eb",
+        "x-requested-with": "XMLHttpRequest",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "application/json",
+        "digistarkala-xsrf-token": "eyJpdiI6IjZLZ29mNEpNb3RGRS96Y3lnczFUOHc9PSIsInZhbHVlIjoic044aWRmdFczWkl0YlVPVDZuYVRDaS9STE1CQXJCM051ODN0V0c0eGdMSEJmYVpCLzdCODFUZkY2VmFOKytuaXU3NVhhalFoRzcweDloOEJaUW5RSXQzOElsaDdOMHVEcFdYckYwSmpXOE9FQU05bmJSb1dGNysyWjIvSHhYUHYiLCJtYWMiOiIyMmY2MmQyMjBiMmM4MzVmMTQ0ZTlhY2M5OWZkY2YyMzM0ZGEwNjliNDRjZmYyNzgwZGEzNDEwNzY1MTBiYmQwIiwidGFnIjoiIn0%3D"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"breadcrumbs\":[{\"title\":\"\\u062e\\u0627\\u0646\\u0647 \\u0648 \\u0622\\u0634\\u067e\\u0632\\u062e\\u0627\\u0646\\u0647\",\"uri\":\"\\/products\\/categories\\/\\u062e\\u0627\\u0646\\u0647-\\u0648-\\u0622\\u0634\\u067e\\u0632\\u062e\\u0627\\u0646\\u0647\"},{\"title\":\"\\u062c\\u0627\\u0631\\u0648 \\u0628\\u0631\\u0642\\u06cc\",\"uri\":\"\\/products\\/categories\\/\\u062c\\u0627\\u0631\\u0648-\\u0628\\u0631\\u0642\\u06cc\"}],\"product\":{\"id\":22,\"code\":\"KJ1192\",\"page_title\":\"\\u062c\\u0627\\u0631\\u0648 \\u0628\\u0631\\u0642\\u06cc \\u0639\\u0635\\u0627\\u0626\\u06cc \\u0",
+          "bodyFile": "research/captures/bodies/033_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"breadcrumbs\":[{\"title\":\"\\u062e\\u0627\\u0646\\u0647 \\u0648 \\u0622\\u0634\\u067e\\u0632\\u062e\\u0627\\u0646\\u0647\",\"uri\":\"\\/products\\/categories\\/\\u062e\\u0627\\u0646\\u0647-\\u0648-\\u0622\\u0634\\u067e\\u0632\\u062e\\u0627\\u0646\\u0647\"},{\"title\":\"\\u062c\\u0627\\u0631\\u0648 \\u0628\\u0631\\u0642\\u06cc\",\"uri\":\"\\/products\\/categories\\/\\u062c\\u0627\\u0631\\u0648-\\u0628\\u0631\\u0642\\u06cc\"}],\"product\":{\"id\":22,\"code\":\"KJ1192\",\"page_title\":\"\\u062c\\u0627\\u0631\\u0648 \\u0628\\u0631\\u0642\\u06cc \\u0639\\u0635\\u0627\\u0626\\u06cc \\u0",
+          "bodyFile": "research/captures/bodies/078_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/products/22/comments",
+      "resourceType": "xhr",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "lang": "fa",
+        "referer": "https://digistarkala.ir/products/22/%D8%AC%D8%A7%D8%B1%D9%88-%D8%A8%D8%B1%D9%82%DB%8C-%D8%B9%D8%B5%D8%A7%D8%A6%DB%8C",
+        "accept-language": "fa-IR",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=v1.42.0,sentry-public_key=7ba386b1c302b580cdf29448a3190db4,sentry-trace_id=46a674515ee14de3bd818c8ffb600b1c",
+        "sentry-trace": "46a674515ee14de3bd818c8ffb600b1c-828e8c8f7495fd1a",
+        "x-requested-with": "XMLHttpRequest",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "application/json",
+        "digistarkala-xsrf-token": "eyJpdiI6IlErbXNFaUF4dFphS3NZSUZxUVM2dUE9PSIsInZhbHVlIjoiajcvS1FzNFJ1TUFFalBpdi82cHhkQlJROUl3dkpqUTlyQVByQjlpZzA3bEdocXpwQ21kTVd3aVk2VGw1ekR4c043MngyWVp6Q1lxUEsvNWtCY01jQXR3eHBSMDk5SGhvUVhvc3ZlUnNoaU00MjFTOHhJYlZaMUthQWROUDNSdGsiLCJtYWMiOiIwNDk1NzE0M2JiZTFkNWRmYTY4NzBlOGEzMjkxOTA2YmQzMDU3Y2ZhOTQ5NzE4MjY5MjU3NTE2NTZiY2M4YjA4IiwidGFnIjoiIn0%3D"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"score\":5,\"total\":1,\"percent\":100,\"comments\":[],\"recommendations\":[{\"value\":\"do-recommend\",\"color\":\"bg-success\",\"fa_recommendation\":\"\\u062e\\u0631\\u06cc\\u062f \\u0627\\u06cc\\u0646 \\u0645\\u062d\\u0635\\u0648\\u0644 \\u0631\\u0627 \\u067e\\u06cc\\u0634\\u0646\\u0647\\u0627\\u062f \\u0645\\u06cc\\u200c\\u06a9\\u0646\\u0645\"},{\"value\":\"neutral\",\"color\":\"bg-warning\",\"fa_recommendation\":\"\\u062f\\u0631 \\u0645\\u0648\\u0631\\u062f \\u062e\\u0631\\u06cc\\u062f \\u0645\\u062d\\u0635\\u0648\\u0644 \\u0645\\u0637\\u0645\\u0626\\u0646 \\u0646\\u06",
+          "bodyFile": "research/captures/bodies/050_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"score\":5,\"total\":1,\"percent\":100,\"comments\":[],\"recommendations\":[{\"value\":\"do-recommend\",\"color\":\"bg-success\",\"fa_recommendation\":\"\\u062e\\u0631\\u06cc\\u062f \\u0627\\u06cc\\u0646 \\u0645\\u062d\\u0635\\u0648\\u0644 \\u0631\\u0627 \\u067e\\u06cc\\u0634\\u0646\\u0647\\u0627\\u062f \\u0645\\u06cc\\u200c\\u06a9\\u0646\\u0645\"},{\"value\":\"neutral\",\"color\":\"bg-warning\",\"fa_recommendation\":\"\\u062f\\u0631 \\u0645\\u0648\\u0631\\u062f \\u062e\\u0631\\u06cc\\u062f \\u0645\\u062d\\u0635\\u0648\\u0644 \\u0645\\u0637\\u0645\\u0626\\u0646 \\u0646\\u06",
+          "bodyFile": "research/captures/bodies/091_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/products/22/qa",
+      "resourceType": "xhr",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "lang": "fa",
+        "referer": "https://digistarkala.ir/products/22/%D8%AC%D8%A7%D8%B1%D9%88-%D8%A8%D8%B1%D9%82%DB%8C-%D8%B9%D8%B5%D8%A7%D8%A6%DB%8C",
+        "accept-language": "fa-IR",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=v1.42.0,sentry-public_key=7ba386b1c302b580cdf29448a3190db4,sentry-trace_id=46a674515ee14de3bd818c8ffb600b1c",
+        "sentry-trace": "46a674515ee14de3bd818c8ffb600b1c-9e3868caaa556580",
+        "x-requested-with": "XMLHttpRequest",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "application/json",
+        "digistarkala-xsrf-token": "eyJpdiI6IlErbXNFaUF4dFphS3NZSUZxUVM2dUE9PSIsInZhbHVlIjoiajcvS1FzNFJ1TUFFalBpdi82cHhkQlJROUl3dkpqUTlyQVByQjlpZzA3bEdocXpwQ21kTVd3aVk2VGw1ekR4c043MngyWVp6Q1lxUEsvNWtCY01jQXR3eHBSMDk5SGhvUVhvc3ZlUnNoaU00MjFTOHhJYlZaMUthQWROUDNSdGsiLCJtYWMiOiIwNDk1NzE0M2JiZTFkNWRmYTY4NzBlOGEzMjkxOTA2YmQzMDU3Y2ZhOTQ5NzE4MjY5MjU3NTE2NTZiY2M4YjA4IiwidGFnIjoiIn0%3D"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"total\":0,\"qas\":[]}",
+          "bodyFile": "research/captures/bodies/051_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"total\":0,\"qas\":[]}",
+          "bodyFile": "research/captures/bodies/092_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/products/search?category=%D8%AC%D8%A7%D8%B1%D9%88-%D8%A8%D8%B1%D9%82%DB%8C&device=desktop",
+      "resourceType": "xhr",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "lang": "fa",
+        "referer": "https://digistarkala.ir/products/categories/%D8%AC%D8%A7%D8%B1%D9%88-%D8%A8%D8%B1%D9%82%DB%8C",
+        "accept-language": "fa-IR",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=v1.42.0,sentry-public_key=7ba386b1c302b580cdf29448a3190db4,sentry-trace_id=d09045fd9fa3491c964dd92d82d8a21a",
+        "sentry-trace": "d09045fd9fa3491c964dd92d82d8a21a-a0cb60304b7cc4da",
+        "x-requested-with": "XMLHttpRequest",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "application/json",
+        "digistarkala-xsrf-token": "eyJpdiI6IlBQbEhiM01jUStBWnRFUXVvTnN6M3c9PSIsInZhbHVlIjoiME1WaTVTdnV0d2xiZHFhQUFzdDF1WFh4SkdYM2xnSHFXelNoNEtuU2ozQTBIaXhacXpRVVFMcDJhVmpmTlRjbzFndVd5MUREWHJ4eFp2Z0R4YUNHR3lzdnNDRTRxWVFlYmZkT0ZJM2dia3FoeWxKZWJJQTZYaEZsWU9IZ3BFbEQiLCJtYWMiOiJjNWNhOTQ1NTMwNzhlZmNjMjlmMDMzODZiOGYxYWQzZTBlMWExODZlZDI0YWYyMDk5NjdiMzkzZjY3ZWFlMGVkIiwidGFnIjoiIn0%3D"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"products\":[{\"id\":166,\"code\":\"NTV19C\",\"page_title\":\"\\u062c\\u0627\\u0631\\u0648 \\u0639\\u0635\\u0627\\u0626\\u06cc 2 \\u062f\\u0631 1  \\u0646\\u0648\\u0628\\u0644 NTV19C\",\"name\":\"\\u062c\\u0627\\u0631\\u0648 \\u0639\\u0635\\u0627\\u0626\\u06cc 2 \\u062f\\u0631 1  \\u0646\\u0648\\u0628\\u0644 NTV19C\",\"image\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/products\\/166\\/thumbnails\\/zPxsaDJFskwbOMr63TlF79S8QvSfkqJwTn7QnmBi.jpg\",\"thumbnails\":{\"56x56\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/products\\/166\\/thumbnails\\/zPxsaDJFs",
+          "bodyFile": "research/captures/bodies/023_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/products/search?query=%D8%AC%D8%A7%D8%B1%D9%88&&device=desktop",
+      "resourceType": "xhr",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "lang": "fa",
+        "referer": "https://digistarkala.ir/products?query=%D8%AC%D8%A7%D8%B1%D9%88",
+        "accept-language": "fa-IR",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=v1.42.0,sentry-public_key=7ba386b1c302b580cdf29448a3190db4,sentry-trace_id=515db85eaae041a087af82fb272ec826",
+        "sentry-trace": "515db85eaae041a087af82fb272ec826-810b2d296a3b864c",
+        "x-requested-with": "XMLHttpRequest",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "application/json",
+        "digistarkala-xsrf-token": "eyJpdiI6IkdxZ1Z0b0tya2owS2xmZlkxOVdmcXc9PSIsInZhbHVlIjoic2J5ajVaeWRXUzVyQjMxcTZmVHluVFc3RFU3Ry9oZ2xweEVobHhtZGpDQzREMGJSUWlOaVdqbXpOeHJHSzVnL21EemsvbHorbWpGMlpnUkhzZFVMMnl3YWpTWUFueHhaTzQxN0RZcDhETWdSQVFvN2gvZ1U3TWNLNHkxWUcwS1giLCJtYWMiOiI0NDkyMzY2MmFiMGRmOTk3ODc2OTkyZjBlYzIyYThmNTVjOWQxZTVjODJhMmUxOGVmNDEyNTNjMzk2ZjI4YjIzIiwidGFnIjoiIn0%3D"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"products\":[{\"id\":270,\"code\":\"021\",\"page_title\":\"\\u062c\\u062a \\u0641\\u0646 \\u0648 \\u062c\\u0627\\u0631\\u0648 \\u0634\\u0627\\u0631\\u0698\\u06cc VIOLENT FAN - \\u062f\\u0648\\u06a9\\u0627\\u0631\\u0647\",\"name\":\"\\u062c\\u062a \\u0641\\u0646 \\u0648 \\u062c\\u0627\\u0631\\u0648 \\u0634\\u0627\\u0631\\u0698\\u06cc VIOLENT FAN - \\u062f\\u0648\\u06a9\\u0627\\u0631\\u0647\",\"image\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/products\\/270\\/thumbnails\\/8XSimd5ppQASf3B0jFT7cs3CWH6ORILyYOBMvr1W.jpg\",\"thumbnails\":{\"56x56\":\"https:\\/\\/dig",
+          "bodyFile": "research/captures/bodies/064_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/products/search/init",
+      "resourceType": "xhr",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "lang": "fa",
+        "referer": "https://digistarkala.ir/products?query=%D8%AC%D8%A7%D8%B1%D9%88",
+        "accept-language": "fa-IR",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=v1.42.0,sentry-public_key=7ba386b1c302b580cdf29448a3190db4,sentry-trace_id=515db85eaae041a087af82fb272ec826",
+        "sentry-trace": "515db85eaae041a087af82fb272ec826-bafb34cdde57c274",
+        "x-requested-with": "XMLHttpRequest",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "application/json",
+        "digistarkala-xsrf-token": "eyJpdiI6IkdxZ1Z0b0tya2owS2xmZlkxOVdmcXc9PSIsInZhbHVlIjoic2J5ajVaeWRXUzVyQjMxcTZmVHluVFc3RFU3Ry9oZ2xweEVobHhtZGpDQzREMGJSUWlOaVdqbXpOeHJHSzVnL21EemsvbHorbWpGMlpnUkhzZFVMMnl3YWpTWUFueHhaTzQxN0RZcDhETWdSQVFvN2gvZ1U3TWNLNHkxWUcwS1giLCJtYWMiOiI0NDkyMzY2MmFiMGRmOTk3ODc2OTkyZjBlYzIyYThmNTVjOWQxZTVjODJhMmUxOGVmNDEyNTNjMzk2ZjI4YjIzIiwidGFnIjoiIn0%3D"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"meta\":false,\"categories\":[{\"id\":12,\"title\":\"\\u062e\\u0627\\u0646\\u0647 \\u0648 \\u0622\\u0634\\u067e\\u0632\\u062e\\u0627\\u0646\\u0647\",\"page_title\":\"\\u062e\\u0627\\u0646\\u0647 \\u0648 \\u0622\\u0634\\u067e\\u0632\\u062e\\u0627\\u0646\\u0647\",\"slug\":\"\\u062e\\u0627\\u0646\\u0647-\\u0648-\\u0622\\u0634\\u067e\\u0632\\u062e\\u0627\\u0646\\u0647\",\"icon\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/categories\\/hznUXQzC2wLjCb9jmymQwXKjrcPUIP9SyKNEQPEJ.jpg\",\"uri\":\"\\/products\\/categories\\/\\u062e\\u0627\\u0646\\u0647-\\u0648-\\u0622\\u0634\\u0",
+          "bodyFile": "research/captures/bodies/060_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/products/search/init?category=%D8%AC%D8%A7%D8%B1%D9%88-%D8%A8%D8%B1%D9%82%DB%8C",
+      "resourceType": "xhr",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "lang": "fa",
+        "referer": "https://digistarkala.ir/products/categories/%D8%AC%D8%A7%D8%B1%D9%88-%D8%A8%D8%B1%D9%82%DB%8C",
+        "accept-language": "fa-IR",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=v1.42.0,sentry-public_key=7ba386b1c302b580cdf29448a3190db4,sentry-trace_id=d09045fd9fa3491c964dd92d82d8a21a",
+        "sentry-trace": "d09045fd9fa3491c964dd92d82d8a21a-8205740b9dd8788a",
+        "x-requested-with": "XMLHttpRequest",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "application/json",
+        "digistarkala-xsrf-token": "eyJpdiI6IlBQbEhiM01jUStBWnRFUXVvTnN6M3c9PSIsInZhbHVlIjoiME1WaTVTdnV0d2xiZHFhQUFzdDF1WFh4SkdYM2xnSHFXelNoNEtuU2ozQTBIaXhacXpRVVFMcDJhVmpmTlRjbzFndVd5MUREWHJ4eFp2Z0R4YUNHR3lzdnNDRTRxWVFlYmZkT0ZJM2dia3FoeWxKZWJJQTZYaEZsWU9IZ3BFbEQiLCJtYWMiOiJjNWNhOTQ1NTMwNzhlZmNjMjlmMDMzODZiOGYxYWQzZTBlMWExODZlZDI0YWYyMDk5NjdiMzkzZjY3ZWFlMGVkIiwidGFnIjoiIn0%3D"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"meta\":false,\"categories\":[{\"id\":12,\"title\":\"\\u062e\\u0627\\u0646\\u0647 \\u0648 \\u0622\\u0634\\u067e\\u0632\\u062e\\u0627\\u0646\\u0647\",\"page_title\":\"\\u062e\\u0627\\u0646\\u0647 \\u0648 \\u0622\\u0634\\u067e\\u0632\\u062e\\u0627\\u0646\\u0647\",\"slug\":\"\\u062e\\u0627\\u0646\\u0647-\\u0648-\\u0622\\u0634\\u067e\\u0632\\u062e\\u0627\\u0646\\u0647\",\"icon\":\"https:\\/\\/digistarkala.ir\\/shop\\/storage\\/categories\\/hznUXQzC2wLjCb9jmymQwXKjrcPUIP9SyKNEQPEJ.jpg\",\"uri\":\"\\/products\\/categories\\/\\u062e\\u0627\\u0646\\u0647-\\u0648-\\u0622\\u0634\\u0",
+          "bodyFile": "research/captures/bodies/022_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://digistarkala.ir/shop/api/sanctum/csrf-cookie",
+      "resourceType": "xhr",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "lang": "fa",
+        "referer": "https://digistarkala.ir/",
+        "accept-language": "fa-IR",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0",
+        "x-requested-with": "XMLHttpRequest",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "application/json"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 204,
+          "contentType": "",
+          "bodyPreview": "",
+          "bodyFile": "research/captures/bodies/002_GET_204.bin",
+          "responseHeaders": {}
+        },
+        {
+          "status": 204,
+          "contentType": "",
+          "bodyPreview": "",
+          "bodyFile": "research/captures/bodies/016_GET_204.bin",
+          "responseHeaders": {}
+        },
+        {
+          "status": 204,
+          "contentType": "",
+          "bodyPreview": "",
+          "bodyFile": "research/captures/bodies/031_GET_204.bin",
+          "responseHeaders": {}
+        },
+        {
+          "status": 204,
+          "contentType": "",
+          "bodyPreview": "",
+          "bodyFile": "research/captures/bodies/054_GET_204.bin",
+          "responseHeaders": {}
+        },
+        {
+          "status": 204,
+          "contentType": "",
+          "bodyPreview": "",
+          "bodyFile": "research/captures/bodies/069_GET_204.bin",
+          "responseHeaders": {}
+        },
+        {
+          "status": 204,
+          "contentType": "",
+          "bodyPreview": "",
+          "bodyFile": "research/captures/bodies/076_GET_204.bin",
+          "responseHeaders": {}
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/akar-icons.json?icons=chevron-up",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"akar-icons\",\"lastModified\":1722789448,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"chevron-up\":{\"body\":\"<path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" stroke-width=\\\"2\\\" d=\\\"m4 15l8-8l8 8\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/006_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/akar-icons.json?icons=chevron-up%2Csearch",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"akar-icons\",\"lastModified\":1722789448,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"chevron-up\":{\"body\":\"<path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" stroke-width=\\\"2\\\" d=\\\"m4 15l8-8l8 8\\\"\\/>\"},\"search\":{\"body\":\"<path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-width=\\\"2\\\" d=\\\"m21 21l-4.486-4.494M19 10.5a8.5 8.5 0 1 1-17 0a8.5 8.5 0 0 1 17 0Z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/021_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"akar-icons\",\"lastModified\":1722789448,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"chevron-up\":{\"body\":\"<path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" stroke-width=\\\"2\\\" d=\\\"m4 15l8-8l8 8\\\"\\/>\"},\"search\":{\"body\":\"<path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-width=\\\"2\\\" d=\\\"m21 21l-4.486-4.494M19 10.5a8.5 8.5 0 1 1-17 0a8.5 8.5 0 0 1 17 0Z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/034_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"akar-icons\",\"lastModified\":1722789448,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"chevron-up\":{\"body\":\"<path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" stroke-width=\\\"2\\\" d=\\\"m4 15l8-8l8 8\\\"\\/>\"},\"search\":{\"body\":\"<path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-width=\\\"2\\\" d=\\\"m21 21l-4.486-4.494M19 10.5a8.5 8.5 0 1 1-17 0a8.5 8.5 0 0 1 17 0Z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/056_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"akar-icons\",\"lastModified\":1722789448,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"chevron-up\":{\"body\":\"<path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" stroke-width=\\\"2\\\" d=\\\"m4 15l8-8l8 8\\\"\\/>\"},\"search\":{\"body\":\"<path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-width=\\\"2\\\" d=\\\"m21 21l-4.486-4.494M19 10.5a8.5 8.5 0 1 1-17 0a8.5 8.5 0 0 1 17 0Z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/081_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/akar-icons.json?icons=search",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"akar-icons\",\"lastModified\":1722789448,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"search\":{\"body\":\"<path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-width=\\\"2\\\" d=\\\"m21 21l-4.486-4.494M19 10.5a8.5 8.5 0 1 1-17 0a8.5 8.5 0 0 1 17 0Z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/010_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/brandico.json?icons=twitter-bird",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"brandico\",\"lastModified\":1722793005,\"aliases\":{},\"width\":1000,\"height\":1000,\"icons\":{\"twitter-bird\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M1231.051 118.453q-51.422 76.487-126.173 130.403q.738 14.46.738 32.687q0 101.273-29.53 202.791q-29.53 101.519-90.215 194.343T841.297 843.145T639.62 957.395t-252.474 42.606q-210.2 0-387.147-113.493q31.406 3.495 60.242 3.495q175.605 0 313.687-108.177q-81.877-1.501-146.654-50.409q-64.777-48.907-89.156-124.988q24.097 4.59 47.566 4.59q33.782 0 66.482-",
+          "bodyFile": "research/captures/bodies/044_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"brandico\",\"lastModified\":1722793005,\"aliases\":{},\"width\":1000,\"height\":1000,\"icons\":{\"twitter-bird\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M1231.051 118.453q-51.422 76.487-126.173 130.403q.738 14.46.738 32.687q0 101.273-29.53 202.791q-29.53 101.519-90.215 194.343T841.297 843.145T639.62 957.395t-252.474 42.606q-210.2 0-387.147-113.493q31.406 3.495 60.242 3.495q175.605 0 313.687-108.177q-81.877-1.501-146.654-50.409q-64.777-48.907-89.156-124.988q24.097 4.59 47.566 4.59q33.782 0 66.482-",
+          "bodyFile": "research/captures/bodies/088_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/cib.json?icons=whatsapp",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"cib\",\"lastModified\":1721921004,\"aliases\":{},\"width\":32,\"height\":32,\"icons\":{\"whatsapp\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M23.328 19.177c-.401-.203-2.354-1.156-2.719-1.292c-.365-.13-.63-.198-.896.203c-.26.391-1.026 1.286-1.26 1.547s-.464.281-.859.104c-.401-.203-1.682-.62-3.203-1.984c-1.188-1.057-1.979-2.359-2.214-2.76c-.234-.396-.026-.62.172-.818c.182-.182.401-.458.604-.698c.193-.24.255-.401.396-.661c.13-.281.063-.5-.036-.698s-.896-2.161-1.229-2.943c-.318-.776-.651-.677-.896-.67",
+          "bodyFile": "research/captures/bodies/045_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"cib\",\"lastModified\":1721921004,\"aliases\":{},\"width\":32,\"height\":32,\"icons\":{\"whatsapp\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M23.328 19.177c-.401-.203-2.354-1.156-2.719-1.292c-.365-.13-.63-.198-.896.203c-.26.391-1.026 1.286-1.26 1.547s-.464.281-.859.104c-.401-.203-1.682-.62-3.203-1.984c-1.188-1.057-1.979-2.359-2.214-2.76c-.234-.396-.026-.62.172-.818c.182-.182.401-.458.604-.698c.193-.24.255-.401.396-.661c.13-.281.063-.5-.036-.698s-.896-2.161-1.229-2.943c-.318-.776-.651-.677-.896-.67",
+          "bodyFile": "research/captures/bodies/086_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/fa6-brands.json?icons=facebook-f",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"fa6-brands\",\"lastModified\":1734421834,\"aliases\":{},\"width\":448,\"height\":512,\"icons\":{\"facebook-f\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M80 299.3V512h116V299.3h86.5l18-97.8H196v-34.6c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4.4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8z\\\"\\/>\",\"width\":320}}}",
+          "bodyFile": "research/captures/bodies/043_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"fa6-brands\",\"lastModified\":1734421834,\"aliases\":{},\"width\":448,\"height\":512,\"icons\":{\"facebook-f\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M80 299.3V512h116V299.3h86.5l18-97.8H196v-34.6c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4.4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8z\\\"\\/>\",\"width\":320}}}",
+          "bodyFile": "research/captures/bodies/087_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/fluent.json?icons=emoji-meh-24-regular",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"fluent\",\"lastModified\":1750223290,\"aliases\":{},\"width\":20,\"height\":20,\"icons\":{\"emoji-meh-24-regular\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M9 8.751a1.25 1.25 0 1 1 0 2.499a1.25 1.25 0 0 1 0-2.5m6 0a1.25 1.25 0 1 1 0 2.499a1.25 1.25 0 0 1 0-2.499M8.25 15a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5zM2 12C2 6.477 6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12m10-8.5a8.5 8.5 0 1 0 0 17a8.5 8.5 0 0 0 0-17\\\"\\/>\",\"width\":24,\"height\":24}}}",
+          "bodyFile": "research/captures/bodies/042_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"fluent\",\"lastModified\":1750223290,\"aliases\":{},\"width\":20,\"height\":20,\"icons\":{\"emoji-meh-24-regular\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M9 8.751a1.25 1.25 0 1 1 0 2.499a1.25 1.25 0 0 1 0-2.5m6 0a1.25 1.25 0 1 1 0 2.499a1.25 1.25 0 0 1 0-2.499M8.25 15a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5zM2 12C2 6.477 6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12m10-8.5a8.5 8.5 0 1 0 0 17a8.5 8.5 0 0 0 0-17\\\"\\/>\",\"width\":24,\"height\":24}}}",
+          "bodyFile": "research/captures/bodies/084_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/ic.json?icons=outline-close",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"ic\",\"lastModified\":1722794017,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"outline-close\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/027_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"ic\",\"lastModified\":1722794017,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"outline-close\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/063_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/ic.json?icons=outline-close%2Csharp-check",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"ic\",\"lastModified\":1722794017,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"outline-close\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z\\\"\\/>\"},\"sharp-check\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M9 16.17L4.83 12l-1.42 1.41L9 19L21 7l-1.41-1.41z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/039_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"ic\",\"lastModified\":1722794017,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"outline-close\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z\\\"\\/>\"},\"sharp-check\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M9 16.17L4.83 12l-1.42 1.41L9 19L21 7l-1.41-1.41z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/079_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/ic.json?icons=round-favorite-border",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"ic\",\"lastModified\":1722794017,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"round-favorite-border\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M19.66 3.99c-2.64-1.8-5.9-.96-7.66 1.1c-1.76-2.06-5.02-2.91-7.66-1.1c-1.4.96-2.28 2.58-2.34 4.29c-.14 3.88 3.3 6.99 8.55 11.76l.1.09c.76.69 1.93.69 2.69-.01l.11-.1c5.25-4.76 8.68-7.87 8.55-11.75c-.06-1.7-.94-3.32-2.34-4.28M12.1 18.55l-.1.1l-.1-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0",
+          "bodyFile": "research/captures/bodies/048_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"ic\",\"lastModified\":1722794017,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"round-favorite-border\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M19.66 3.99c-2.64-1.8-5.9-.96-7.66 1.1c-1.76-2.06-5.02-2.91-7.66-1.1c-1.4.96-2.28 2.58-2.34 4.29c-.14 3.88 3.3 6.99 8.55 11.76l.1.09c.76.69 1.93.69 2.69-.01l.11-.1c5.25-4.76 8.68-7.87 8.55-11.75c-.06-1.7-.94-3.32-2.34-4.28M12.1 18.55l-.1.1l-.1-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0",
+          "bodyFile": "research/captures/bodies/089_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/ic.json?icons=twotone-plus",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"ic\",\"lastModified\":1722794017,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"twotone-plus\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M19 12.998h-6v6h-2v-6H5v-2h6v-6h2v6h6z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/099_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/iconamoon.json?icons=playlist-repeat-list-bold",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"iconamoon\",\"lastModified\":1722794093,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"playlist-repeat-list-bold\":{\"body\":\"<g fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-width=\\\"2.5\\\"><path stroke-linejoin=\\\"round\\\" d=\\\"m19 5l2 2m0 0l-2 2m2-2H7M5 19l-2-2m0 0l2-2m-2 2h14\\\"\\/><path d=\\\"M3 11a4 4 0 0 1 4-4m14 6a4 4 0 0 1-4 4\\\"\\/><\\/g>\"}}}",
+          "bodyFile": "research/captures/bodies/046_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"iconamoon\",\"lastModified\":1722794093,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"playlist-repeat-list-bold\":{\"body\":\"<g fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-width=\\\"2.5\\\"><path stroke-linejoin=\\\"round\\\" d=\\\"m19 5l2 2m0 0l-2 2m2-2H7M5 19l-2-2m0 0l2-2m-2 2h14\\\"\\/><path d=\\\"M3 11a4 4 0 0 1 4-4m14 6a4 4 0 0 1-4 4\\\"\\/><\\/g>\"}}}",
+          "bodyFile": "research/captures/bodies/090_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/iconamoon.json?icons=trash-light",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"iconamoon\",\"lastModified\":1722794093,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"trash-light\":{\"body\":\"<path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" stroke-width=\\\"1.5\\\" d=\\\"M14 11v6m-4-6v6M6 7v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7M4 7h16M7 7l2-4h6l2 4\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/097_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/lucide.json?icons=search",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"lucide\",\"lastModified\":1750353030,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"search\":{\"body\":\"<g fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" stroke-width=\\\"2\\\"><path d=\\\"m21 21l-4.34-4.34\\\"\\/><circle cx=\\\"11\\\" cy=\\\"11\\\" r=\\\"8\\\"\\/><\\/g>\"}}}",
+          "bodyFile": "research/captures/bodies/028_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"lucide\",\"lastModified\":1750353030,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"search\":{\"body\":\"<g fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" stroke-width=\\\"2\\\"><path d=\\\"m21 21l-4.34-4.34\\\"\\/><circle cx=\\\"11\\\" cy=\\\"11\\\" r=\\\"8\\\"\\/><\\/g>\"}}}",
+          "bodyFile": "research/captures/bodies/065_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/material-symbols.json?icons=add%2Cdelete-outline",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"material-symbols\",\"lastModified\":1750223537,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"add\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M11 13H5v-2h6V5h2v6h6v2h-6v6h-2z\\\"\\/>\"},\"delete-outline\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M7 21q-.825 0-1.412-.587T5 19V6H4V4h5V3h6v1h5v2h-1v13q0 .825-.587 1.413T17 21zM17 6H7v13h10zM9 17h2V8H9zm4 0h2V8h-2zM7 6v13z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/100_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/material-symbols.json?icons=arrow-upward-alt%2Ckeyboard-arrow-down-rounded",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"material-symbols\",\"lastModified\":1750223537,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"arrow-upward-alt\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M11 18V8.8l-3.6 3.6L6 11l6-6l6 6l-1.4 1.4L13 8.8V18z\\\"\\/>\"},\"keyboard-arrow-down-rounded\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M12 14.975q-.2 0-.375-.062T11.3 14.7l-4.6-4.6q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l3.9 3.9l3.9-3.9q.275-.275.7-.275t.7.275t.275.7t-.275.7l-4.6 4.6q-.15.15-.325.213t-.375.062\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/040_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"material-symbols\",\"lastModified\":1750223537,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"arrow-upward-alt\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M11 18V8.8l-3.6 3.6L6 11l6-6l6 6l-1.4 1.4L13 8.8V18z\\\"\\/>\"},\"keyboard-arrow-down-rounded\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M12 14.975q-.2 0-.375-.062T11.3 14.7l-4.6-4.6q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l3.9 3.9l3.9-3.9q.275-.275.7-.275t.7.275t.275.7t-.275.7l-4.6 4.6q-.15.15-.325.213t-.375.062\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/080_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/material-symbols.json?icons=bar-chart-4-bars",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"material-symbols\",\"lastModified\":1750223537,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"bar-chart-4-bars\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M2 21v-2h20v2zm1-3v-7h3v7zm5 0V6h3v12zm5 0V9h3v9zm5 0V3h3v15z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/049_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/material-symbols.json?icons=bar-chart-4-bars%2Cchevron-left",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"material-symbols\",\"lastModified\":1750223537,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"bar-chart-4-bars\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M2 21v-2h20v2zm1-3v-7h3v7zm5 0V6h3v12zm5 0V9h3v9zm5 0V3h3v15z\\\"\\/>\"},\"chevron-left\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"m14 18l-6-6l6-6l1.4 1.4l-4.6 4.6l4.6 4.6z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/094_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/material-symbols.json?icons=calendar-today-rounded",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"material-symbols\",\"lastModified\":1750223537,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"calendar-today-rounded\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M5 22q-.825 0-1.412-.587T3 20V6q0-.825.588-1.412T5 4h1V3q0-.425.288-.712T7 2t.713.288T8 3v1h8V3q0-.425.288-.712T17 2t.713.288T18 3v1h1q.825 0 1.413.588T21 6v14q0 .825-.587 1.413T19 22zm0-2h14V10H5z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/009_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/material-symbols.json?icons=chevron-left",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"material-symbols\",\"lastModified\":1750223537,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"chevron-left\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"m14 18l-6-6l6-6l1.4 1.4l-4.6 4.6l4.6 4.6z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/012_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"material-symbols\",\"lastModified\":1750223537,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"chevron-left\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"m14 18l-6-6l6-6l1.4 1.4l-4.6 4.6l4.6 4.6z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/019_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"material-symbols\",\"lastModified\":1750223537,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"chevron-left\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"m14 18l-6-6l6-6l1.4 1.4l-4.6 4.6l4.6 4.6z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/037_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"material-symbols\",\"lastModified\":1750223537,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"chevron-left\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"m14 18l-6-6l6-6l1.4 1.4l-4.6 4.6l4.6 4.6z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/058_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/mdi.json?icons=arrow-left%2Carrow-right",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"mdi\",\"lastModified\":1737398331,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"arrow-left\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M20 11v2H8l5.5 5.5l-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5L8 11z\\\"\\/>\"},\"arrow-right\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/011_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/pepicons-print.json?icons=send",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"pepicons-print\",\"lastModified\":1722795444,\"aliases\":{},\"width\":26,\"height\":26,\"icons\":{\"send\":{\"body\":\"<g fill=\\\"currentColor\\\"><path d=\\\"M1.874 9.454a.5.5 0 0 1-.048-.952l15.715-5.855a.5.5 0 0 1 .654.61l-4.744 16.085a.5.5 0 0 1-.95.026L9.696 11.5L1.874 9.454Z\\\" opacity=\\\".8\\\"\\/><path fill-rule=\\\"evenodd\\\" d=\\\"M.874 7.454L8.697 9.5l2.803 7.868a.5.5 0 0 0 .95-.026l4.745-16.085a.5.5 0 0 0-.654-.61L.826 6.502a.5.5 0 0 0 .048.952Zm1.783-.567l13.296-4.954l-4.027 13.652l-2.376-6.67a.5.5 0 0",
+          "bodyFile": "research/captures/bodies/007_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"pepicons-print\",\"lastModified\":1722795444,\"aliases\":{},\"width\":26,\"height\":26,\"icons\":{\"send\":{\"body\":\"<g fill=\\\"currentColor\\\"><path d=\\\"M1.874 9.454a.5.5 0 0 1-.048-.952l15.715-5.855a.5.5 0 0 1 .654.61l-4.744 16.085a.5.5 0 0 1-.95.026L9.696 11.5L1.874 9.454Z\\\" opacity=\\\".8\\\"\\/><path fill-rule=\\\"evenodd\\\" d=\\\"M.874 7.454L8.697 9.5l2.803 7.868a.5.5 0 0 0 .95-.026l4.745-16.085a.5.5 0 0 0-.654-.61L.826 6.502a.5.5 0 0 0 .048.952Zm1.783-.567l13.296-4.954l-4.027 13.652l-2.376-6.67a.5.5 0 0",
+          "bodyFile": "research/captures/bodies/018_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"pepicons-print\",\"lastModified\":1722795444,\"aliases\":{},\"width\":26,\"height\":26,\"icons\":{\"send\":{\"body\":\"<g fill=\\\"currentColor\\\"><path d=\\\"M1.874 9.454a.5.5 0 0 1-.048-.952l15.715-5.855a.5.5 0 0 1 .654.61l-4.744 16.085a.5.5 0 0 1-.95.026L9.696 11.5L1.874 9.454Z\\\" opacity=\\\".8\\\"\\/><path fill-rule=\\\"evenodd\\\" d=\\\"M.874 7.454L8.697 9.5l2.803 7.868a.5.5 0 0 0 .95-.026l4.745-16.085a.5.5 0 0 0-.654-.61L.826 6.502a.5.5 0 0 0 .048.952Zm1.783-.567l13.296-4.954l-4.027 13.652l-2.376-6.67a.5.5 0 0",
+          "bodyFile": "research/captures/bodies/035_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"pepicons-print\",\"lastModified\":1722795444,\"aliases\":{},\"width\":26,\"height\":26,\"icons\":{\"send\":{\"body\":\"<g fill=\\\"currentColor\\\"><path d=\\\"M1.874 9.454a.5.5 0 0 1-.048-.952l15.715-5.855a.5.5 0 0 1 .654.61l-4.744 16.085a.5.5 0 0 1-.95.026L9.696 11.5L1.874 9.454Z\\\" opacity=\\\".8\\\"\\/><path fill-rule=\\\"evenodd\\\" d=\\\"M.874 7.454L8.697 9.5l2.803 7.868a.5.5 0 0 0 .95-.026l4.745-16.085a.5.5 0 0 0-.654-.61L.826 6.502a.5.5 0 0 0 .048.952Zm1.783-.567l13.296-4.954l-4.027 13.652l-2.376-6.67a.5.5 0 0",
+          "bodyFile": "research/captures/bodies/057_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"pepicons-print\",\"lastModified\":1722795444,\"aliases\":{},\"width\":26,\"height\":26,\"icons\":{\"send\":{\"body\":\"<g fill=\\\"currentColor\\\"><path d=\\\"M1.874 9.454a.5.5 0 0 1-.048-.952l15.715-5.855a.5.5 0 0 1 .654.61l-4.744 16.085a.5.5 0 0 1-.95.026L9.696 11.5L1.874 9.454Z\\\" opacity=\\\".8\\\"\\/><path fill-rule=\\\"evenodd\\\" d=\\\"M.874 7.454L8.697 9.5l2.803 7.868a.5.5 0 0 0 .95-.026l4.745-16.085a.5.5 0 0 0-.654-.61L.826 6.502a.5.5 0 0 0 .048.952Zm1.783-.567l13.296-4.954l-4.027 13.652l-2.376-6.67a.5.5 0 0",
+          "bodyFile": "research/captures/bodies/082_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/ph.json?icons=caret-down-bold%2Csort-descending",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"ph\",\"lastModified\":1714973607,\"aliases\":{},\"width\":256,\"height\":256,\"icons\":{\"caret-down-bold\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"m216.49 104.49l-80 80a12 12 0 0 1-17 0l-80-80a12 12 0 0 1 17-17L128 159l71.51-71.52a12 12 0 0 1 17 17Z\\\"\\/>\"},\"sort-descending\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M40 128a8 8 0 0 1 8-8h72a8 8 0 0 1 0 16H48a8 8 0 0 1-8-8m8-56h56a8 8 0 0 0 0-16H48a8 8 0 0 0 0 16m136 112H48a8 8 0 0 0 0 16h136a8 8 0 0 0 0-16m45.66-101.66l-40-40a8 8 0 0 0-11.32 0l-40",
+          "bodyFile": "research/captures/bodies/026_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"ph\",\"lastModified\":1714973607,\"aliases\":{},\"width\":256,\"height\":256,\"icons\":{\"caret-down-bold\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"m216.49 104.49l-80 80a12 12 0 0 1-17 0l-80-80a12 12 0 0 1 17-17L128 159l71.51-71.52a12 12 0 0 1 17 17Z\\\"\\/>\"},\"sort-descending\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M40 128a8 8 0 0 1 8-8h72a8 8 0 0 1 0 16H48a8 8 0 0 1-8-8m8-56h56a8 8 0 0 0 0-16H48a8 8 0 0 0 0 16m136 112H48a8 8 0 0 0 0 16h136a8 8 0 0 0 0-16m45.66-101.66l-40-40a8 8 0 0 0-11.32 0l-40",
+          "bodyFile": "research/captures/bodies/062_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/ph.json?icons=caret-left-bold",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"ph\",\"lastModified\":1714973607,\"aliases\":{},\"width\":256,\"height\":256,\"icons\":{\"caret-left-bold\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M168.49 199.51a12 12 0 0 1-17 17l-80-80a12 12 0 0 1 0-17l80-80a12 12 0 0 1 17 17L97 128Z\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/098_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/ph.json?icons=thumbs-down-light%2Cthumbs-up-light",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"ph\",\"lastModified\":1714973607,\"aliases\":{},\"width\":256,\"height\":256,\"icons\":{\"thumbs-down-light\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"m237.83 157.27l-12-96A22 22 0 0 0 204 42H32a14 14 0 0 0-14 14v88a14 14 0 0 0 14 14h44.29l38.34 76.68A6 6 0 0 0 120 238a38 38 0 0 0 38-38v-18h58a22 22 0 0 0 21.83-24.73M74 146H32a2 2 0 0 1-2-2V56a2 2 0 0 1 2-2h42Zm149.5 20.62A9.9 9.9 0 0 1 216 170h-64a6 6 0 0 0-6 6v24a26 26 0 0 1-22.42 25.75L86 150.58V54h118a10 10 0 0 1 9.92 8.76l12 96a9.9 9.9 0 0 1-",
+          "bodyFile": "research/captures/bodies/041_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"ph\",\"lastModified\":1714973607,\"aliases\":{},\"width\":256,\"height\":256,\"icons\":{\"thumbs-down-light\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"m237.83 157.27l-12-96A22 22 0 0 0 204 42H32a14 14 0 0 0-14 14v88a14 14 0 0 0 14 14h44.29l38.34 76.68A6 6 0 0 0 120 238a38 38 0 0 0 38-38v-18h58a22 22 0 0 0 21.83-24.73M74 146H32a2 2 0 0 1-2-2V56a2 2 0 0 1 2-2h42Zm149.5 20.62A9.9 9.9 0 0 1 216 170h-64a6 6 0 0 0-6 6v24a26 26 0 0 1-22.42 25.75L86 150.58V54h118a10 10 0 0 1 9.92 8.76l12 96a9.9 9.9 0 0 1-",
+          "bodyFile": "research/captures/bodies/083_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/solar.json?icons=cart-4-linear",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"solar\",\"lastModified\":1722795734,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"cart-4-linear\":{\"body\":\"<g fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"1.5\\\"><path d=\\\"M3.555 14.257c-.718-3.353-1.078-5.03-.177-6.143C4.278 7 5.993 7 9.422 7h5.156c3.43 0 5.143 0 6.044 1.114c.9 1.114.541 2.79-.177 6.143l-.429 2c-.487 2.273-.73 3.409-1.555 4.076c-.825.667-1.987.667-4.311.667h-4.3c-2.324 0-3.486 0-4.31-.667c-.826-.667-1.07-1.803-1.556-4.076l-.429-2Z\\\"\\/><path stroke-linecap=\\\"round\\",
+          "bodyFile": "research/captures/bodies/013_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"solar\",\"lastModified\":1722795734,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"cart-4-linear\":{\"body\":\"<g fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"1.5\\\"><path d=\\\"M3.555 14.257c-.718-3.353-1.078-5.03-.177-6.143C4.278 7 5.993 7 9.422 7h5.156c3.43 0 5.143 0 6.044 1.114c.9 1.114.541 2.79-.177 6.143l-.429 2c-.487 2.273-.73 3.409-1.555 4.076c-.825.667-1.987.667-4.311.667h-4.3c-2.324 0-3.486 0-4.31-.667c-.826-.667-1.07-1.803-1.556-4.076l-.429-2Z\\\"\\/><path stroke-linecap=\\\"round\\",
+          "bodyFile": "research/captures/bodies/020_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"solar\",\"lastModified\":1722795734,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"cart-4-linear\":{\"body\":\"<g fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"1.5\\\"><path d=\\\"M3.555 14.257c-.718-3.353-1.078-5.03-.177-6.143C4.278 7 5.993 7 9.422 7h5.156c3.43 0 5.143 0 6.044 1.114c.9 1.114.541 2.79-.177 6.143l-.429 2c-.487 2.273-.73 3.409-1.555 4.076c-.825.667-1.987.667-4.311.667h-4.3c-2.324 0-3.486 0-4.31-.667c-.826-.667-1.07-1.803-1.556-4.076l-.429-2Z\\\"\\/><path stroke-linecap=\\\"round\\",
+          "bodyFile": "research/captures/bodies/038_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"solar\",\"lastModified\":1722795734,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"cart-4-linear\":{\"body\":\"<g fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"1.5\\\"><path d=\\\"M3.555 14.257c-.718-3.353-1.078-5.03-.177-6.143C4.278 7 5.993 7 9.422 7h5.156c3.43 0 5.143 0 6.044 1.114c.9 1.114.541 2.79-.177 6.143l-.429 2c-.487 2.273-.73 3.409-1.555 4.076c-.825.667-1.987.667-4.311.667h-4.3c-2.324 0-3.486 0-4.31-.667c-.826-.667-1.07-1.803-1.556-4.076l-.429-2Z\\\"\\/><path stroke-linecap=\\\"round\\",
+          "bodyFile": "research/captures/bodies/059_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/solar.json?icons=cart-4-linear%2Cshare-linear",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"solar\",\"lastModified\":1722795734,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"cart-4-linear\":{\"body\":\"<g fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"1.5\\\"><path d=\\\"M3.555 14.257c-.718-3.353-1.078-5.03-.177-6.143C4.278 7 5.993 7 9.422 7h5.156c3.43 0 5.143 0 6.044 1.114c.9 1.114.541 2.79-.177 6.143l-.429 2c-.487 2.273-.73 3.409-1.555 4.076c-.825.667-1.987.667-4.311.667h-4.3c-2.324 0-3.486 0-4.31-.667c-.826-.667-1.07-1.803-1.556-4.076l-.429-2Z\\\"\\/><path stroke-linecap=\\\"round\\",
+          "bodyFile": "research/captures/bodies/093_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/solar.json?icons=refresh-bold-duotone",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"solar\",\"lastModified\":1722795734,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"refresh-bold-duotone\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M12.079 2.25c-4.794 0-8.734 3.663-9.118 8.333H2a.75.75 0 0 0-.528 1.283l1.68 1.666a.75.75 0 0 0 1.056 0l1.68-1.666a.75.75 0 0 0-.528-1.283h-.893c.38-3.831 3.638-6.833 7.612-6.833a7.66 7.66 0 0 1 6.537 3.643a.75.75 0 1 0 1.277-.786A9.16 9.16 0 0 0 12.08 2.25\\\"\\/><path fill=\\\"currentColor\\\" d=\\\"M20.841 10.467a.75.75 0 0 0-1.054 0L18.1 12.133a.75.7",
+          "bodyFile": "research/captures/bodies/008_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"solar\",\"lastModified\":1722795734,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"refresh-bold-duotone\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M12.079 2.25c-4.794 0-8.734 3.663-9.118 8.333H2a.75.75 0 0 0-.528 1.283l1.68 1.666a.75.75 0 0 0 1.056 0l1.68-1.666a.75.75 0 0 0-.528-1.283h-.893c.38-3.831 3.638-6.833 7.612-6.833a7.66 7.66 0 0 1 6.537 3.643a.75.75 0 1 0 1.277-.786A9.16 9.16 0 0 0 12.08 2.25\\\"\\/><path fill=\\\"currentColor\\\" d=\\\"M20.841 10.467a.75.75 0 0 0-1.054 0L18.1 12.133a.75.7",
+          "bodyFile": "research/captures/bodies/024_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"solar\",\"lastModified\":1722795734,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"refresh-bold-duotone\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M12.079 2.25c-4.794 0-8.734 3.663-9.118 8.333H2a.75.75 0 0 0-.528 1.283l1.68 1.666a.75.75 0 0 0 1.056 0l1.68-1.666a.75.75 0 0 0-.528-1.283h-.893c.38-3.831 3.638-6.833 7.612-6.833a7.66 7.66 0 0 1 6.537 3.643a.75.75 0 1 0 1.277-.786A9.16 9.16 0 0 0 12.08 2.25\\\"\\/><path fill=\\\"currentColor\\\" d=\\\"M20.841 10.467a.75.75 0 0 0-1.054 0L18.1 12.133a.75.7",
+          "bodyFile": "research/captures/bodies/036_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"solar\",\"lastModified\":1722795734,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"refresh-bold-duotone\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M12.079 2.25c-4.794 0-8.734 3.663-9.118 8.333H2a.75.75 0 0 0-.528 1.283l1.68 1.666a.75.75 0 0 0 1.056 0l1.68-1.666a.75.75 0 0 0-.528-1.283h-.893c.38-3.831 3.638-6.833 7.612-6.833a7.66 7.66 0 0 1 6.537 3.643a.75.75 0 1 0 1.277-.786A9.16 9.16 0 0 0 12.08 2.25\\\"\\/><path fill=\\\"currentColor\\\" d=\\\"M20.841 10.467a.75.75 0 0 0-1.054 0L18.1 12.133a.75.7",
+          "bodyFile": "research/captures/bodies/066_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"solar\",\"lastModified\":1722795734,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"refresh-bold-duotone\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M12.079 2.25c-4.794 0-8.734 3.663-9.118 8.333H2a.75.75 0 0 0-.528 1.283l1.68 1.666a.75.75 0 0 0 1.056 0l1.68-1.666a.75.75 0 0 0-.528-1.283h-.893c.38-3.831 3.638-6.833 7.612-6.833a7.66 7.66 0 0 1 6.537 3.643a.75.75 0 1 0 1.277-.786A9.16 9.16 0 0 0 12.08 2.25\\\"\\/><path fill=\\\"currentColor\\\" d=\\\"M20.841 10.467a.75.75 0 0 0-1.054 0L18.1 12.133a.75.7",
+          "bodyFile": "research/captures/bodies/085_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/solar.json?icons=share-linear",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"solar\",\"lastModified\":1722795734,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"share-linear\":{\"body\":\"<g fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"1.5\\\"><path d=\\\"M9 12a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0Z\\\"\\/><path stroke-linecap=\\\"round\\\" d=\\\"M14 6.5L9 10m5 7.5L9 14\\\"\\/><path d=\\\"M19 18.5a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0Zm0-13a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0Z\\\"\\/><\\/g>\"}}}",
+          "bodyFile": "research/captures/bodies/047_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.mihanshop.com/shop/iconify/tabler.json?icons=filter-cog",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "accept-language": "fa-IR",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"tabler\",\"lastModified\":1749100890,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"filter-cog\":{\"body\":\"<path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" stroke-width=\\\"2\\\" d=\\\"m12 20l-3 1v-8.5L4.52 7.572A2 2 0 0 1 4 6.227V4h16v2.172a2 2 0 0 1-.586 1.414L15 12v1.5m2.001 5.5a2 2 0 1 0 4 0a2 2 0 1 0-4 0m2-3.5V17m0 4v1.5m3.031-5.25l-1.299.75m-3.463 2l-1.3.75m0-3.5l1.3.75m3.463 2l1.3.75\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/025_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"prefix\":\"tabler\",\"lastModified\":1749100890,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"filter-cog\":{\"body\":\"<path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" stroke-width=\\\"2\\\" d=\\\"m12 20l-3 1v-8.5L4.52 7.572A2 2 0 0 1 4 6.227V4h16v2.172a2 2 0 0 1-.586 1.414L15 12v1.5m2.001 5.5a2 2 0 1 0 4 0a2 2 0 1 0-4 0m2-3.5V17m0 4v1.5m3.031-5.25l-1.299.75m-3.463 2l-1.3.75m0-3.5l1.3.75m3.463 2l1.3.75\\\"\\/>\"}}}",
+          "bodyFile": "research/captures/bodies/061_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, OPTIONS",
+            "access-control-allow-headers": "Content-Type"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://digistarkala.ir/_nuxt/builds/meta/14b5908c-732e-48d4-a5e9-6a774d0b78fc.json",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "accept-language": "fa-IR",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=v1.42.0,sentry-public_key=7ba386b1c302b580cdf29448a3190db4,sentry-trace_id=da3554e2fb4149d4be5153863125089d",
+        "sentry-trace": "da3554e2fb4149d4be5153863125089d-b695ae29f0a7f6a8",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+      },
+      "postData": null,
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"id\":\"14b5908c-732e-48d4-a5e9-6a774d0b78fc\",\"timestamp\":1783680958053,\"matcher\":{\"static\":{},\"wildcard\":{},\"dynamic\":{}},\"prerendered\":[]}",
+          "bodyFile": "research/captures/bodies/001_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"id\":\"14b5908c-732e-48d4-a5e9-6a774d0b78fc\",\"timestamp\":1783680958053,\"matcher\":{\"static\":{},\"wildcard\":{},\"dynamic\":{}},\"prerendered\":[]}",
+          "bodyFile": "research/captures/bodies/014_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"id\":\"14b5908c-732e-48d4-a5e9-6a774d0b78fc\",\"timestamp\":1783680958053,\"matcher\":{\"static\":{},\"wildcard\":{},\"dynamic\":{}},\"prerendered\":[]}",
+          "bodyFile": "research/captures/bodies/029_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"id\":\"14b5908c-732e-48d4-a5e9-6a774d0b78fc\",\"timestamp\":1783680958053,\"matcher\":{\"static\":{},\"wildcard\":{},\"dynamic\":{}},\"prerendered\":[]}",
+          "bodyFile": "research/captures/bodies/052_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"id\":\"14b5908c-732e-48d4-a5e9-6a774d0b78fc\",\"timestamp\":1783680958053,\"matcher\":{\"static\":{},\"wildcard\":{},\"dynamic\":{}},\"prerendered\":[]}",
+          "bodyFile": "research/captures/bodies/067_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{\"id\":\"14b5908c-732e-48d4-a5e9-6a774d0b78fc\",\"timestamp\":1783680958053,\"matcher\":{\"static\":{},\"wildcard\":{},\"dynamic\":{}},\"prerendered\":[]}",
+          "bodyFile": "research/captures/bodies/074_GET_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json"
+          }
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "url": "https://sentry.mihanshop.com/api/7/envelope/?sentry_version=7&sentry_key=7ba386b1c302b580cdf29448a3190db4&sentry_client=sentry.javascript.nuxt%2F9.42.1",
+      "resourceType": "fetch",
+      "requestHeaders": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://digistarkala.ir/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+        "content-type": "text/plain;charset=UTF-8",
+        "sec-ch-ua-mobile": "?0",
+        "accept-language": "fa-IR"
+      },
+      "postData": "{\"sent_at\":\"2026-07-13T23:02:12.722Z\",\"sdk\":{\"name\":\"sentry.javascript.nuxt\",\"version\":\"9.42.1\"}}\n{\"type\":\"session\"}\n{\"sid\":\"fbda8e8f532e48c78ef810cdb8e2f840\",\"init\":true,\"started\":\"2026-07-13T23:02:12.721Z\",\"timestamp\":\"2026-07-13T23:02:12.721Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"v1.42.0\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\"}}",
+      "responses": [
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{}",
+          "bodyFile": "research/captures/bodies/004_POST_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "server": "nginx/1.24.0 (Ubuntu)"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{}",
+          "bodyFile": "research/captures/bodies/015_POST_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "server": "nginx/1.24.0 (Ubuntu)"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{}",
+          "bodyFile": "research/captures/bodies/030_POST_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "server": "nginx/1.24.0 (Ubuntu)"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{}",
+          "bodyFile": "research/captures/bodies/053_POST_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "server": "nginx/1.24.0 (Ubuntu)"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{}",
+          "bodyFile": "research/captures/bodies/068_POST_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "server": "nginx/1.24.0 (Ubuntu)"
+          }
+        },
+        {
+          "status": 200,
+          "contentType": "application/json",
+          "bodyPreview": "{}",
+          "bodyFile": "research/captures/bodies/075_POST_200.bin",
+          "responseHeaders": {
+            "content-type": "application/json",
+            "access-control-allow-origin": "*",
+            "server": "nginx/1.24.0 (Ubuntu)"
+          }
+        }
+      ]
+    }
+  ]
+}

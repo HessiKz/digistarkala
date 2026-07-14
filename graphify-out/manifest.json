@@ -1,0 +1,397 @@
+{
+  "/home/hessi/Desktop/Developement/digistarkala/package.json": {
+    "mtime": 1783989592.5404496,
+    "ast_hash": "58dacf52f6b51fdfa5fbe1da3b9a71df",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/capture-endpoints.mjs": {
+    "mtime": 1783983698.6398096,
+    "ast_hash": "8ed207de5cdb53e98a5484aaa9c11165",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/captures/api-summary.json": {
+    "mtime": 1783984403.377311,
+    "ast_hash": "2a7d05ccce12da1bd97a8e67644dcb91",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/catalog.sample.json": {
+    "mtime": 1783984333.1354072,
+    "ast_hash": "f2f8f9ec219a02365d68330440c1c4db",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/endpoints.json": {
+    "mtime": 1783983782.7704942,
+    "ast_hash": "67580becc7d5ca3a78d48ca80e56b18f",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-a/cookie-jar.mjs": {
+    "mtime": 1783983819.5314307,
+    "ast_hash": "1b03ac4904ff0c2636167e7b41ca7f97",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-a/node-proxy-test.mjs": {
+    "mtime": 1783983819.5314307,
+    "ast_hash": "12cc669e28e7c7498e948e2e33131915",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-a/node-results.json": {
+    "mtime": 1783983844.7203863,
+    "ast_hash": "3a9df73c75f243977099b1c25c621f6a",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-a/worker-local-results.json": {
+    "mtime": 1783984181.7485852,
+    "ast_hash": "c65da10eefd5fde0e41b35ac5201932f",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-a/worker-remote-results.json": {
+    "mtime": 1783984234.777618,
+    "ast_hash": "fa2bb1e3dc678f72412b3794925ef3c2",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-a/worker/.wrangler/cache/cf.json": {
+    "mtime": 1783984174.7502449,
+    "ast_hash": "e0407e41e8c8fdd0b70f0c876f3d1dfd",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-a/worker/src/index.js": {
+    "mtime": 1783983819.6894305,
+    "ast_hash": "415a3eb188cb58da7ddb16e863e4c53b",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-b/cors-results.json": {
+    "mtime": 1783983906.1562746,
+    "ast_hash": "c4fc12df521fcb75479d866fcd1165dd",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-b/probe.js": {
+    "mtime": 1783983819.6894305,
+    "ast_hash": "231631ceff784122f1b76d05951998f0",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-b/server.mjs": {
+    "mtime": 1783983819.6904304,
+    "ast_hash": "72daca93bec19ae9857cd75c232f4869",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-c/scrape-meta.json": {
+    "mtime": 1783984333.1364074,
+    "ast_hash": "df1073aaeedb99bd9c2ada130094b53e",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-c/scrape.mjs": {
+    "mtime": 1783984367.8703318,
+    "ast_hash": "a152e9e33166d91a0908403ca16fa6e7",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/REPORT.md": {
+    "mtime": 1783984439.6801069,
+    "ast_hash": "7eaff5212f00ea21081c5245fd373e2c",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/captures/reachability.txt": {
+    "mtime": 1783984175.4047425,
+    "ast_hash": "11a13338a65dd0be89fff493266428b1",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-a/node-results.txt": {
+    "mtime": 1783983844.7213862,
+    "ast_hash": "246d3b2b5b5d2cc4c3b88ff3c435297a",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-a/worker-remote-headers.txt": {
+    "mtime": 1783984237.7806115,
+    "ast_hash": "b120712794ab39ae3ce34e142ba53048",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-a/wrangler-whoami.txt": {
+    "mtime": 1783983852.9373715,
+    "ast_hash": "d60cd0ad7b7ea6dd52079477ea1b55f2",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-b/curl-cors-headers.txt": {
+    "mtime": 1783984136.8249865,
+    "ast_hash": "1f3dc58bd39275369ea758f1fa512e00",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-b/index.html": {
+    "mtime": 1783983819.6894305,
+    "ast_hash": "b222750c7dda3babd953ebc1186baa3c",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/research/option-c/robots.txt": {
+    "mtime": 1783983901.1142838,
+    "ast_hash": "cba303853ad45fadcf95806959816e8d",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/package.json": {
+    "mtime": 1783986828.344016,
+    "ast_hash": "8bf3ab377d15b469113671f1a7a10bb8",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/public/data/catalog.json": {
+    "mtime": 1783987901.399159,
+    "ast_hash": "67798e5c6b93bee79822512330e2b520",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/public/data/categories.json": {
+    "mtime": 1783987901.403159,
+    "ast_hash": "7813a46e6e5049c3429a7801d5458551",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/public/data/home.json": {
+    "mtime": 1783988619.2089942,
+    "ast_hash": "277075e48b4a10e859597821bf47a973",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/public/data/scrape-meta.json": {
+    "mtime": 1783987928.9079392,
+    "ast_hash": "3f1d65f96a83ac33c7d9e1562de51a9c",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/scripts/spa-fallback.mjs": {
+    "mtime": 1783986141.6250813,
+    "ast_hash": "34c1b53fec73e0eb12dbb4a08964239e",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/App.tsx": {
+    "mtime": 1783989536.858712,
+    "ast_hash": "d5bb1bce8a9c42d2802babb2e23a8c02",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/api/catalog.ts": {
+    "mtime": 1783988412.4139354,
+    "ast_hash": "80a10e6bcb601ffee48236bba874efb5",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/components/Button.tsx": {
+    "mtime": 1783988473.3586597,
+    "ast_hash": "061185f99a471885ce847905c7dc7b3f",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/components/CartDrawer.tsx": {
+    "mtime": 1783986257.8341792,
+    "ast_hash": "26d4c83ff7e28671de13346b17f43deb",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/components/Filters.tsx": {
+    "mtime": 1783986257.8881788,
+    "ast_hash": "a6f6a0c7dcc6c70d7d3b88c5bc65582b",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/components/Footer.tsx": {
+    "mtime": 1783989569.2395594,
+    "ast_hash": "cc2891dd2fbef8fde922758983444b21",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/components/Layout.tsx": {
+    "mtime": 1783988578.2661817,
+    "ast_hash": "3298193944de858256c413661fea7a68",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/components/Navbar.tsx": {
+    "mtime": 1783989569.2395594,
+    "ast_hash": "6d08e219389dc2afbcb62e02c8bf0384",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/components/ProductCard.tsx": {
+    "mtime": 1783988558.106274,
+    "ast_hash": "474e5fe4144ee14eb20b570025f42fd0",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/components/Skeleton.tsx": {
+    "mtime": 1783986257.7641797,
+    "ast_hash": "8738ff21b1b40c0ce72e4dc7a2aec707",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/lib/format.ts": {
+    "mtime": 1783986189.7807043,
+    "ast_hash": "ed9fef60f095aaef4e71c5f9774331e9",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/lib/hooks.ts": {
+    "mtime": 1783986851.3380187,
+    "ast_hash": "14f0d7f0070f07e204834e73b75a3f92",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/lib/search.ts": {
+    "mtime": 1783989592.44845,
+    "ast_hash": "bb25120608b580b73b946d8623ac2a62",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/lib/types.ts": {
+    "mtime": 1783989600.4179816,
+    "ast_hash": "355b091b876354f52f36a29dd722222e",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/main.tsx": {
+    "mtime": 1783988558.106274,
+    "ast_hash": "06080ed679c90294cc1688f884120b4d",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/pages/CartPage.tsx": {
+    "mtime": 1783986334.0676005,
+    "ast_hash": "b11f3833515cfcaa196d179d182809f5",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/pages/CategoryPage.tsx": {
+    "mtime": 1783986334.0446007,
+    "ast_hash": "8eac07caa460fcba877efd2fbbe57d7a",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/pages/HomePage.tsx": {
+    "mtime": 1783989593.6194446,
+    "ast_hash": "a748a84c4befcc24a254aa1af28c6958",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/pages/ProductPage.tsx": {
+    "mtime": 1783986334.0666006,
+    "ast_hash": "f5601162ecb57a89c8b7b9d57494758b",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/pages/ProductsPage.tsx": {
+    "mtime": 1783989593.6194446,
+    "ast_hash": "d82469b2386483bf53d3b8abd542e755",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/store/cart.ts": {
+    "mtime": 1783986189.9037035,
+    "ast_hash": "b23218ee393ba4f3809e8cfc7ae65419",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/store/ui.ts": {
+    "mtime": 1783986189.9377031,
+    "ast_hash": "667c8625b3d9b8035a5c6bc4d253eb2f",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/vite-env.d.ts": {
+    "mtime": 1783986334.1705997,
+    "ast_hash": "0352474ba2918efe13895edbc3780d94",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/tsconfig.json": {
+    "mtime": 1783986141.4680827,
+    "ast_hash": "d5b05e12e043e849f4683293171e5e2b",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/tsconfig.node.json": {
+    "mtime": 1783986141.4750826,
+    "ast_hash": "cf41e019800ba588fb02444ea77c05d7",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/vite.config.ts": {
+    "mtime": 1783986141.5840816,
+    "ast_hash": "7d68d2ee5d627dc8ee608e06b96eb660",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/scripts/build-catalog-from-sample.mjs": {
+    "mtime": 1783986388.2438138,
+    "ast_hash": "d0d957f2e4b6451cf8562f03282de5b2",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/scripts/scrape-fast.mjs": {
+    "mtime": 1783987928.5470464,
+    "ast_hash": "5087c0cb12fc21879ff46489907792eb",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/scripts/scrape-full.mjs": {
+    "mtime": 1783986388.2851942,
+    "ast_hash": "a61a86c8bcaff40a80733bbc6ae49985",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.github/workflows/deploy.yml": {
+    "mtime": 1783986388.441193,
+    "ast_hash": "30693f009cc93069540dab3cbec8ebb5",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/README.md": {
+    "mtime": 1783989616.9753344,
+    "ast_hash": "b6e4433902043ce1f83dddf1854917df",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/index.html": {
+    "mtime": 1783988558.106274,
+    "ast_hash": "d664874a2da7c5e94d392e4012225d48",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/public/data/brand.json": {
+    "mtime": 1783989510.3398368,
+    "ast_hash": "1cde3f9e87a82b0d1581d9862f70bd6c",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/public/data/home-raw-blocks.json": {
+    "mtime": 1783988619.209994,
+    "ast_hash": "da60829aff25c32e08d3e078794f6bb7",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/components/HeroSlider.tsx": {
+    "mtime": 1783988473.1926603,
+    "ast_hash": "219701d51d00d34e9b78baf55d641cb6",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/store/theme.ts": {
+    "mtime": 1783988412.2339363,
+    "ast_hash": "e18e5845c1297351ec4aa58b088f10bb",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/scripts/extract-brand.mjs": {
+    "mtime": 1783988614.9930136,
+    "ast_hash": "d81e248ae43870146166331060ead9e0",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/public/data/content.json": {
+    "mtime": 1783989510.338837,
+    "ast_hash": "fd328a1b2c6b7cef79237bfcbdc9321e",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/api/content.ts": {
+    "mtime": 1783989498.0258949,
+    "ast_hash": "e9ea9b6f5aa641404f53a5b0ee3fb37c",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/components/ProsePage.tsx": {
+    "mtime": 1783989592.5384495,
+    "ast_hash": "cf604de6881c91f1829f9a02d3fff169",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/lib/content-types.ts": {
+    "mtime": 1783989498.0198948,
+    "ast_hash": "9720372c5c0fe615f1fb54d4d239d9e5",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/pages/BlogArticlePage.tsx": {
+    "mtime": 1783989536.856712,
+    "ast_hash": "3e16a51244da30aeb4cb35c3747b545f",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/pages/BlogListPage.tsx": {
+    "mtime": 1783989536.856712,
+    "ast_hash": "56e272d7cf7ee1cea050ccdd3c3005c7",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/pages/CmsPage.tsx": {
+    "mtime": 1783989536.674713,
+    "ast_hash": "436c5cfb9b03cea56be8cae4df63d655",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/pages/NotFoundPage.tsx": {
+    "mtime": 1783989536.856712,
+    "ast_hash": "6b7506ff6c6b386534298a67e16a03ce",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/pages/StaticInfoPage.tsx": {
+    "mtime": 1783989536.7347126,
+    "ast_hash": "2dfc8831def4a9129e9cc2c993fb5932",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/pages/SupportPage.tsx": {
+    "mtime": 1783989536.9087117,
+    "ast_hash": "71563d3d1f4923f332989803547ca4fe",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/scripts/scrape-pages.mjs": {
+    "mtime": 1783989487.787069,
+    "ast_hash": "af800ceabd74d572767df98ef3af0e44",
+    "semantic_hash": ""
+  }
+}

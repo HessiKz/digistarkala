@@ -1,0 +1,41 @@
+## sanctum/csrf-cookie
+GET https://digistarkala.ir/shop/api/sanctum/csrf-cookie
+status=204 latencyMs=1551 ct=null
+hints=
+preview:
+
+
+## init
+GET https://digistarkala.ir/shop/api/init
+status=200 latencyMs=1403 ct=application/json
+hints=json_ok
+preview:
+{"is_logged_in":false,"user":null,"cart":{"id":null,"total":"0","subtotal":"0","count":0,"need_shipment":null,"is_preorder":false,"items":[]},"logo":{"favicon":"https:\/\/digistarkala.ir\/shop\/favicon.ico","header":"https:\/\/digistarkala.ir\/shop\/storage\/images\/36bdad89effa0a80020a77aeaa4feeb5.png","footer":"https:\/\/digistarkala.ir\/shop\/storage\/images\/d63a36dd3592357bcb7014e8b3527a02.png"},"menu":{"top":[{"id":1,"title":"\u062f\u0633\u062a\u0647 \u0628\u0646\u062f\u06cc \u0645\u062d\u
+
+## home
+GET https://digistarkala.ir/shop/api/home?device=desktop
+status=200 latencyMs=700 ct=application/json
+hints=json_ok
+preview:
+{"title":"\u062f\u06cc\u062c\u06cc \u0627\u0633\u062a\u0627\u0631 \u06a9\u0627\u0644\u0627","blocks":[{"id":23,"type":"slider","y":0,"x":0,"width":12,"height":2,"component":"ModlandSliderBlock","theme":"modland","edit":null,"styles":{"full_width":true,"margin_top":0,"padding_left":0,"margin_bottom":50,"padding_right":0},"data":[{"id":"2f437e04-f8ea-4fc8-8096-3ecbf5654037","url":"\/products","image":"https:\/\/digistarkala.ir\/shop\/storage\/sliders\/%D8%A8%D8%AE%D8%B1%D8%8C%D8%A8%D8%AE%D9%86%D8%
+
+## search
+GET https://digistarkala.ir/shop/api/products/search?query=%D8%AC%D8%A7%D8%B1%D9%88&device=desktop
+status=200 latencyMs=386 ct=application/json
+hints=json_ok
+preview:
+{"products":[{"id":270,"code":"021","page_title":"\u062c\u062a \u0641\u0646 \u0648 \u062c\u0627\u0631\u0648 \u0634\u0627\u0631\u0698\u06cc VIOLENT FAN - \u062f\u0648\u06a9\u0627\u0631\u0647","name":"\u062c\u062a \u0641\u0646 \u0648 \u062c\u0627\u0631\u0648 \u0634\u0627\u0631\u0698\u06cc VIOLENT FAN - \u062f\u0648\u06a9\u0627\u0631\u0647","image":"https:\/\/digistarkala.ir\/shop\/storage\/products\/270\/thumbnails\/8XSimd5ppQASf3B0jFT7cs3CWH6ORILyYOBMvr1W.jpg","thumbnails":{"56x56":"https:\/\/dig
+
+## product
+GET https://digistarkala.ir/shop/api/products/22
+status=200 latencyMs=423 ct=application/json
+hints=json_ok
+preview:
+{"breadcrumbs":[{"title":"\u062e\u0627\u0646\u0647 \u0648 \u0622\u0634\u067e\u0632\u062e\u0627\u0646\u0647","uri":"\/products\/categories\/\u062e\u0627\u0646\u0647-\u0648-\u0622\u0634\u067e\u0632\u062e\u0627\u0646\u0647"},{"title":"\u062c\u0627\u0631\u0648 \u0628\u0631\u0642\u06cc","uri":"\/products\/categories\/\u062c\u0627\u0631\u0648-\u0628\u0631\u0642\u06cc"}],"product":{"id":22,"code":"KJ1192","page_title":"\u062c\u0627\u0631\u0648 \u0628\u0631\u0642\u06cc \u0639\u0635\u0627\u0626\u06cc \u0
+
+## cart
+GET https://digistarkala.ir/shop/api/cart
+status=200 latencyMs=435 ct=application/json
+hints=json_ok
+preview:
+{"cart":{"id":null,"total":"0","subtotal":"0","count":0,"need_shipment":null,"is_preorder":false,"items":[]}}

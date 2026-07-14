@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Option B — CORS probe</title>
+    <style>
+      body {
+        font-family: ui-monospace, monospace;
+        margin: 1.5rem;
+        background: #0f1115;
+        color: #e8e8e8;
+      }
+      pre {
+        white-space: pre-wrap;
+        background: #1a1d24;
+        padding: 1rem;
+        border-radius: 6px;
+      }
+      h1 {
+        font-size: 1.1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Option B — client-side direct fetch CORS probe</h1>
+    <p>Origin: <span id="origin"></span></p>
+    <pre id="out">running…</pre>
+    <script type="module" src="./probe.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+=== curl -I https://digistarkala.ir/ ===
+HTTP/2 200 
+vary: Accept-Encoding
+content-type: text/html;charset=utf-8
+x-powered-by: Nuxt
+date: Mon, 13 Jul 2026 23:09:32 GMT
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+
+
+=== node egress IP (ifany) ===
+46.224.211.234
+=== digistarkala response headers sample (init) ===
+HTTP/2 200 
+cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 59
+date: Mon, 13 Jul 2026 23:09:34 GMT
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+

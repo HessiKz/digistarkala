@@ -1,0 +1,60 @@
+{
+  "title": "دیجی استار کالا",
+  "blockTypes": [
+    {
+      "id": 23,
+      "type": "slider",
+      "component": "ModlandSliderBlock"
+    },
+    {
+      "id": 24,
+      "type": "banner",
+      "component": "ModlandBannerBlock"
+    },
+    {
+      "id": 25,
+      "type": "banner",
+      "component": "ModlandBannerBlock"
+    },
+    {
+      "id": 26,
+      "type": "category_with_product",
+      "component": "ModlandCategoryWithProductBlock"
+    },
+    {
+      "id": 27,
+      "type": "special_offer",
+      "component": "ModlandSpecialOfferBlock"
+    },
+    {
+      "id": 28,
+      "type": "banner",
+      "component": "ModlandBannerBlock"
+    },
+    {
+      "id": 29,
+      "type": "banner",
+      "component": "ModlandBannerBlock"
+    },
+    {
+      "id": 30,
+      "type": "product",
+      "component": "ModlandProductBlock"
+    },
+    {
+      "id": 31,
+      "type": "product",
+      "component": "ModlandProductBlock"
+    },
+    {
+      "id": 32,
+      "type": "brand",
+      "component": "ModlandBrandBlock"
+    },
+    {
+      "id": 33,
+      "type": "article",
+      "component": "ModlandArticleBlock"
+    }
+  ]
+}

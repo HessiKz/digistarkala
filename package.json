@@ -1,0 +1,22 @@
+{
+  "name": "digistarkala",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DigiStarKala premium static storefront redesign",
+  "scripts": {
+    "dev": "npm run dev --prefix apps/storefront",
+    "build": "npm run build --prefix apps/storefront",
+    "preview": "npm run preview --prefix apps/storefront",
+    "catalog:sample": "node scripts/build-catalog-from-sample.mjs",
+    "catalog:scrape": "node scripts/scrape-full.mjs",
+    "catalog:scrape:fast": "node scripts/scrape-fast.mjs",
+    "catalog:brand": "node scripts/extract-brand.mjs",
+    "catalog:pages": "node scripts/scrape-pages.mjs",
+    "catalog:prepare": "node scripts/build-catalog-from-sample.mjs && node scripts/extract-brand.mjs && node scripts/scrape-pages.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.52.0",
+    "sharp": "^0.35.3"
+  }
+}

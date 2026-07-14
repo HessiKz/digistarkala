@@ -1,0 +1,460 @@
+{
+  "generatedAt": "2026-07-14T00:11:41.391Z",
+  "count": 16,
+  "categories": [
+    {
+      "id": "لوازم-شخصی-برقی",
+      "title": "لوازم شخصی برقی",
+      "slug": "لوازم-شخصی-برقی",
+      "productCount": 68,
+      "image": "https://digistarkala.ir/shop/storage/products/37/thumbnails/drNz3Dijak9NUfbroH1paJLHvI2Gr6SPz1NFmDYh.jpg"
+    },
+    {
+      "id": "لوازم-آرایشی",
+      "title": "لوازم آرایشی",
+      "slug": "لوازم-آرایشی",
+      "productCount": 26,
+      "image": "https://digistarkala.ir/shop/storage/products/126/thumbnails/efBCLMQi9opdZsUThV6qwGnTMQvu6dhSIBmyplyk.jpg"
+    },
+    {
+      "id": "نوشیدنی-ساز",
+      "title": "نوشیدنی ساز",
+      "slug": "نوشیدنی-ساز",
+      "productCount": 21,
+      "image": "https://digistarkala.ir/shop/storage/products/25/thumbnails/udwsGUIutf6DaoO7VhlgfXiN9F79NgdP42YkUA5Y.jpg"
+    },
+    {
+      "id": "اتو-و-بخارگر",
+      "title": "اتو و بخارگر",
+      "slug": "اتو-و-بخارگر",
+      "productCount": 20,
+      "image": "https://digistarkala.ir/shop/storage/products/27/thumbnails/xBObnlCJR5ZR5rx3mv1gVyDxvx3FhVMwV4Ne1eB9.jpg"
+    },
+    {
+      "id": "خردکن-و-غذا-ساز",
+      "title": "خردکن و غذا ساز",
+      "slug": "خردکن-و-غذا-ساز",
+      "productCount": 20,
+      "image": "https://digistarkala.ir/shop/storage/products/32/thumbnails/lJSAygPa1Og7Vfnrfm1LPajh21IRARfL7Aqd4laF.jpg"
+    },
+    {
+      "id": "لوازم-پخت-و-پز",
+      "title": "لوازم پخت و پز",
+      "slug": "لوازم-پخت-و-پز",
+      "productCount": 14,
+      "image": "https://digistarkala.ir/shop/storage/products/24/thumbnails/4a8P2CHDdejNDtUjqdtL0jwccts1iJqTOtvobSg8.jpg"
+    },
+    {
+      "id": "سایر-لوازم-برقی",
+      "title": "سایر لوازم برقی",
+      "slug": "سایر-لوازم-برقی",
+      "productCount": 14,
+      "image": "https://digistarkala.ir/shop/storage/products/81/thumbnails/p51RKv3jaKnLVXHCCv9854M2juVYDMUeOwu9u9tS.jpg"
+    },
+    {
+      "id": "تهویه-،-سرمایش-وگرمایش",
+      "title": "تهویه ، سرمایش وگرمایش",
+      "slug": "تهویه-،-سرمایش-وگرمایش",
+      "productCount": 11,
+      "image": "https://digistarkala.ir/shop/storage/products/116/thumbnails/uvXNbejHmDXPbPqSm7iEkEFmUhnp0r2AL2l7awkr.jpg"
+    },
+    {
+      "id": "جارو-برقی",
+      "title": "جارو برقی",
+      "slug": "جارو-برقی",
+      "productCount": 9,
+      "image": "https://digistarkala.ir/shop/storage/products/22/thumbnails/drTP3BXuk9dIQj9XdKlVJFx3VxccQ5engV7ZlFJg.jpg"
+    },
+    {
+      "id": "لوازم-برقی",
+      "title": "لوازم برقی",
+      "slug": "لوازم-برقی",
+      "productCount": 8,
+      "image": "https://digistarkala.ir/shop/storage/products/157/thumbnails/FAEgJsW3hiDw8iHelG5e8FArIxr71CMfz3Sf5vqk.jpg"
+    },
+    {
+      "id": "لوازم-غیر-برقی",
+      "title": "لوازم غیر برقی",
+      "slug": "لوازم-غیر-برقی",
+      "productCount": 6,
+      "image": "https://digistarkala.ir/shop/storage/products/74/thumbnails/uPsnbok67senr2TCpwx9I6pp1CpEJYXNwyFXGXnU.jpg"
+    },
+    {
+      "id": "ابزار-برقی",
+      "title": "ابزار برقی",
+      "slug": "ابزار-برقی",
+      "productCount": 4,
+      "image": "https://digistarkala.ir/shop/storage/products/45/thumbnails/0ibtZn35CQC3mz0HIkSrt9IfLKjE8JuYibkd7Xss.jpg"
+    },
+    {
+      "id": "تجهیزات-پزشکی",
+      "title": "تجهیزات پزشکی",
+      "slug": "تجهیزات-پزشکی",
+      "productCount": 3,
+      "image": "https://digistarkala.ir/shop/storage/products/158/thumbnails/FDruNnouexmDWvB7fpdoeVjYdQnelDPN3tFApsqn.jpg"
+    },
+    {
+      "id": "محصولات-بهداشتی",
+      "title": "محصولات بهداشتی",
+      "slug": "محصولات-بهداشتی",
+      "productCount": 2,
+      "image": "https://digistarkala.ir/shop/storage/products/124/thumbnails/kdZH2GS5qoVNPF6OqnEQsFkS4uixr9gBHccEA0hs.jpg"
+    },
+    {
+      "id": "ابزار-غیر-برقی",
+      "title": "ابزار غیر برقی",
+      "slug": "ابزار-غیر-برقی",
+      "productCount": 1,
+      "image": "https://digistarkala.ir/shop/storage/products/48/thumbnails/gj02IU5ICN5ItXuKvxLBvaWLUrXkHwZgFL6DdStg.jpg"
+    },
+    {
+      "id": "تجهیزات-ورزشی",
+      "title": "تجهیزات ورزشی",
+      "slug": "تجهیزات-ورزشی",
+      "productCount": 1,
+      "image": "https://digistarkala.ir/shop/storage/products/52/thumbnails/hc3lFiQDBJS3zOPUAKnG2J4tUN4oaL7UEMFLTJH0.jpg"
+    }
+  ],
+  "flat": [
+    {
+      "title": "لوازم شخصی برقی",
+      "slug": "لوازم-شخصی-برقی",
+      "productIds": [
+        37,
+        38,
+        39,
+        40,
+        50,
+        75,
+        76,
+        77,
+        78,
+        84,
+        85,
+        86,
+        87,
+        88,
+        91,
+        92,
+        95,
+        97,
+        107,
+        111,
+        122,
+        123,
+        145,
+        146,
+        147,
+        150,
+        179,
+        180,
+        181,
+        182,
+        183,
+        185,
+        186,
+        189,
+        193,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        220,
+        221,
+        222,
+        223,
+        225,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        255,
+        256,
+        257,
+        258,
+        260,
+        262,
+        263,
+        264,
+        266,
+        267,
+        268,
+        276
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/37/thumbnails/drNz3Dijak9NUfbroH1paJLHvI2Gr6SPz1NFmDYh.jpg"
+    },
+    {
+      "title": "لوازم آرایشی",
+      "slug": "لوازم-آرایشی",
+      "productIds": [
+        126,
+        151,
+        152,
+        153,
+        154,
+        155,
+        188,
+        194,
+        195,
+        215,
+        216,
+        217,
+        218,
+        239,
+        240,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        271,
+        272,
+        273,
+        274,
+        275
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/126/thumbnails/efBCLMQi9opdZsUThV6qwGnTMQvu6dhSIBmyplyk.jpg"
+    },
+    {
+      "title": "نوشیدنی ساز",
+      "slug": "نوشیدنی-ساز",
+      "productIds": [
+        25,
+        26,
+        30,
+        31,
+        33,
+        34,
+        79,
+        83,
+        90,
+        108,
+        130,
+        134,
+        136,
+        138,
+        144,
+        160,
+        161,
+        167,
+        169,
+        175,
+        248
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/25/thumbnails/udwsGUIutf6DaoO7VhlgfXiN9F79NgdP42YkUA5Y.jpg"
+    },
+    {
+      "title": "اتو و بخارگر",
+      "slug": "اتو-و-بخارگر",
+      "productIds": [
+        27,
+        28,
+        29,
+        58,
+        59,
+        68,
+        69,
+        71,
+        72,
+        73,
+        93,
+        96,
+        117,
+        131,
+        133,
+        137,
+        140,
+        141,
+        142,
+        237
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/27/thumbnails/xBObnlCJR5ZR5rx3mv1gVyDxvx3FhVMwV4Ne1eB9.jpg"
+    },
+    {
+      "title": "خردکن و غذا ساز",
+      "slug": "خردکن-و-غذا-ساز",
+      "productIds": [
+        32,
+        35,
+        36,
+        44,
+        47,
+        60,
+        61,
+        64,
+        65,
+        66,
+        82,
+        94,
+        101,
+        102,
+        103,
+        114,
+        132,
+        172,
+        187,
+        192
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/32/thumbnails/lJSAygPa1Og7Vfnrfm1LPajh21IRARfL7Aqd4laF.jpg"
+    },
+    {
+      "title": "لوازم پخت و پز",
+      "slug": "لوازم-پخت-و-پز",
+      "productIds": [
+        24,
+        41,
+        55,
+        56,
+        70,
+        100,
+        104,
+        105,
+        106,
+        113,
+        128,
+        149,
+        235,
+        236
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/24/thumbnails/4a8P2CHDdejNDtUjqdtL0jwccts1iJqTOtvobSg8.jpg"
+    },
+    {
+      "title": "سایر لوازم برقی",
+      "slug": "سایر-لوازم-برقی",
+      "productIds": [
+        81,
+        109,
+        110,
+        118,
+        127,
+        129,
+        135,
+        139,
+        143,
+        164,
+        165,
+        173,
+        191,
+        249
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/81/thumbnails/p51RKv3jaKnLVXHCCv9854M2juVYDMUeOwu9u9tS.jpg"
+    },
+    {
+      "title": "تهویه ، سرمایش وگرمایش",
+      "slug": "تهویه-،-سرمایش-وگرمایش",
+      "productIds": [
+        116,
+        162,
+        163,
+        196,
+        197,
+        198,
+        199,
+        200,
+        202,
+        238,
+        269
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/116/thumbnails/uvXNbejHmDXPbPqSm7iEkEFmUhnp0r2AL2l7awkr.jpg"
+    },
+    {
+      "title": "جارو برقی",
+      "slug": "جارو-برقی",
+      "productIds": [
+        22,
+        23,
+        42,
+        53,
+        54,
+        62,
+        89,
+        99,
+        166
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/22/thumbnails/drTP3BXuk9dIQj9XdKlVJFx3VxccQ5engV7ZlFJg.jpg"
+    },
+    {
+      "title": "لوازم برقی",
+      "slug": "لوازم-برقی",
+      "productIds": [
+        157,
+        159,
+        170,
+        171,
+        176,
+        177,
+        178,
+        254
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/157/thumbnails/FAEgJsW3hiDw8iHelG5e8FArIxr71CMfz3Sf5vqk.jpg"
+    },
+    {
+      "title": "لوازم غیر برقی",
+      "slug": "لوازم-غیر-برقی",
+      "productIds": [
+        74,
+        80,
+        184,
+        250,
+        251,
+        253
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/74/thumbnails/uPsnbok67senr2TCpwx9I6pp1CpEJYXNwyFXGXnU.jpg"
+    },
+    {
+      "title": "ابزار برقی",
+      "slug": "ابزار-برقی",
+      "productIds": [
+        45,
+        46,
+        51,
+        270
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/45/thumbnails/0ibtZn35CQC3mz0HIkSrt9IfLKjE8JuYibkd7Xss.jpg"
+    },
+    {
+      "title": "تجهیزات پزشکی",
+      "slug": "تجهیزات-پزشکی",
+      "productIds": [
+        158,
+        212,
+        213
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/158/thumbnails/FDruNnouexmDWvB7fpdoeVjYdQnelDPN3tFApsqn.jpg"
+    },
+    {
+      "title": "محصولات بهداشتی",
+      "slug": "محصولات-بهداشتی",
+      "productIds": [
+        124,
+        125
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/124/thumbnails/kdZH2GS5qoVNPF6OqnEQsFkS4uixr9gBHccEA0hs.jpg"
+    },
+    {
+      "title": "ابزار غیر برقی",
+      "slug": "ابزار-غیر-برقی",
+      "productIds": [
+        48
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/48/thumbnails/gj02IU5ICN5ItXuKvxLBvaWLUrXkHwZgFL6DdStg.jpg"
+    },
+    {
+      "title": "تجهیزات ورزشی",
+      "slug": "تجهیزات-ورزشی",
+      "productIds": [
+        52
+      ],
+      "image": "https://digistarkala.ir/shop/storage/products/52/thumbnails/hc3lFiQDBJS3zOPUAKnG2J4tUN4oaL7UEMFLTJH0.jpg"
+    }
+  ]
+}

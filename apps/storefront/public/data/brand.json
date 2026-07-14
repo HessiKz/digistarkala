@@ -1,0 +1,808 @@
+{
+  "generatedAt": "2026-07-14T00:23:39.200Z",
+  "source": "https://digistarkala.ir",
+  "name": "دیجی استار کالا",
+  "logo": {
+    "favicon": "https://digistarkala.ir/shop/favicon.ico",
+    "header": "https://digistarkala.ir/shop/storage/images/36bdad89effa0a80020a77aeaa4feeb5.png",
+    "footer": "https://digistarkala.ir/shop/storage/images/d63a36dd3592357bcb7014e8b3527a02.png"
+  },
+  "menuTop": [
+    {
+      "id": 1,
+      "title": "دسته بندی محصولات",
+      "url": "/products"
+    },
+    {
+      "id": 78,
+      "title": "سایر خدمات",
+      "url": "#"
+    },
+    {
+      "id": 13,
+      "title": "شگفت انگیز ها",
+      "url": "/products?incredible_offers=true&page=1"
+    },
+    {
+      "id": 82,
+      "title": "فروش اقساطی",
+      "url": "/pages/%D9%81%D8%B1%D9%88%D8%B4-%D8%A7%D9%82%D8%B3%D8%A7%D8%B7%DB%8C"
+    },
+    {
+      "id": 14,
+      "title": "فروشنده شو ..!",
+      "url": "/pages/%D8%AF%DB%8C%D8%AC%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D8%B1-%DA%A9%D8%A7%D9%84%D8%A7"
+    },
+    {
+      "id": 12,
+      "title": "سوالات متداول",
+      "url": "/faq"
+    },
+    {
+      "id": 11,
+      "title": "درباره ما",
+      "url": "/about"
+    },
+    {
+      "id": 10,
+      "title": "تماس با ما",
+      "url": "/contact"
+    }
+  ],
+  "social": [
+    {
+      "id": 3,
+      "title": "تلگرام",
+      "link": "https://t.me/digistarkala",
+      "logo": "https://digistarkala.ir/shop/storage/social_networks_logos/lNNPQuh0bwRbHWzm6TmeUWlUAV5eieChTbaQ0Ma8.png"
+    },
+    {
+      "id": 5,
+      "title": "whatsapp",
+      "link": "https://wa.me/message/QOMFM5SHREVUM1",
+      "logo": "https://digistarkala.ir/shop/storage/social_networks_logos/SNdNLkgvx7p0tPrJYafZTIKBcL7s1XGfYLZI4bJO.png"
+    },
+    {
+      "id": 6,
+      "title": "instagram",
+      "link": "https://www.instagram.com/digistarkala",
+      "logo": "https://digistarkala.ir/shop/storage/social_networks_logos/C99mO29pkwDIaDLPyWUNAUYGGnZNHDo9EjvwAaGI.png"
+    }
+  ],
+  "contacts": {
+    "phone": [
+      "02188813274"
+    ],
+    "mobile": [
+      "09046068538",
+      "09966010115"
+    ],
+    "email": "digistarkala@gmail.com",
+    "address": "تهران میدان فردوسی ابتدای ایرانشهر جنوبی",
+    "postalcode": null
+  },
+  "namads": [
+    {
+      "id": 1,
+      "name": "نشان ملی ثبت",
+      "image": "https://digistarkala.ir/shop/storage/namads/samandehi.png"
+    },
+    {
+      "id": 2,
+      "name": "نماد کسب و کار های مجازی",
+      "image": "https://digistarkala.ir/shop/storage/namads/kasbokar_majazi.png"
+    },
+    {
+      "id": 3,
+      "name": "نماد اعتماد الکترونیک",
+      "image": "https://trustseal.enamad.ir/logo.aspx?id=650685&Code=7zB9VuxeLGDVXtKmMktvOTaoLuqmSDv1"
+    },
+    {
+      "id": 4,
+      "name": "درگاه آقای پرداخت",
+      "image": "https://panel.aqayepardakht.ir/trustlogo/1.svg"
+    }
+  ],
+  "guarantees": [
+    {
+      "title": "ضمانت 7 روزه بازگشت کالا",
+      "description": "ضمانت",
+      "logo": "https://digistarkala.ir/shop/storage/guarantees_logos/QUmnfSILyNCFk72UKK9fkW0uSPrRWNnr32zc7T5Y.svg",
+      "link": "#"
+    },
+    {
+      "title": "پرداخت امن",
+      "description": "، اطلاعات پرداخت شما به صورت امن توسط سیستم‌های رمزنگاری پیشرفته محافظت می‌شود.",
+      "logo": "https://digistarkala.ir/shop/storage/guarantees_logos/3DZGdw1kSZpD4duLcen58iMhkwKbBmlimOWR58cG.svg",
+      "link": "#"
+    },
+    {
+      "title": "ارسال سریع",
+      "description": "از طریق خدمات ارسال سریع ما، می‌توانید سفارش خود را با سرعت بالا دریافت کنید.",
+      "logo": "https://digistarkala.ir/shop/storage/guarantees_logos/EPrMTZj5NOx33k7GfzQUbV1aw8uMk6UzStofBzOv.svg",
+      "link": "#"
+    },
+    {
+      "title": "پشتیبانی 24 ساعته",
+      "description": "اعتبار و رضایت شما برای ما بسیار ارزشمند است و ما به ارائه خدمات به شما افتخار می‌کنیم.",
+      "logo": "https://digistarkala.ir/shop/storage/guarantees_logos/uKxFzymyEFPJSlXrOzLDZqNbDn3EdYUFytNIHvBt.svg",
+      "link": "#"
+    }
+  ],
+  "footerAbout": {
+    "title": "درباره فروشگاه",
+    "body": "فروشگاه دیجی استار کالا با تنوع هزاران کالا در دسته‌بندیهای متفاوت، خرید آنلاین را برای شما در سراسر کشور امکان‌پذیر کرده است و تجربه خریدی آسان و دلپذیر را برایتان فراهم می کند. می توانید در هرجای ایران عزیزمان، از تخفیف های باور نکردنی ما بهره برده سفارش خود را در سایت ثبت و منتظر دریافت کالای خود باشید. از طریق روش های ارسال متنوع ما سفارش شما در اولین فرصت درب منزل در اختیارتان قرار داده می شود.<br />\r\nیک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی \"متنوع\"، \"باکیفیت\" و دارای \"قیمت مناسب\" را در مدت \"زمان ی کوتاه\" به دست مشتریان خود برساند . این ویژگی‌ها جزوء اولویت های اصلی دیجی استار کالا بوده و رسالت و تعهد ماست به شما .<br />\r\nطرح تکریم ارباب رجوع<br />\r\nمشتریان و بازدیدکنندگان گرامی ، چنانچه نیاز به محصول خاصی در زمینه کالاهای برقی خانه و آشپزخانه ، یا برند خاص و یاکالاهای متعارف دیگر داشته باشید که در تنوع هزاران محصول ما نباشد میتوانید درخواست خود را با کارشناسان این مجموعه مطرح نموده تا در اسرع وقت و پس از بررسی های لازم قیمت و اطلاعات لازم را در اختیارتان قرار دهند ."
+  },
+  "currency": "تومان",
+  "logoPalette": {
+    "hue": 17,
+    "accent": "hsl(17 85% 48%)",
+    "accentSoft": "hsla(17, 85%, 50%, 0.14)",
+    "accentDim": "hsl(17 85% 38%)",
+    "glow": "hsla(17, 85%, 55%, 0.22)",
+    "meshA": "hsla(17, 85%, 50%, 0.18)",
+    "meshB": "hsla(57, 55%, 45%, 0.1)",
+    "accentLight": "hsl(17 80% 42%)"
+  },
+  "menus": {
+    "top": [
+      {
+        "id": 1,
+        "title": "دسته بندی محصولات",
+        "link": "/products",
+        "icon": null,
+        "isMega": false,
+        "newTab": false,
+        "children": [
+          {
+            "id": 122,
+            "title": "لوازم برقی خانه و آشپزخانه",
+            "link": "/products/categories/خانه-و-آشپزخانه",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": [
+              {
+                "id": 123,
+                "title": "لوازم پخت وپز",
+                "link": "/products/categories/لوازم-پخت-وپز",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 124,
+                "title": "جارو برقی",
+                "link": "/products/categories/جارو-برقی",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 125,
+                "title": "خردکن و غذا ساز",
+                "link": "/products/categories/خردکن-و-غذا-ساز",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 126,
+                "title": "نوشیدنی ساز",
+                "link": "/products/categories/نوشیدنی-ساز",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 127,
+                "title": "اتو و بخارگر",
+                "link": "/products/categories/اتو-و-بخارگر",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 128,
+                "title": "تهویه ، سرمایش وگرمایش",
+                "link": "/products/categories/تهویه-سرمایش-وگرمایش",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 129,
+                "title": "سایر لوازم برقی",
+                "link": "/products/categories/سایر-لوازم-برقی",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 130,
+            "title": "ابزارآلات وتجهیزات",
+            "link": "/products/categories/ابزارآلات-وتجهیزات",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": [
+              {
+                "id": 131,
+                "title": "ابزار برقی",
+                "link": "/products/categories/ابزار-برقی",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 132,
+                "title": "ابزار غیر برقی",
+                "link": "/products/categories/ابزار-غیر-برقی",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 133,
+            "title": "آرایشی و بهداشتی",
+            "link": "/products/categories/آرایشی-و-بهداشتی",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": [
+              {
+                "id": 134,
+                "title": "محصولات آرایشی",
+                "link": "/products/categories/لوازم-آرایشی",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 135,
+                "title": "عطر و ادکلن",
+                "link": "/products/categories/عطر-و-ادکلن",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 136,
+                "title": "محصولات بهداشتی",
+                "link": "/products/categories/لوازم-بهداشتی",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 137,
+                "title": "لوازم شخصی برقی",
+                "link": "/products/categories/لوازم-شخصی-برقی",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 138,
+            "title": "تجهیزات پزشکی وسلامت",
+            "link": "/products/categories/تجهیزات-پزشکی-وسلامت",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": [
+              {
+                "id": 139,
+                "title": "تجهیزات پزشکی",
+                "link": "/products/categories/تجهیزات-پزشکی",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 140,
+                "title": "تجهیزات ورزشی",
+                "link": "/products/categories/تجهیزات-ورزشی",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 141,
+            "title": "موبایل و لوازم جانبی",
+            "link": "/products/categories/موبایل-و-لوازم-جانبی",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": [
+              {
+                "id": 142,
+                "title": "گوشی موبایل",
+                "link": "/products/categories/گوشی",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 143,
+                "title": "لوازم جانبی موبایل",
+                "link": "/products/categories/لوازم-جانبی-موبایل",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 144,
+                "title": "تبلت",
+                "link": "/products/categories/تبلت",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 145,
+                "title": "هدفون و هنزفری",
+                "link": "/products/categories/هدفون",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 146,
+                "title": "ساعت و مچ بند هوشمند",
+                "link": "/products/categories/ساعت-و-مچ-بند-هوشمند",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 147,
+            "title": "طلا و نقره",
+            "link": "/products/categories/طلا-و-نقره",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": [
+              {
+                "id": 148,
+                "title": "شمش",
+                "link": "/products/categories/شمش",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 149,
+                "title": "سکه",
+                "link": "/products/categories/سکه",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 150,
+                "title": "پلاک",
+                "link": "/products/categories/پلاک",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 151,
+                "title": "طلا آب شده",
+                "link": "/products/categories/طلا-آب-شده",
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 152,
+                "title": "زیور آلات",
+                "link": null,
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 153,
+            "title": "سایر کالاها",
+            "link": "/products/categories/سایر-کالاها",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": [
+              {
+                "id": 154,
+                "title": "لوازم برقی",
+                "link": null,
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              },
+              {
+                "id": 155,
+                "title": "لوازم غیر برقی",
+                "link": null,
+                "icon": null,
+                "isMega": false,
+                "newTab": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "title": "سایر خدمات",
+        "link": null,
+        "icon": null,
+        "isMega": false,
+        "newTab": false,
+        "children": [
+          {
+            "id": 83,
+            "title": "وارادت عمده کالا",
+            "link": "/pages/واردات-عمده-کالا",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": []
+          },
+          {
+            "id": 84,
+            "title": "طرح ارزش آفرین (سرمایه گذاری به منظور حفظ ارزش پول)",
+            "link": "/pages/طرح-ارزش-آفرین",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": []
+          },
+          {
+            "id": 85,
+            "title": "طرح جایگزینی (تعویض کالای نو شما با کالاهای موجود در دیجی استار کالا)",
+            "link": "/pages/طرح-جایگزینی",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": []
+          },
+          {
+            "id": 86,
+            "title": "طرح پذیرش ایده های نوین اقتصادی و مشارکت",
+            "link": "/pages/طرح-پذیرش-ایده-های-نوین-اقتصادی-و-مشارکت",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "title": "شگفت انگیز ها",
+        "link": "/products?incredible_offers=true&page=1",
+        "icon": null,
+        "isMega": false,
+        "newTab": false,
+        "children": []
+      },
+      {
+        "id": 82,
+        "title": "فروش اقساطی",
+        "link": "/pages/%D9%81%D8%B1%D9%88%D8%B4-%D8%A7%D9%82%D8%B3%D8%A7%D8%B7%DB%8C",
+        "icon": null,
+        "isMega": false,
+        "newTab": false,
+        "children": []
+      },
+      {
+        "id": 14,
+        "title": "فروشنده شو ..!",
+        "link": "/pages/%D8%AF%DB%8C%D8%AC%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D8%B1-%DA%A9%D8%A7%D9%84%D8%A7",
+        "icon": "https://digistarkala.ir/shop/storage/icons/p2brIAHFz4gNdR1B3x3lopX2LG0rU3aRGyhLDUdF.png",
+        "isMega": false,
+        "newTab": false,
+        "children": []
+      },
+      {
+        "id": 12,
+        "title": "سوالات متداول",
+        "link": "/faq",
+        "icon": null,
+        "isMega": false,
+        "newTab": false,
+        "children": []
+      },
+      {
+        "id": 11,
+        "title": "درباره ما",
+        "link": "/about",
+        "icon": null,
+        "isMega": false,
+        "newTab": false,
+        "children": []
+      },
+      {
+        "id": 10,
+        "title": "تماس با ما",
+        "link": "/contact",
+        "icon": null,
+        "isMega": false,
+        "newTab": false,
+        "children": []
+      }
+    ],
+    "footer": [
+      {
+        "title": "تماس با ما",
+        "link": null,
+        "icon": null,
+        "isMega": false,
+        "newTab": false,
+        "children": [
+          {
+            "title": "درباره ما",
+            "link": "/about",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": []
+          },
+          {
+            "title": "تماس با ما",
+            "link": "/contact",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": []
+          },
+          {
+            "title": "فروشگاه دیجی استار کالا",
+            "link": "/about",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "خدمات مشتریان",
+        "link": null,
+        "icon": null,
+        "isMega": false,
+        "newTab": false,
+        "children": [
+          {
+            "title": "سوالات متداول",
+            "link": "/faq",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": []
+          },
+          {
+            "title": "حریم خصوصی",
+            "link": "/privacy",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": []
+          },
+          {
+            "title": "شرایط و قوانین استفاده",
+            "link": "/terms",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": []
+          },
+          {
+            "title": "روش های پرداخت",
+            "link": "/pages/روش-های-پرداخت",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "دسترسی سریع",
+        "link": null,
+        "icon": null,
+        "isMega": false,
+        "newTab": false,
+        "children": [
+          {
+            "title": "صفحه اول",
+            "link": "/",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": []
+          },
+          {
+            "title": "وبلاگ",
+            "link": "/blog",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": []
+          },
+          {
+            "title": "شگفت انگیزها",
+            "link": "/products?incredible_offers=true",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": []
+          },
+          {
+            "title": "پشتیبانی",
+            "link": "/profile/tickets",
+            "icon": null,
+            "isMega": false,
+            "newTab": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "menuFooter": [
+    {
+      "title": "تماس با ما",
+      "link": null,
+      "icon": null,
+      "isMega": false,
+      "newTab": false,
+      "children": [
+        {
+          "title": "درباره ما",
+          "link": "/about",
+          "icon": null,
+          "isMega": false,
+          "newTab": false,
+          "children": []
+        },
+        {
+          "title": "تماس با ما",
+          "link": "/contact",
+          "icon": null,
+          "isMega": false,
+          "newTab": false,
+          "children": []
+        },
+        {
+          "title": "فروشگاه دیجی استار کالا",
+          "link": "/about",
+          "icon": null,
+          "isMega": false,
+          "newTab": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "خدمات مشتریان",
+      "link": null,
+      "icon": null,
+      "isMega": false,
+      "newTab": false,
+      "children": [
+        {
+          "title": "سوالات متداول",
+          "link": "/faq",
+          "icon": null,
+          "isMega": false,
+          "newTab": false,
+          "children": []
+        },
+        {
+          "title": "حریم خصوصی",
+          "link": "/privacy",
+          "icon": null,
+          "isMega": false,
+          "newTab": false,
+          "children": []
+        },
+        {
+          "title": "شرایط و قوانین استفاده",
+          "link": "/terms",
+          "icon": null,
+          "isMega": false,
+          "newTab": false,
+          "children": []
+        },
+        {
+          "title": "روش های پرداخت",
+          "link": "/pages/روش-های-پرداخت",
+          "icon": null,
+          "isMega": false,
+          "newTab": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "دسترسی سریع",
+      "link": null,
+      "icon": null,
+      "isMega": false,
+      "newTab": false,
+      "children": [
+        {
+          "title": "صفحه اول",
+          "link": "/",
+          "icon": null,
+          "isMega": false,
+          "newTab": false,
+          "children": []
+        },
+        {
+          "title": "وبلاگ",
+          "link": "/blog",
+          "icon": null,
+          "isMega": false,
+          "newTab": false,
+          "children": []
+        },
+        {
+          "title": "شگفت انگیزها",
+          "link": "/products?incredible_offers=true",
+          "icon": null,
+          "isMega": false,
+          "newTab": false,
+          "children": []
+        },
+        {
+          "title": "پشتیبانی",
+          "link": "/profile/tickets",
+          "icon": null,
+          "isMega": false,
+          "newTab": false,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

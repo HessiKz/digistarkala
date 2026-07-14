@@ -1,0 +1,513 @@
+{
+  "generatedAt": "2026-07-14T00:23:39.209Z",
+  "title": "دیجی استار کالا",
+  "hero": {
+    "headline": "بخر، بخند و زندگی کن",
+    "subtext": "فروشگاه دیجی استار کالا با تنوع هزاران کالا در دسته‌بندیهای متفاوت، خرید آنلاین را برای شما در سراسر کشور امکان‌پذیر کرد",
+    "image": "https://digistarkala.ir/shop/storage/sliders/%D8%A8%D8%AE%D8%B1%D8%8C%D8%A8%D8%AE%D9%86%D8%AF%20%D9%88%20%D8%B2%D9%86%D8%AF%DA%AF%DB%8C%20%DA%A9%D9%86.jpg",
+    "ctaPrimary": "مشاهده محصولات",
+    "ctaSecondary": "کالاهای موجود"
+  },
+  "sliders": [
+    {
+      "id": "2f437e04-f8ea-4fc8-8096-3ecbf5654037",
+      "title": "بخر، بخند و زندگی کن",
+      "url": "/products",
+      "image": "https://digistarkala.ir/shop/storage/sliders/%D8%A8%D8%AE%D8%B1%D8%8C%D8%A8%D8%AE%D9%86%D8%AF%20%D9%88%20%D8%B2%D9%86%D8%AF%DA%AF%DB%8C%20%DA%A9%D9%86.jpg",
+      "mobileImage": "https://digistarkala.ir/shop/storage/sliders/M.webp",
+      "position": 0,
+      "palette": {
+        "hue": 209,
+        "accent": "hsl(209 66% 48%)",
+        "accentSoft": "hsla(209, 66%, 50%, 0.14)",
+        "accentDim": "hsl(209 66% 38%)",
+        "glow": "hsla(209, 66%, 55%, 0.22)",
+        "meshA": "hsla(209, 66%, 50%, 0.18)",
+        "meshB": "hsla(249, 55%, 45%, 0.1)",
+        "accentLight": "hsl(209 71% 42%)"
+      }
+    },
+    {
+      "id": "31e2fbb3-1551-4eea-bac6-cc5d33978d8a",
+      "title": "فروشنده شو",
+      "url": "/pages/دیجی-استار-کالا",
+      "image": "https://digistarkala.ir/shop/storage/sliders/S3.webp",
+      "mobileImage": "https://digistarkala.ir/shop/storage/sliders/M3.webp",
+      "position": 1,
+      "palette": {
+        "hue": 230,
+        "accent": "hsl(230 84% 48%)",
+        "accentSoft": "hsla(230, 84%, 50%, 0.14)",
+        "accentDim": "hsl(230 84% 38%)",
+        "glow": "hsla(230, 84%, 55%, 0.22)",
+        "meshA": "hsla(230, 84%, 50%, 0.18)",
+        "meshB": "hsla(270, 55%, 45%, 0.1)",
+        "accentLight": "hsl(230 80% 42%)"
+      }
+    },
+    {
+      "id": "37445d29-7f56-4bea-958c-5a84185e4330",
+      "title": "فروش اقساطی",
+      "url": "/pages/فروش-اقساطی",
+      "image": "https://digistarkala.ir/shop/storage/sliders/S2.webp",
+      "mobileImage": "https://digistarkala.ir/shop/storage/sliders/M2.webp",
+      "position": 2,
+      "palette": {
+        "hue": 86,
+        "accent": "hsl(86 45% 48%)",
+        "accentSoft": "hsla(86, 45%, 50%, 0.14)",
+        "accentDim": "hsl(86 45% 38%)",
+        "glow": "hsla(86, 45%, 55%, 0.22)",
+        "meshA": "hsla(86, 45%, 50%, 0.18)",
+        "meshB": "hsla(126, 55%, 45%, 0.1)",
+        "accentLight": "hsl(86 50% 42%)"
+      }
+    }
+  ],
+  "banners": [
+    {
+      "id": 24,
+      "title": "بنر2",
+      "url": "https://digistarkala.ir/products?brands[]=KOMATSU",
+      "image": "https://digistarkala.ir/shop/storage/banners/B3.jpg",
+      "mobileImage": "https://digistarkala.ir/shop/storage/banners/B3.jpg",
+      "palette": {
+        "hue": 222,
+        "accent": "hsl(222 53% 48%)",
+        "accentSoft": "hsla(222, 53%, 50%, 0.14)",
+        "accentDim": "hsl(222 53% 38%)",
+        "glow": "hsla(222, 53%, 55%, 0.22)",
+        "meshA": "hsla(222, 53%, 50%, 0.18)",
+        "meshB": "hsla(262, 55%, 45%, 0.1)",
+        "accentLight": "hsl(222 58% 42%)"
+      }
+    },
+    {
+      "id": 25,
+      "title": "بنر1",
+      "url": "/products/categories/طلا-و-نقره",
+      "image": "https://digistarkala.ir/shop/storage/banners/B1.jpg",
+      "mobileImage": null,
+      "palette": {
+        "hue": 47,
+        "accent": "hsl(47 65% 48%)",
+        "accentSoft": "hsla(47, 65%, 50%, 0.14)",
+        "accentDim": "hsl(47 65% 38%)",
+        "glow": "hsla(47, 65%, 55%, 0.22)",
+        "meshA": "hsla(47, 65%, 50%, 0.18)",
+        "meshB": "hsla(87, 55%, 45%, 0.1)",
+        "accentLight": "hsl(47 70% 42%)"
+      }
+    },
+    {
+      "id": 28,
+      "title": "بنر4",
+      "url": "https://digistarkala.ir/products/categories/%D9%86%D9%88%D8%B4%DB%8C%D8%AF%D9%86%DB%8C-%D8%B3%D8%A7%D8%B2",
+      "image": "https://digistarkala.ir/shop/storage/banners/B4.jpg",
+      "mobileImage": null,
+      "palette": {
+        "hue": 29,
+        "accent": "hsl(29 40% 48%)",
+        "accentSoft": "hsla(29, 40%, 50%, 0.14)",
+        "accentDim": "hsl(29 40% 38%)",
+        "glow": "hsla(29, 40%, 55%, 0.22)",
+        "meshA": "hsla(29, 40%, 50%, 0.18)",
+        "meshB": "hsla(69, 55%, 45%, 0.1)",
+        "accentLight": "hsl(29 45% 42%)"
+      }
+    },
+    {
+      "id": 29,
+      "title": "بنر3",
+      "url": "/products/categories/جارو-برقی",
+      "image": "https://digistarkala.ir/shop/storage/banners/B2.jpg",
+      "mobileImage": null,
+      "palette": {
+        "hue": 37,
+        "accent": "hsl(37 85% 48%)",
+        "accentSoft": "hsla(37, 85%, 50%, 0.14)",
+        "accentDim": "hsl(37 85% 38%)",
+        "glow": "hsla(37, 85%, 55%, 0.22)",
+        "meshA": "hsla(37, 85%, 50%, 0.18)",
+        "meshB": "hsla(77, 55%, 45%, 0.1)",
+        "accentLight": "hsl(37 80% 42%)"
+      }
+    }
+  ],
+  "brands": [
+    {
+      "id": 21,
+      "name": "کوماتسو",
+      "enName": "KOMATSU",
+      "logo": "https://digistarkala.ir/shop/storage/brands/logos/R7D3Rv6Vmq36aZq0akKLjhQaZXuL3ZiL5d3nRTYQ.png",
+      "uri": "/products?brands[]=KOMATSU"
+    },
+    {
+      "id": 56,
+      "name": "وی جی آر",
+      "enName": "VGR",
+      "logo": "https://digistarkala.ir/shop/storage/brands/logos/1KJiYtpZszWUeGsHaOSBOurczh87suQpKMJEsI7j.png",
+      "uri": "/products?brands[]=VGR"
+    },
+    {
+      "id": 68,
+      "name": "تلیونیکس",
+      "enName": "Telionix",
+      "logo": "https://digistarkala.ir/shop/storage/brands/logos/V64kfSih2BjTxs2XpQlcH2zLEyLa7bwAUgnd1Ce9.png",
+      "uri": "/products?brands[]=Telionix"
+    },
+    {
+      "id": 72,
+      "name": "انزو",
+      "enName": "enzo",
+      "logo": "https://digistarkala.ir/shop/storage/brands/logos/Mu3cWJOHlnYWQIznBRtziINDBO7srUjXUrNWEGRC.jpg",
+      "uri": "/products?brands[]=enzo"
+    },
+    {
+      "id": 69,
+      "name": "جیپاس",
+      "enName": "GEEPAS",
+      "logo": "https://digistarkala.ir/shop/storage/brands/logos/ZnFC4JSHQkEkSfPOtqf117s1GCVscRkdFbBIMNsp.jpg",
+      "uri": "/products?brands[]=GEEPAS"
+    },
+    {
+      "id": 67,
+      "name": "شیگلم",
+      "enName": "SHIGLEM",
+      "logo": "https://digistarkala.ir/shop/storage/brands/logos/skxwZuXQyMmAPeHP7H4GvLVcbGzdyQq3g1jaiBTt.jpg",
+      "uri": "/products?brands[]=SHIGLEM"
+    },
+    {
+      "id": 17,
+      "name": "پاناسونیک",
+      "enName": "panasonic",
+      "logo": "https://digistarkala.ir/shop/storage/brands/logos/8NdCq1eH2wsDR4hybHZboGpVC7tcjUsU3sdN93BG.png",
+      "uri": "/products?brands[]=panasonic"
+    },
+    {
+      "id": 71,
+      "name": "لایت ویو",
+      "enName": "LIGHT WAVE",
+      "logo": "https://digistarkala.ir/shop/storage/brands/logos/rSag71zQt5wS6xDkPNU7P8pdLWn39PlUGMz5PztF.jpg",
+      "uri": "/products?brands[]=LIGHT WAVE"
+    },
+    {
+      "id": 19,
+      "name": "شیائومی",
+      "enName": "xiaomi",
+      "logo": "https://digistarkala.ir/shop/storage/brands/logos/PFpYYm1uoLlCYvJw9BMR4DjpNLVpISCseTmgFFYp.png",
+      "uri": "/products?brands[]=xiaomi"
+    },
+    {
+      "id": 70,
+      "name": "دی اس پی",
+      "enName": "DSP",
+      "logo": "https://digistarkala.ir/shop/storage/brands/logos/VUGHQj19mTDX0fjANfUWxstRgxArnaP0AYl3DBcV.png",
+      "uri": "/products?brands[]=DSP"
+    },
+    {
+      "id": 16,
+      "name": "آدیداس",
+      "enName": "ADIDAS",
+      "logo": "https://digistarkala.ir/shop/storage/brands/logos/DRqBmqSlojBP95RLwuzasNkt7gBBD5zjTljFJLgi.png",
+      "uri": "/products?brands[]=ADIDAS"
+    },
+    {
+      "id": 18,
+      "name": "ال جی",
+      "enName": "LG",
+      "logo": "https://digistarkala.ir/shop/storage/brands/logos/2jZMpjMIxeDAVclOGvn5s7uDYPzZlS4ZsUUnk3ez.png",
+      "uri": "/products?brands[]=LG"
+    },
+    {
+      "id": 20,
+      "name": "تفال",
+      "enName": "tefal",
+      "logo": "https://digistarkala.ir/shop/storage/brands/logos/s6JTygKyZdlESc6e8SZ9JS6cVn0BieMEqmVsz1AL.png",
+      "uri": "/products?brands[]=tefal"
+    },
+    {
+      "id": 15,
+      "name": "اپل",
+      "enName": "APPLE",
+      "logo": "https://digistarkala.ir/shop/storage/brands/logos/Cec0xSalVKafAq58p9P92I2MK91dU1VKH5Pd6CrZ.png",
+      "uri": "/products?brands[]=APPLE"
+    },
+    {
+      "id": 22,
+      "name": "ایمپکس",
+      "enName": "IMPEX",
+      "logo": "https://digistarkala.ir/shop/storage/brands/logos/oASOveU46NCYo58Wtokv4abnoR8SoxFkExB9MWXK.png",
+      "uri": "/products?brands[]=IMPEX"
+    }
+  ],
+  "articles": [
+    {
+      "id": 6,
+      "title": "نکات مهمی که هنگام خرید سرخ کن بدون روغن باید بدانید",
+      "description": "امروزه سرخ کن‌ها به دلیل افزایش سرعت در پخت غذا و یک دست سرخ شدن مواد غذایی که به همراه می‌آورند، طرفداران زیادی را در منازل و همینطور رستوران‌های مدرن پیدا کرده‌اند. اما قبل از هر چیز باید نسبت به ابعاد و مدل‌های موجود سرخ کن همچنین عوامل تاثیر گذار در شناخت بهترین سرخ کن آگاهی لازم را پیدا کنید.",
+      "image": "https://digistarkala.ir/shop/storage/blog/DwiQqWtLAGMz7u76V2YHloKZ0uxinVr7CDd8S4yC.webp"
+    },
+    {
+      "id": 5,
+      "title": "راهنمای خرید و نگهداری لوازم خانگی",
+      "description": "راهنمای جامع خرید و نگهداری لوازم خانگی ضروری. از انتخاب بهترین سرخ کن و آبمیوه گیری تا نکات مراقبت از جاروبرقی و اتو بخار. با ما، آشپزی و نظافت را آسان‌تر و لذت‌بخش‌تر کنید.",
+      "image": "https://digistarkala.ir/shop/storage/blog/JMCDKwmWrsC1RtbFtkgtARz1gEtmfTMuYb1OzzlX.jpg"
+    }
+  ],
+  "productSections": [
+    {
+      "id": 30,
+      "title": "محبوب‌ترین محصولات",
+      "description": "محبوب از نگاه کاربران",
+      "url": "https://digistarkala.ir/products?sort_by=most-views",
+      "productIds": [
+        181,
+        204,
+        150,
+        26,
+        91,
+        195,
+        22,
+        132,
+        188,
+        180
+      ]
+    },
+    {
+      "id": 31,
+      "title": "پرفروش‌ترین محصولات",
+      "description": "پرفروش‌ترین محصولات فروشگاه",
+      "url": "https://digistarkala.ir/products?sort_by=most-sold",
+      "productIds": [
+        150,
+        204,
+        211,
+        209,
+        249,
+        165,
+        215,
+        124,
+        132,
+        181
+      ]
+    }
+  ],
+  "specialOffers": [
+    {
+      "id": 27,
+      "title": "پیشنهاد شگفت‌انگیز",
+      "description": "تضمین بهترین قیمت در سطح کشور",
+      "url": "https://digistarkala.ir/products?has_discount=1&sort_by=newest",
+      "productIds": [
+        276,
+        256,
+        202,
+        113,
+        89
+      ]
+    }
+  ],
+  "categorySections": [
+    {
+      "id": 26,
+      "title": "دسته بندی محصولات",
+      "description": "جدید‌ترین محصولات فروشگاه",
+      "items": [
+        {
+          "id": 12,
+          "title": "خانه و آشپزخانه",
+          "slug": "خانه-و-آشپزخانه",
+          "icon": "https://digistarkala.ir/shop/storage/categories/hznUXQzC2wLjCb9jmymQwXKjrcPUIP9SyKNEQPEJ.jpg",
+          "uri": "/products/categories/خانه-و-آشپزخانه",
+          "productIds": [
+            269,
+            249,
+            248,
+            238,
+            237,
+            236,
+            235,
+            202,
+            198,
+            197
+          ]
+        },
+        {
+          "id": 13,
+          "title": "ابزارآلات وتجهیزات",
+          "slug": "ابزارآلات-وتجهیزات",
+          "icon": "https://digistarkala.ir/shop/storage/categories/n7v0JF71I2CU7hnl89vnLYXy7YbhYm1LfNiRqsYJ.jpg",
+          "uri": "/products/categories/ابزارآلات-وتجهیزات",
+          "productIds": [
+            270,
+            51,
+            48,
+            46,
+            45
+          ]
+        },
+        {
+          "id": 14,
+          "title": "آرایشی و بهداشتی",
+          "slug": "آرایشی-و-بهداشتی",
+          "icon": "https://digistarkala.ir/shop/storage/categories/KS0OHHdEp3VmCWIboocP6AB71AlIjxQrStKCNt7i.jpg",
+          "uri": "/products/categories/آرایشی-و-بهداشتی",
+          "productIds": [
+            276,
+            275,
+            274,
+            273,
+            272,
+            271,
+            268,
+            267,
+            266,
+            264
+          ]
+        },
+        {
+          "id": 15,
+          "title": "تجهیزات پزشکی وسلامت",
+          "slug": "تجهیزات-پزشکی-وسلامت",
+          "icon": "https://digistarkala.ir/shop/storage/categories/Jxm8rboRyvdWLUwyOiiEnFQLBonlgAWLo2GUcjm3.jpg",
+          "uri": "/products/categories/تجهیزات-پزشکی-وسلامت",
+          "productIds": [
+            264,
+            212,
+            208,
+            213,
+            205,
+            186,
+            158,
+            52
+          ]
+        },
+        {
+          "id": 36,
+          "title": "موبایل و لوازم جانبی",
+          "slug": "موبایل-و-لوازم-جانبی",
+          "icon": "https://digistarkala.ir/shop/storage/categories/rDWnj8m1xgl35ECBwPaFFDKWFxQsElxleyJjkiqu.jpg",
+          "uri": "/products/categories/موبایل-و-لوازم-جانبی",
+          "productIds": [
+            159
+          ]
+        },
+        {
+          "id": 17,
+          "title": "سایر کالاها",
+          "slug": "سایر-کالاها",
+          "icon": "https://digistarkala.ir/shop/storage/categories/jvlZHTNDY1XY7xpGc1CK6lWIviLvUtk56SpF6UrK.jpg",
+          "uri": "/products/categories/سایر-کالاها",
+          "productIds": [
+            269,
+            268,
+            267,
+            266,
+            254,
+            253,
+            251,
+            249,
+            238,
+            227
+          ]
+        }
+      ]
+    }
+  ],
+  "featuredProductIds": [
+    276,
+    256,
+    202,
+    113,
+    89,
+    181,
+    204,
+    150,
+    26,
+    91,
+    195,
+    22
+  ],
+  "categoryHighlights": [
+    {
+      "title": "خانه و آشپزخانه",
+      "slug": "خانه-و-آشپزخانه",
+      "image": "https://digistarkala.ir/shop/storage/categories/hznUXQzC2wLjCb9jmymQwXKjrcPUIP9SyKNEQPEJ.jpg",
+      "count": 109
+    },
+    {
+      "title": "ابزارآلات وتجهیزات",
+      "slug": "ابزارآلات-وتجهیزات",
+      "image": "https://digistarkala.ir/shop/storage/categories/n7v0JF71I2CU7hnl89vnLYXy7YbhYm1LfNiRqsYJ.jpg",
+      "count": 5
+    },
+    {
+      "title": "آرایشی و بهداشتی",
+      "slug": "آرایشی-و-بهداشتی",
+      "image": "https://digistarkala.ir/shop/storage/categories/KS0OHHdEp3VmCWIboocP6AB71AlIjxQrStKCNt7i.jpg",
+      "count": 96
+    },
+    {
+      "title": "تجهیزات پزشکی وسلامت",
+      "slug": "تجهیزات-پزشکی-وسلامت",
+      "image": "https://digistarkala.ir/shop/storage/categories/Jxm8rboRyvdWLUwyOiiEnFQLBonlgAWLo2GUcjm3.jpg",
+      "count": 4
+    },
+    {
+      "title": "موبایل و لوازم جانبی",
+      "slug": "موبایل-و-لوازم-جانبی",
+      "image": "https://digistarkala.ir/shop/storage/categories/rDWnj8m1xgl35ECBwPaFFDKWFxQsElxleyJjkiqu.jpg",
+      "count": 1
+    },
+    {
+      "title": "سایر کالاها",
+      "slug": "سایر-کالاها",
+      "image": "https://digistarkala.ir/shop/storage/categories/jvlZHTNDY1XY7xpGc1CK6lWIviLvUtk56SpF6UrK.jpg",
+      "count": 14
+    }
+  ],
+  "marquee": [
+    "کوماتسو",
+    "وی جی آر",
+    "تلیونیکس",
+    "انزو",
+    "جیپاس",
+    "شیگلم",
+    "پاناسونیک",
+    "لایت ویو",
+    "شیائومی",
+    "دی اس پی",
+    "آدیداس",
+    "ال جی",
+    "تفال",
+    "اپل",
+    "ایمپکس"
+  ],
+  "guarantees": [
+    {
+      "title": "ضمانت 7 روزه بازگشت کالا",
+      "description": "ضمانت",
+      "logo": "https://digistarkala.ir/shop/storage/guarantees_logos/QUmnfSILyNCFk72UKK9fkW0uSPrRWNnr32zc7T5Y.svg",
+      "link": "#"
+    },
+    {
+      "title": "پرداخت امن",
+      "description": "، اطلاعات پرداخت شما به صورت امن توسط سیستم‌های رمزنگاری پیشرفته محافظت می‌شود.",
+      "logo": "https://digistarkala.ir/shop/storage/guarantees_logos/3DZGdw1kSZpD4duLcen58iMhkwKbBmlimOWR58cG.svg",
+      "link": "#"
+    },
+    {
+      "title": "ارسال سریع",
+      "description": "از طریق خدمات ارسال سریع ما، می‌توانید سفارش خود را با سرعت بالا دریافت کنید.",
+      "logo": "https://digistarkala.ir/shop/storage/guarantees_logos/EPrMTZj5NOx33k7GfzQUbV1aw8uMk6UzStofBzOv.svg",
+      "link": "#"
+    },
+    {
+      "title": "پشتیبانی 24 ساعته",
+      "description": "اعتبار و رضایت شما برای ما بسیار ارزشمند است و ما به ارائه خدمات به شما افتخار می‌کنیم.",
+      "logo": "https://digistarkala.ir/shop/storage/guarantees_logos/uKxFzymyEFPJSlXrOzLDZqNbDn3EdYUFytNIHvBt.svg",
+      "link": "#"
+    }
+  ]
+}

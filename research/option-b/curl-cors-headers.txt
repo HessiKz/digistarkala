@@ -1,0 +1,23 @@
+=== OPTIONS /shop/api/init Origin=http://127.0.0.1:5173 ===
+HTTP/2 200 
+allow: GET,HEAD
+cache-control: no-cache, private
+content-type: text/html; charset=UTF-8
+content-length: 0
+date: Mon, 13 Jul 2026 23:08:53 GMT
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+
+
+=== OPTIONS /shop/api/cart/add ===
+HTTP/2 200 
+allow: POST
+cache-control: no-cache, private
+content-type: text/html; charset=UTF-8
+content-length: 0
+date: Mon, 13 Jul 2026 23:08:55 GMT
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+
+
+=== GET /shop/api/init with Origin (look for ACAO) ===
+HTTP/2 200 
+content-type: application/json

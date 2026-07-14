@@ -1,0 +1,11 @@
+{
+  "mode": "sanctum-fast",
+  "elapsedSec": 804,
+  "scraped": 228,
+  "withPrice": 148,
+  "withImages": 228,
+  "withTitle": 228,
+  "categories": 16,
+  "errorCount": 0,
+  "note": "Full sitemap scrape with retries; null price usually means out of stock"
+}

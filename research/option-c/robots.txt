@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /shop/api/*
+Disallow: /*?query=
+Disallow: /cart/*
+Disallow: /login
+Disallow: /register
+Disallow: /profile/*
+Sitemap: https://digistarkala.ir/shop/sitemap.xml

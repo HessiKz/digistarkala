@@ -1,0 +1,87 @@
+{
+  "elapsedMs": 221918,
+  "elapsedSec": 222,
+  "requested": 50,
+  "scraped": 50,
+  "withPrice": 17,
+  "withImages": 50,
+  "errorCount": 0,
+  "errorRate": 0,
+  "errors": [],
+  "robotsDisallows": [
+    "Disallow: /shop/api/*",
+    "Disallow: /*?query=",
+    "Disallow: /cart/*",
+    "Disallow: /login",
+    "Disallow: /register",
+    "Disallow: /profile/*"
+  ],
+  "note": "robots.txt Disallow: /shop/api/* — scrape used page navigation (1 rps) and intercepted same-origin XHR the SPA makes; bulk direct API crawl avoided.",
+  "imageProbe": {
+    "url": "https://digistarkala.ir/shop/storage/products/22/thumbnails/drTP3BXuk9dIQj9XdKlVJFx3VxccQ5engV7ZlFJg.jpg",
+    "noReferer": {
+      "status": 200,
+      "latencyMs": 1271,
+      "contentType": "image/jpeg",
+      "bytes": 76689,
+      "acao": null,
+      "looksLikeImage": true
+    },
+    "foreignReferer": {
+      "status": 200,
+      "latencyMs": 1364,
+      "contentType": "image/jpeg",
+      "bytes": 76689,
+      "looksLikeImage": true
+    },
+    "sameOriginReferer": {
+      "status": 200,
+      "latencyMs": 501,
+      "contentType": "image/jpeg",
+      "bytes": 76689,
+      "looksLikeImage": true
+    },
+    "hotlinkLikelyOk": true
+  },
+  "sampleProductKeys": [
+    "id",
+    "code",
+    "page_title",
+    "name",
+    "image",
+    "thumbnails",
+    "is_incredible",
+    "in_stock",
+    "price",
+    "uri",
+    "is_simple",
+    "is_preorder",
+    "description",
+    "meta",
+    "tags",
+    "is_favorited",
+    "in_stock_notify",
+    "gallery",
+    "features",
+    "stocks",
+    "options",
+    "has_variant"
+  ],
+  "categoriesSample": [
+    "https://digistarkala.ir/products/categories/خانه-و-آشپزخانه",
+    "https://digistarkala.ir/products/categories/ابزارآلات-وتجهیزات",
+    "https://digistarkala.ir/products/categories/آرایشی-و-بهداشتی",
+    "https://digistarkala.ir/products/categories/تجهیزات-پزشکی-وسلامت",
+    "https://digistarkala.ir/products/categories/طلا-و-نقره",
+    "https://digistarkala.ir/products/categories/سایر-کالاها",
+    "https://digistarkala.ir/products/categories/جارو-برقی",
+    "https://digistarkala.ir/products/categories/لوازم-پخت-وپز",
+    "https://digistarkala.ir/products/categories/خردکن-و-غذا-ساز",
+    "https://digistarkala.ir/products/categories/نوشیدنی-ساز"
+  ],
+  "priceNote": "price taken from product.stocks[0].pricing.price when present; null price correlates with in_stock=false and empty stocks[]",
+  "nullPriceCount": 31,
+  "inStockFalseCount": 31,
+  "priceSource": "stocks[0].pricing.price",
+  "renormalizedAt": "2026-07-13T23:12:13.137Z"
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "method": "GET",
+    "path": "/shop/api/authentication/countries/code",
+    "status": 200,
+    "ct": "application/json",
+    "acao": null,
+    "bodyBytesHint": 500,
+    "preview": "{\"codes\":[{\"id\":1,\"name\":\"Iran\",\"code\":\"98\",\"flag\":\"https:\\/\\/digistarkala.ir\\/shop\\/image"
+  },
+  {
+    "method": "GET",
+    "path": "/shop/api/authentication/oauth/services",
+    "status": 200,
+    "ct": "application/json",
+    "acao": null,
+    "bodyBytesHint": 15,
+    "preview": "{\"services\":[]}"
+  },
+  {
+    "method": "POST",
+    "path": "/shop/api/cart/add",
+    "status": 200,
+    "ct": "application/json",
+    "acao": null,
+    "bodyBytesHint": 229,
+    "preview": "{\"success\":true,\"message\":\"\\u0645\\u062d\\u0635\\u0648\\u0644 \\u0628\\u0627 \\u0645\\u0648\\u0641\\"
+  },
+  {
+    "method": "GET",
+    "path": "/shop/api/home?device=desktop",
+    "status": 200,
+    "ct": "application/json",
+    "acao": null,
+    "bodyBytesHint": 500,
+    "preview": "{\"title\":\"\\u062f\\u06cc\\u062c\\u06cc \\u0627\\u0633\\u062a\\u0627\\u0631 \\u06a9\\u0627\\u0644\\u0627"
+  },
+  {
+    "method": "GET",
+    "path": "/shop/api/init",
+    "status": 200,
+    "ct": "application/json",
+    "acao": null,
+    "bodyBytesHint": 500,
+    "preview": "{\"is_logged_in\":false,\"user\":null,\"cart\":{\"id\":null,\"total\":\"0\",\"subtotal\":\"0\",\"count\":0,\""
+  },
+  {
+    "method": "GET",
+    "path": "/shop/api/products/22",
+    "status": 200,
+    "ct": "application/json",
+    "acao": null,
+    "bodyBytesHint": 500,
+    "preview": "{\"breadcrumbs\":[{\"title\":\"\\u062e\\u0627\\u0646\\u0647 \\u0648 \\u0622\\u0634\\u067e\\u0632\\u062e\\u"
+  },
+  {
+    "method": "GET",
+    "path": "/shop/api/products/22/comments",
+    "status": 200,
+    "ct": "application/json",
+    "acao": null,
+    "bodyBytesHint": 500,
+    "preview": "{\"score\":5,\"total\":1,\"percent\":100,\"comments\":[],\"recommendations\":[{\"value\":\"do-recommend"
+  },
+  {
+    "method": "GET",
+    "path": "/shop/api/products/22/qa",
+    "status": 200,
+    "ct": "application/json",
+    "acao": null,
+    "bodyBytesHint": 20,
+    "preview": "{\"total\":0,\"qas\":[]}"
+  },
+  {
+    "method": "GET",
+    "path": "/shop/api/products/search?category=%D8%AC%D8%A7%D8%B1%D9%88-%D8%A8%D8%B1%D9%82%DB%8C&device=desktop",
+    "status": 200,
+    "ct": "application/json",
+    "acao": null,
+    "bodyBytesHint": 500,
+    "preview": "{\"products\":[{\"id\":166,\"code\":\"NTV19C\",\"page_title\":\"\\u062c\\u0627\\u0631\\u0648 \\u0639\\u0635"
+  },
+  {
+    "method": "GET",
+    "path": "/shop/api/products/search?query=%D8%AC%D8%A7%D8%B1%D9%88&&device=desktop",
+    "status": 200,
+    "ct": "application/json",
+    "acao": null,
+    "bodyBytesHint": 500,
+    "preview": "{\"products\":[{\"id\":270,\"code\":\"021\",\"page_title\":\"\\u062c\\u062a \\u0641\\u0646 \\u0648 \\u062c\\"
+  },
+  {
+    "method": "GET",
+    "path": "/shop/api/products/search/init",
+    "status": 200,
+    "ct": "application/json",
+    "acao": null,
+    "bodyBytesHint": 500,
+    "preview": "{\"meta\":false,\"categories\":[{\"id\":12,\"title\":\"\\u062e\\u0627\\u0646\\u0647 \\u0648 \\u0622\\u0634"
+  },
+  {
+    "method": "GET",
+    "path": "/shop/api/products/search/init?category=%D8%AC%D8%A7%D8%B1%D9%88-%D8%A8%D8%B1%D9%82%DB%8C",
+    "status": 200,
+    "ct": "application/json",
+    "acao": null,
+    "bodyBytesHint": 500,
+    "preview": "{\"meta\":false,\"categories\":[{\"id\":12,\"title\":\"\\u062e\\u0627\\u0646\\u0647 \\u0648 \\u0622\\u0634"
+  },
+  {
+    "method": "GET",
+    "path": "/shop/api/sanctum/csrf-cookie",
+    "status": 204,
+    "ct": "",
+    "acao": null,
+    "bodyBytesHint": 0,
+    "preview": ""
+  }
+]
