@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./variants.css";
 
 @theme {
   --font-sans: "Vazirmatn", "Outfit", system-ui, sans-serif;
@@ -26,7 +27,7 @@
 }
 
 :root,
-[data-theme="light"] {
+html[data-variant="v1"][data-theme="light"] {
   color-scheme: light;
   --surface-ink: #f6f4f1;
   --surface-ink-soft: #ffffff;
@@ -49,7 +50,7 @@
   --nav-search-bg: rgb(246 244 241 / 0.9);
 }
 
-[data-theme="dark"] {
+html[data-variant="v1"][data-theme="dark"] {
   color-scheme: dark;
   --surface-ink: #0a0b0d;
   --surface-ink-soft: #12141a;

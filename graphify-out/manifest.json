@@ -190,8 +190,8 @@
     "semantic_hash": ""
   },
   "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/components/Navbar.tsx": {
-    "mtime": 1783989569.2395594,
-    "ast_hash": "6d08e219389dc2afbcb62e02c8bf0384",
+    "mtime": 1784165233.7721055,
+    "ast_hash": "7b0a513dce886f0c4b977a36664691c8",
     "semantic_hash": ""
   },
   "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/components/ProductCard.tsx": {
@@ -210,8 +210,8 @@
     "semantic_hash": ""
   },
   "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/lib/hooks.ts": {
-    "mtime": 1783986851.3380187,
-    "ast_hash": "14f0d7f0070f07e204834e73b75a3f92",
+    "mtime": 1784165267.563905,
+    "ast_hash": "e2961bed9d3ccb7956a312aa24858038",
     "semantic_hash": ""
   },
   "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/lib/search.ts": {
@@ -300,8 +300,8 @@
     "semantic_hash": ""
   },
   "/home/hessi/Desktop/Developement/digistarkala/.github/workflows/deploy.yml": {
-    "mtime": 1783986388.441193,
-    "ast_hash": "30693f009cc93069540dab3cbec8ebb5",
+    "mtime": 1783989781.313559,
+    "ast_hash": "07f2964edb9fa573696da666e2917987",
     "semantic_hash": ""
   },
   "/home/hessi/Desktop/Developement/digistarkala/README.md": {
@@ -310,8 +310,8 @@
     "semantic_hash": ""
   },
   "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/index.html": {
-    "mtime": 1783988558.106274,
-    "ast_hash": "d664874a2da7c5e94d392e4012225d48",
+    "mtime": 1784161771.9492745,
+    "ast_hash": "a38ce762c70801eb39e0fcc5b654bcdc",
     "semantic_hash": ""
   },
   "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/public/data/brand.json": {
@@ -330,8 +330,8 @@
     "semantic_hash": ""
   },
   "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/store/theme.ts": {
-    "mtime": 1783988412.2339363,
-    "ast_hash": "e18e5845c1297351ec4aa58b088f10bb",
+    "mtime": 1784161771.9492745,
+    "ast_hash": "5c788f67b54c937df1297270841b710f",
     "semantic_hash": ""
   },
   "/home/hessi/Desktop/Developement/digistarkala/scripts/extract-brand.mjs": {
@@ -392,6 +392,101 @@
   "/home/hessi/Desktop/Developement/digistarkala/scripts/scrape-pages.mjs": {
     "mtime": 1783989487.787069,
     "ast_hash": "af800ceabd74d572767df98ef3af0e44",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/apps/storefront/src/components/DesignSwitcher.tsx": {
+    "mtime": 1784165183.8265252,
+    "ast_hash": "7626ede3ab54a410da830a244e5b55d1",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/skills-lock.json": {
+    "mtime": 1784156313.9009447,
+    "ast_hash": "91cce4772ceb65b5c0793683ee578262",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/SKILL.md": {
+    "mtime": 1784156313.8588936,
+    "ast_hash": "ff90e079b03a886ccdbe9c824d494210",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/director/choreography.md": {
+    "mtime": 1784156313.8607273,
+    "ast_hash": "be3eab2eba40595bd284709d9df63481",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/director/context-adaptation.md": {
+    "mtime": 1784156313.8607273,
+    "ast_hash": "c6433bffd6b25d876dffe2ed95ba02aa",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/director/core-philosophy.md": {
+    "mtime": 1784156313.8607273,
+    "ast_hash": "8ac84dcd99252589be924b5ebee76d6d",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/director/decision-framework.md": {
+    "mtime": 1784156313.8608952,
+    "ast_hash": "3b7e58678459c223f4e9fb2cd32e2d7d",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/director/disney-principles.md": {
+    "mtime": 1784156313.8609295,
+    "ast_hash": "93ba7e8ca4e40fe65a9dd6ec34343ba2",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/director/emotion-mapping.md": {
+    "mtime": 1784156313.8609295,
+    "ast_hash": "5e72451703a0cd398fa072af035c0d49",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/director/motion-personality.md": {
+    "mtime": 1784156313.861075,
+    "ast_hash": "a044943dd962e75a88f2ae3eedfd5071",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/director/narrative-structure.md": {
+    "mtime": 1784156313.861075,
+    "ast_hash": "67be92d43e8c58c4d32e7878cf99a310",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/patterns/ambient-continuous.md": {
+    "mtime": 1784156313.8611498,
+    "ast_hash": "bfe91fac3a45deb0e5bc19959bc43b5f",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/patterns/entrance-exit.md": {
+    "mtime": 1784156313.8612502,
+    "ast_hash": "0ca412d274d243cf71d57c17426d3c64",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/patterns/multi-element.md": {
+    "mtime": 1784156313.8612502,
+    "ast_hash": "d2e5cce8caa4d930ba47ea1714927421",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/patterns/state-feedback.md": {
+    "mtime": 1784156313.861317,
+    "ast_hash": "d21e216878deb00fd90b3d95809d3719",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/reference/property-selection.md": {
+    "mtime": 1784156313.8614075,
+    "ast_hash": "590e9f04a50f71a9f6ee8a010d02cebd",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/reference/quality-checklist.md": {
+    "mtime": 1784156313.8614075,
+    "ast_hash": "c2dd49bd3331155f24c05ad9da8ec06b",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/reference/timing-easing-tables.md": {
+    "mtime": 1784156313.8615694,
+    "ast_hash": "fa7ee2d95dc5bbcd2563d3965ef2ee05",
+    "semantic_hash": ""
+  },
+  "/home/hessi/Desktop/Developement/digistarkala/.agents/skills/motion-design/reference/troubleshooting.md": {
+    "mtime": 1784156313.8614717,
+    "ast_hash": "0a1a699e3e3ffa5cf8f38ad5b76575af",
     "semantic_hash": ""
   }
 }

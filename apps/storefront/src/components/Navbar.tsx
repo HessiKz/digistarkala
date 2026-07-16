@@ -17,6 +17,7 @@ import { getBrand } from "@/api/catalog";
 import { getMenus, toAppPath, isExternal } from "@/api/content";
 import { formatCount } from "@/lib/format";
 import type { MenuItem } from "@/lib/content-types";
+import { DesignSwitcher } from "./DesignSwitcher";
 
 function MenuLink({
   item,
@@ -113,6 +114,8 @@ export function Navbar() {
               aria-label="جستجو"
             />
           </form>
+
+          <DesignSwitcher />
 
           <div className="ms-auto hidden items-center gap-0.5 xl:flex">
             {top.slice(0, 7).map((item) => {
@@ -218,6 +221,9 @@ export function Navbar() {
                 className="w-full bg-transparent outline-none"
               />
             </form>
+            <div className="mb-6">
+              <DesignSwitcher inMobile />
+            </div>
             <ul className="space-y-2">
               {top.map((item) => (
                 <li key={item.id ?? item.title}>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fa" dir="rtl" data-theme="light">
+<html lang="fa" dir="rtl" data-theme="light" data-variant="v1">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,15 +11,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Vazirmatn:wght@300;400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Vazirmatn:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/gh/vercel/geist@1/dist/font/geist-sans/style.css"
       rel="stylesheet"
     />
     <title>دیجی استار کالا</title>
     <script>
       try {
         var t = JSON.parse(localStorage.getItem("dsk-theme-v1") || "{}");
-        var m = t && t.state && t.state.mode === "dark" ? "dark" : "light";
+        var st = t && t.state ? t.state : {};
+        var m = st.mode === "dark" ? "dark" : "light";
+        var v = st.variant || "v1";
         document.documentElement.setAttribute("data-theme", m);
+        document.documentElement.setAttribute("data-variant", v);
       } catch (e) {}
     </script>
   </head>
