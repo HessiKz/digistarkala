@@ -13,20 +13,16 @@ export interface VariantMotion {
   spring: { stiffness: number; damping: number };
 }
 
+// motion-design skill: choreography matches each design language's personality
 const MOTION: Record<DesignVariant, VariantMotion> = {
-  // V1 curated, V5 tech-minimal: subtle
-  v1: { ease: "power3.out", duration: 0.75, stagger: 0.07, y: 28, spring: { stiffness: 100, damping: 20 } },
-  // V2 brutalist: instant-ish, tight
-  v2: { ease: "power4.out", duration: 0.5, stagger: 0.04, y: 18, spring: { stiffness: 140, damping: 22 } },
-  // V3 editorial: slow, elegant
-  v3: { ease: "power2.out", duration: 1.1, stagger: 0.12, y: 36, spring: { stiffness: 80, damping: 18 } },
-  // V4 neumorphic: soft, calm
-  v4: { ease: "power2.out", duration: 0.95, stagger: 0.09, y: 24, spring: { stiffness: 90, damping: 22 } },
-  v5: { ease: "power3.out", duration: 0.8, stagger: 0.06, y: 26, spring: { stiffness: 110, damping: 22 } },
-  // V6 glass: cinematic, heavy
-  v6: { ease: "power3.out", duration: 1.2, stagger: 0.14, y: 48, spring: { stiffness: 70, damping: 16 } },
-  // V7 cyber: snappy, arcade
-  v7: { ease: "power4.out", duration: 0.6, stagger: 0.05, y: 22, spring: { stiffness: 160, damping: 18 } },
+  // V1 Premium (Liquid Glass): cinematic, fluid 400-600ms curves, heavy lift
+  v1: { ease: "power3.out", duration: 1.1, stagger: 0.12, y: 48, spring: { stiffness: 70, damping: 16 } },
+  // V2 Editorial (Storytelling): slow, elegant, deliberate reveal
+  v2: { ease: "power2.out", duration: 1.3, stagger: 0.14, y: 40, spring: { stiffness: 80, damping: 18 } },
+  // V3 Brutalist (Portfolio Grid): instant-ish, tight, 200-300ms
+  v3: { ease: "power4.out", duration: 0.45, stagger: 0.03, y: 14, spring: { stiffness: 160, damping: 20 } },
+  // V4 Cyber (Retro-Futurism): snappy, arcade, kinetic
+  v4: { ease: "power4.out", duration: 0.6, stagger: 0.05, y: 22, spring: { stiffness: 170, damping: 16 } },
 };
 
 export function useVariantMotion(): VariantMotion {

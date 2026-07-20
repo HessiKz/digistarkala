@@ -60,7 +60,7 @@ export function HeroSlider({ slides }: { slides: SliderSlide[] }) {
   }
 
   return (
-    <section className="relative w-full overflow-hidden">
+    <section className="dsk-hero relative w-full overflow-hidden">
       <div className="relative min-h-[min(88dvh,820px)] w-full">
         {list.map((slide, i) => {
           const active = i === index;

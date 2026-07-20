@@ -4,30 +4,51 @@ import type { BannerPalette } from "@/lib/types";
 
 export type ColorMode = "light" | "dark";
 
-export type DesignVariant =
-  | "v1"
-  | "v2"
-  | "v3"
-  | "v4"
-  | "v5"
-  | "v6"
-  | "v7";
+export type DesignVariant = "v1" | "v2" | "v3" | "v4";
 
 export interface VariantMeta {
   id: DesignVariant;
   label: string;
+  name: string;
   swatchLight: string;
   swatchDark: string;
+  accent: string;
 }
 
+// 4 skill-grounded design systems (ui-ux-pro-max generated)
 export const VARIANTS: VariantMeta[] = [
-  { id: "v1", label: "دیجی", swatchLight: "#f6f4f1", swatchDark: "#141218" },
-  { id: "v2", label: "بروتال", swatchLight: "#fafaf7", swatchDark: "#0a0a0a" },
-  { id: "v3", label: "مجله", swatchLight: "#fcf9f3", swatchDark: "#1c1917" },
-  { id: "v4", label: "نرم", swatchLight: "#f4f1ef", swatchDark: "#2a2522" },
-  { id: "v5", label: "مینیمال", swatchLight: "#ffffff", swatchDark: "#0b0b0d" },
-  { id: "v6", label: "شیشه", swatchLight: "#0a0b0d", swatchDark: "#050505" },
-  { id: "v7", label: "نئون", swatchLight: "#0a1929", swatchDark: "#050a18" },
+  {
+    id: "v1",
+    label: "اصلی",
+    name: "Original Glass",
+    swatchLight: "#f6f4f1",
+    swatchDark: "#0a0b0d",
+    accent: "#d45324",
+  },
+  {
+    id: "v2",
+    label: "مجله",
+    name: "Editorial Storytelling",
+    swatchLight: "#fafafa",
+    swatchDark: "#09090b",
+    accent: "#ec4899",
+  },
+  {
+    id: "v3",
+    label: "بروتال",
+    name: "Brutalist Portfolio Grid",
+    swatchLight: "#f8fafc",
+    swatchDark: "#0a0a0a",
+    accent: "#f97316",
+  },
+  {
+    id: "v4",
+    label: "نئون",
+    name: "Cyber Retro-Futurism",
+    swatchLight: "#0f0f23",
+    swatchDark: "#07071a",
+    accent: "#7c3aed",
+  },
 ];
 
 interface ThemeState {
@@ -49,9 +70,8 @@ function writeCssVars(
   const root = document.documentElement;
   root.setAttribute("data-theme", mode);
   root.setAttribute("data-variant", variant);
-  if (!palette) return;
-  // Brand palette overrides only apply to v1 (default) so other variants keep own identity.
-  if (variant !== "v1") return;
+  // Banner palette only influences V1 (premium) brand continuity
+  if (variant !== "v1" || !palette) return;
   root.style.setProperty("--brand-accent", palette.accent);
   root.style.setProperty("--brand-accent-dim", palette.accentDim);
   root.style.setProperty("--brand-accent-soft", palette.accentSoft);

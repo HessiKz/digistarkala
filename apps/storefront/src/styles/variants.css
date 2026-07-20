@@ -1,489 +1,37 @@
 /* ============================================================
-   DSK Variants — 7 design languages, each with light + dark
-   Token sets + structural overrides. Loaded before index.css
-   so V1 (no attribute) falls back to index.css :root.
+   DSK Variants — 4 skill-grounded design systems
+   Each is a REAL design language, not a recolor:
+   - V1 Premium: Liquid Glass, OLED dark + gold, device-mockup hero
+   - V2 Editorial: Scroll storytelling, serif, pink, narrative chapters
+   - V3 Brutalist: Portfolio masonry grid, mono, orange, scroll-snap
+   - V4 Cyber: Retro-futurism, neon purple/rose, CRT scanlines, glitch
+   Loaded before index.css. V1 falls back to index.css :root.
    ============================================================ */
 
-/* ---------- V1 DEFAULT (Curated Premium) ----------
-   Reuses index.css :root. No override needed here; attribute
-   just confirms the same tokens. */
-html[data-variant="v1"][data-theme="light"],
-html[data-variant="v1"][data-theme="dark"] {
-  /* tokens inherited from index.css surface vars */
-}
+/* ---------- V1 PREMIUM (original design, kept as-is) ----------
+   V1 color tokens live in index.css (:root + html[data-variant="v1"]).
+   Here we only add Liquid Glass structural enhancements on top of the
+   original palette so V1 reads as the "premium glass" baseline. */
 
-/* Display/eyebrow rhythm for V1 stays original. */
-
-
-/* ---------- V2 BRUTALIST MONO ----------
-   Sharp 0 radius, monospace display, exposed Swiss grid,
-   black-on-paper / paper-on-black. High contrast. */
-html[data-variant="v2"][data-theme="light"] {
-  --surface-ink: #fafaf7;
-  --surface-ink-soft: #ffffff;
-  --surface-panel: #ffffff;
-  --surface-panel-elevated: #f0f0ec;
-  --surface-line: rgb(0 0 0 / 0.12);
-  --surface-line-strong: rgb(0 0 0 / 0.85);
-  --surface-mist: #555;
-  --surface-fog: #1a1a1a;
-  --surface-snow: #0a0a0a;
-  --brand-accent: #0a0a0a;
-  --brand-accent-dim: #1a1a1a;
-  --brand-accent-soft: rgb(0 0 0 / 0.08);
-  --brand-glow: transparent;
-  --brand-mesh-a: transparent;
-  --brand-mesh-b: transparent;
-  --glass-bg: rgb(250 250 247 / 0.92);
-  --glass-border: rgb(0 0 0 / 0.85);
-  --btn-on-accent: #ffffff;
-  --nav-search-bg: rgb(255 255 255 / 0.92);
-  --font-display: "Space Mono", "Vazirmatn", monospace;
-  --radius-shell: 0rem;
-  --radius-core: 0rem;
-}
-
-html[data-variant="v2"][data-theme="dark"] {
-  --surface-ink: #050505;
-  --surface-ink-soft: #0a0a0a;
-  --surface-panel: #0e0e0e;
-  --surface-panel-elevated: #161616;
-  --surface-line: rgb(255 255 255 / 0.14);
-  --surface-line-strong: rgb(255 255 255 / 0.9);
-  --surface-mist: #888;
-  --surface-fog: #d4d4d4;
-  --surface-snow: #fafaf7;
-  --brand-accent: #fafaf7;
-  --brand-accent-dim: #d4d4d4;
-  --brand-accent-soft: rgb(255 255 255 / 0.1);
-  --brand-glow: transparent;
-  --brand-mesh-a: transparent;
-  --brand-mesh-b: transparent;
-  --glass-bg: rgb(5 5 5 / 0.88);
-  --glass-border: rgb(255 255 255 / 0.9);
-  --btn-on-accent: #050505;
-  --nav-search-bg: rgb(10 10 10 / 0.6);
-  --font-display: "Space Mono", "Vazirmatn", monospace;
-  --radius-shell: 0rem;
-  --radius-core: 0rem;
-}
-
-/* V2 structural: kill rounded everything, expose grid */
-html[data-variant="v2"] .double-bezel,
-html[data-variant="v2"] .double-bezel-inner,
-html[data-variant="v2"] .glass-pill,
-html[data-variant="v2"] .prose-product img,
-html[data-variant="v2"] input,
-html[data-variant="v2"] select,
-html[data-variant="v2"] aside,
-html[data-variant="v2"] article,
-html[data-variant="v2"] section > div {
-  border-radius: 0 !important;
-}
-
-html[data-variant="v2"] .double-bezel {
-  padding: 2px;
-  border: 2px solid var(--surface-line-strong);
-  background: transparent;
-}
-
-html[data-variant="v2"] .double-bezel-inner {
-  border: none;
-  box-shadow: none;
-}
-
-/* Brutalist nav: hard edge, no blur */
-html[data-variant="v2"] .glass-pill {
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
-  box-shadow: none;
-  border: 2px solid var(--surface-line-strong);
-}
-
-/* Exposed Swiss grid background on body — hairline crosshatch */
-html[data-variant="v2"] .surface-mesh {
-  background:
-    repeating-linear-gradient(0deg, var(--surface-line) 0 1px, transparent 1px 80px),
-    repeating-linear-gradient(90deg, var(--surface-line) 0 1px, transparent 1px 80px),
-    var(--surface-ink);
-}
-
-/* Buttons become sharp rectangles, mono */
-html[data-variant="v2"] .group button,
-html[data-variant="v2"] .group {
-  border-radius: 0 !important;
-}
-
-/* Display headings tighter, uppercase tracking */
-html[data-variant="v2"] .font-display {
-  text-transform: uppercase;
-  letter-spacing: -0.02em;
-}
-
-
-/* ---------- V3 MAGAZINE EDITORIAL ----------
-   Serif display (Cormorant + Playfair), asymmetric editorial
-   grid, image-led, generous whitespace, warm muted palette. */
-html[data-variant="v3"][data-theme="light"] {
-  --surface-ink: #fcf9f3;
-  --surface-ink-soft: #ffffff;
-  --surface-panel: #fffdf8;
-  --surface-panel-elevated: #f6f0e4;
-  --surface-line: rgb(60 40 20 / 0.12);
-  --surface-line-strong: rgb(60 40 20 / 0.28);
-  --surface-mist: #7a6a58;
-  --surface-fog: #3d3225;
-  --surface-snow: #1c1917;
-  --brand-accent: #8a5a2b;
-  --brand-accent-dim: #6e4520;
-  --brand-accent-soft: rgb(138 90 43 / 0.14);
-  --brand-glow: rgb(138 90 43 / 0.18);
-  --brand-mesh-a: rgb(138 90 43 / 0.1);
-  --brand-mesh-b: rgb(40 90 180 / 0.04);
-  --glass-bg: rgb(255 253 248 / 0.82);
-  --glass-border: rgb(60 40 20 / 0.16);
-  --btn-on-accent: #fffdf8;
-  --nav-search-bg: rgb(252 249 243 / 0.92);
-  --font-display: "Cormorant Garamond", "Playfair Display", "Vazirmatn", serif;
-  --radius-shell: 0.375rem;
-  --radius-core: 0.25rem;
-}
-
-html[data-variant="v3"][data-theme="dark"] {
-  --surface-ink: #1c1917;
-  --surface-ink-soft: #241f1c;
-  --surface-panel: #2a2520;
-  --surface-panel-elevated: #362e28;
-  --surface-line: rgb(240 220 190 / 0.12);
-  --surface-line-strong: rgb(240 220 190 / 0.28);
-  --surface-mist: #b4a890;
-  --surface-fog: #d8ccb4;
-  --surface-snow: #fcf9f3;
-  --brand-accent: #c8966a;
-  --brand-accent-dim: #a87a52;
-  --brand-accent-soft: rgb(200 150 106 / 0.16);
-  --brand-glow: rgb(200 150 106 / 0.22);
-  --brand-mesh-a: rgb(200 150 106 / 0.12);
-  --brand-mesh-b: rgb(56 120 220 / 0.06);
-  --glass-bg: rgb(28 25 23 / 0.82);
-  --glass-border: rgb(240 220 190 / 0.16);
-  --btn-on-accent: #1c1917;
-  --nav-search-bg: rgb(28 25 23 / 0.5);
-  --font-display: "Cormorant Garamond", "Playfair Display", "Vazirmatn", serif;
-  --radius-shell: 0.375rem;
-  --radius-core: 0.25rem;
-}
-
-/* V3 structural: serif display bigger + italic for emphasis */
-html[data-variant="v3"] .font-display {
-  font-weight: 600;
-  letter-spacing: -0.015em;
-  line-height: 1.05;
-}
-
-html[data-variant="v3"] h1.font-display {
-  font-size: clamp(2.6rem, 6vw, 5rem);
-  font-style: italic;
-}
-
-html[data-variant="v3"] h2.font-display {
-  font-style: italic;
-  font-weight: 500;
-}
-
-/* Editorial: thin hairline dividers, no heavy bevel */
-html[data-variant="v3"] .double-bezel {
-  padding: 0;
-  border: none;
-  background: transparent;
-}
-
-html[data-variant="v3"] .double-bezel-inner {
-  border: 1px solid var(--surface-line);
-  box-shadow: none;
-  border-radius: var(--radius-core);
-}
-
-/* Body reading-width calm */
-html[data-variant="v3"] .prose-product {
-  font-size: 1.0625rem;
-  line-height: 1.85;
-  max-width: 68ch;
-}
-
-
-/* ---------- V4 SOFT NEUMORPHIC ----------
-   Diffused soft shadows, pillowy extruded cards, fully rounded,
-   pastel accent. Calm, tactile, consumer-goods energy. */
-html[data-variant="v4"][data-theme="light"] {
-  --surface-ink: #f4f1ef;
-  --surface-ink-soft: #efeae6;
-  --surface-panel: #f4f1ef;
-  --surface-panel-elevated: #efeae6;
-  --surface-line: rgb(40 30 30 / 0.04);
-  --surface-line-strong: rgb(40 30 30 / 0.08);
-  --surface-mist: #9a9090;
-  --surface-fog: #4a4242;
-  --surface-snow: #2a2522;
-  --brand-accent: #b88aa8;
-  --brand-accent-dim: #a06e92;
-  --brand-accent-soft: rgb(184 138 168 / 0.18);
-  --brand-glow: rgb(184 138 168 / 0.22);
-  --brand-mesh-a: rgb(184 138 168 / 0.1);
-  --brand-mesh-b: rgb(120 160 200 / 0.06);
-  --glass-bg: rgb(244 241 239 / 0.7);
-  --glass-border: rgb(40 30 30 / 0.06);
-  --btn-on-accent: #2a2522;
-  --nav-search-bg: rgb(239 234 230 / 0.7);
-  --font-display: "Outfit", "Vazirmatn", sans-serif;
-  --radius-shell: 2rem;
-  --radius-core: 1.625rem;
-  --neu-shadow-light: 8px 8px 18px rgb(180 170 168 / 0.45),
-                      -8px -8px 18px rgb(255 255 255 / 0.95);
-  --neu-shadow-inset: inset 4px 4px 10px rgb(180 170 168 / 0.4),
-                      inset -4px -4px 10px rgb(255 255 255 / 0.95);
-  --neu-shadow-press: inset 3px 3px 8px rgb(180 170 168 / 0.5),
-                     inset -3px -3px 8px rgb(255 255 255 / 0.9);
-}
-
-html[data-variant="v4"][data-theme="dark"] {
-  --surface-ink: #2a2522;
-  --surface-ink-soft: #322c28;
-  --surface-panel: #322c28;
-  --surface-panel-elevated: #3a332e;
-  --surface-line: rgb(255 240 230 / 0.04);
-  --surface-line-strong: rgb(255 240 230 / 0.08);
-  --surface-mist: #a89a92;
-  --surface-fog: #d4c6ba;
-  --surface-snow: #f4f1ef;
-  --brand-accent: #d4a8c4;
-  --brand-accent-dim: #b888a4;
-  --brand-accent-soft: rgb(212 168 196 / 0.16);
-  --brand-glow: rgb(212 168 196 / 0.22);
-  --brand-mesh-a: rgb(212 168 196 / 0.1);
-  --brand-mesh-b: rgb(120 160 200 / 0.06);
-  --glass-bg: rgb(42 37 34 / 0.7);
-  --glass-border: rgb(255 240 230 / 0.08);
-  --btn-on-accent: #2a2522;
-  --nav-search-bg: rgb(50 44 40 / 0.5);
-  --font-display: "Outfit", "Vazirmatn", sans-serif;
-  --radius-shell: 2rem;
-  --radius-core: 1.625rem;
-  --neu-shadow-light: 8px 8px 18px rgb(10 8 6 / 0.55),
-                      -8px -8px 18px rgb(80 72 66 / 0.5);
-  --neu-shadow-inset: inset 4px 4px 10px rgb(10 8 6 / 0.55),
-                      inset -4px -4px 10px rgb(80 72 66 / 0.5);
-  --neu-shadow-press: inset 3px 3px 8px rgb(10 8 6 / 0.6),
-                     inset -3px -3px 8px rgb(80 72 66 / 0.55);
-}
-
-/* V4 structural: pillowy extruded cards, no hairline borders */
-html[data-variant="v4"] .double-bezel {
-  padding: 0;
-  border: none;
-  background: var(--surface-ink);
-  box-shadow: var(--neu-shadow-light);
-}
-
-html[data-variant="v4"] .double-bezel-inner {
-  border: none;
-  background: var(--surface-ink);
-  box-shadow: none;
-}
-
-/* Nav: soft float, no hard border */
-html[data-variant="v4"] .glass-pill {
-  border: none;
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
-  box-shadow: var(--neu-shadow-light);
-  background: var(--surface-ink);
-}
-
-/* Buttons press into surface */
-html[data-variant="v4"] button:active:not(:disabled),
-html[data-variant="v4"] .group button:active:not(:disabled) {
-  box-shadow: var(--neu-shadow-press);
-}
-
-/* Accent buttons stay solid pill on top */
-html[data-variant="v4"] .bg-accent {
-  box-shadow: 0 6px 16px var(--brand-glow);
-}
-
-/* Inputs extrude inward */
-html[data-variant="v4"] input,
-html[data-variant="v4"] select {
-  box-shadow: var(--neu-shadow-inset);
-  background: var(--surface-ink);
-  border: none;
-}
-
-
-/* ---------- V5 TECH MINIMAL (Apple-style) ----------
-   Geist sans, miles of whitespace, hairline borders, large
-   product photography, subtle motion. Sparse precision. */
-html[data-variant="v5"][data-theme="light"] {
-  --surface-ink: #ffffff;
-  --surface-ink-soft: #ffffff;
-  --surface-panel: #ffffff;
-  --surface-panel-elevated: #fafafa;
-  --surface-line: rgb(0 0 0 / 0.06);
-  --surface-line-strong: rgb(0 0 0 / 0.12);
-  --surface-mist: #6b6b6b;
-  --surface-fog: #1d1d1f;
-  --surface-snow: #1d1d1f;
-  --brand-accent: #0071e3;
-  --brand-accent-dim: #0058b8;
-  --brand-accent-soft: rgb(0 113 227 / 0.08);
-  --brand-glow: rgb(0 113 227 / 0.18);
-  --brand-mesh-a: rgb(0 113 227 / 0.04);
-  --brand-mesh-b: rgb(0 0 0 / 0.02);
-  --glass-bg: rgb(255 255 255 / 0.8);
-  --glass-border: rgb(0 0 0 / 0.06);
-  --btn-on-accent: #ffffff;
-  --nav-search-bg: rgb(245 245 247 / 0.7);
-  --font-display: "Geist Sans", "Outfit", "Vazirmatn", sans-serif;
-  --radius-shell: 1.25rem;
-  --radius-core: 1rem;
-}
-
-html[data-variant="v5"][data-theme="dark"] {
-  --surface-ink: #0b0b0d;
-  --surface-ink-soft: #111113;
-  --surface-panel: #141416;
-  --surface-panel-elevated: #1c1c1e;
-  --surface-line: rgb(255 255 255 / 0.08);
-  --surface-line-strong: rgb(255 255 255 / 0.16);
-  --surface-mist: #8e8e93;
-  --surface-fog: #e5e5e7;
-  --surface-snow: #f5f5f7;
-  --brand-accent: #2997ff;
-  --brand-accent-dim: #1a8bff;
-  --brand-accent-soft: rgb(41 151 255 / 0.14);
-  --brand-glow: rgb(41 151 255 / 0.22);
-  --brand-mesh-a: rgb(41 151 255 / 0.08);
-  --brand-mesh-b: rgb(255 255 255 / 0.02);
-  --glass-bg: rgb(11 11 13 / 0.72);
-  --glass-border: rgb(255 255 255 / 0.08);
-  --btn-on-accent: #0b0b0d;
-  --nav-search-bg: rgb(20 20 22 / 0.5);
-  --font-display: "Geist Sans", "Outfit", "Vazirmatn", sans-serif;
-  --radius-shell: 1.25rem;
-  --radius-core: 1rem;
-}
-
-/* V5 structural: hairline instead of bevel, zero shadow, big spacing */
-html[data-variant="v5"] .double-bezel {
-  padding: 0;
-  border: 1px solid var(--surface-line);
-  background: var(--surface-panel);
-  box-shadow: none;
-}
-
-html[data-variant="v5"] .double-bezel-inner {
-  border: none;
-  box-shadow: none;
-}
-
-/* Display tighter tracking, heavier weight */
-html[data-variant="v5"] .font-display {
-  font-weight: 600;
-  letter-spacing: -0.022em;
-  line-height: 1.1;
-}
-
-html[data-variant="v5"] h1.font-display {
-  font-size: clamp(2.4rem, 5.5vw, 4.5rem);
-}
-
-/* Crisp nav, minimal blur */
-html[data-variant="v5"] .glass-pill {
-  box-shadow: 0 1px 0 var(--surface-line);
-  backdrop-filter: blur(12px) saturate(120%);
-  -webkit-backdrop-filter: blur(12px) saturate(120%);
-  border: 1px solid var(--surface-line);
-}
-
-/* Accent buttons keep flat pill, no glow */
-html[data-variant="v5"] .bg-accent {
-  box-shadow: none;
-}
-
-
-/* ---------- V6 ETHEREAL GLASS (Dark SaaS) ----------
-   OLED black canvas, glowing mesh gradient orbs, heavy
-   backdrop-blur glass panels, neon accent. Cinematic dark. */
-html[data-variant="v6"][data-theme="light"] {
-  /* V6 light stays dark-ish: very dark charcoal to preserve identity */
-  --surface-ink: #0a0b0d;
-  --surface-ink-soft: #0f1014;
-  --surface-panel: #16181d;
-  --surface-panel-elevated: #1c1f26;
-  --surface-line: rgb(255 255 255 / 0.08);
-  --surface-line-strong: rgb(255 255 255 / 0.16);
-  --surface-mist: #8a8f9c;
-  --surface-fog: #c8cdd8;
-  --surface-snow: #f4f6fb;
-  --brand-accent: #7c5cff;
-  --brand-accent-dim: #6a4cf0;
-  --brand-accent-soft: rgb(124 92 255 / 0.16);
-  --brand-glow: rgb(124 92 255 / 0.32);
-  --brand-mesh-a: rgb(124 92 255 / 0.22);
-  --brand-mesh-b: rgb(0 180 220 / 0.14);
-  --glass-bg: rgb(16 18 22 / 0.55);
-  --glass-border: rgb(255 255 255 / 0.1);
-  --btn-on-accent: #ffffff;
-  --nav-search-bg: rgb(10 11 13 / 0.5);
-  --font-display: "Outfit", "Vazirmatn", sans-serif;
-  --radius-shell: 1.75rem;
-  --radius-core: 1.375rem;
-}
-
-html[data-variant="v6"][data-theme="dark"] {
-  --surface-ink: #050505;
-  --surface-ink-soft: #0a0a0c;
-  --surface-panel: #0e0f12;
-  --surface-panel-elevated: #14161b;
-  --surface-line: rgb(255 255 255 / 0.06);
-  --surface-line-strong: rgb(255 255 255 / 0.14);
-  --surface-mist: #7a8090;
-  --surface-fog: #b8bdca;
-  --surface-snow: #f0f2f8;
-  --brand-accent: #9b7cff;
-  --brand-accent-dim: #7c5cff;
-  --brand-accent-soft: rgb(155 124 255 / 0.16);
-  --brand-glow: rgb(155 124 255 / 0.38);
-  --brand-mesh-a: rgb(155 124 255 / 0.28);
-  --brand-mesh-b: rgb(0 200 240 / 0.18);
-  --glass-bg: rgb(10 10 12 / 0.5);
-  --glass-border: rgb(255 255 255 / 0.08);
-  --btn-on-accent: #050505;
-  --nav-search-bg: rgb(5 5 5 / 0.4);
-  --font-display: "Outfit", "Vazirmatn", sans-serif;
-  --radius-shell: 1.875rem;
-  --radius-core: 1.5rem;
-}
-
-/* V6 structural: heavy glass, glowing mesh, violet accent */
-html[data-variant="v6"] .glass-pill {
+/* V1 structural: heavy glass, glowing mesh orbs */
+html[data-variant="v1"] .glass-pill {
   backdrop-filter: blur(28px) saturate(180%) contrast(1.05);
   -webkit-backdrop-filter: blur(28px) saturate(180%) contrast(1.05);
   box-shadow:
     inset 0 1px 0 rgb(255 255 255 / 0.16),
     inset 0 -1px 0 rgb(255 255 255 / 0.06),
-    0 20px 60px rgb(0 0 0 / 0.5);
+    0 20px 60px rgb(0 0 0 / 0.4);
   border: 1px solid var(--glass-border);
 }
 
-html[data-variant="v6"] .double-bezel {
+html[data-variant="v1"] .double-bezel {
   padding: 1px;
   background: linear-gradient(135deg, rgb(255 255 255 / 0.14), rgb(255 255 255 / 0.04));
   border: 1px solid var(--glass-border);
-  box-shadow: 0 24px 80px rgb(0 0 0 / 0.4);
+  box-shadow: 0 24px 80px rgb(0 0 0 / 0.35);
 }
 
-html[data-variant="v6"] .double-bezel-inner {
+html[data-variant="v1"] .double-bezel-inner {
   background: var(--glass-bg);
   backdrop-filter: blur(20px) saturate(160%);
   -webkit-backdrop-filter: blur(20px) saturate(160%);
@@ -491,8 +39,8 @@ html[data-variant="v6"] .double-bezel-inner {
   box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.1);
 }
 
-/* Glowing mesh background replaces surface-mesh */
-html[data-variant="v6"] .surface-mesh {
+/* Glowing mesh orb background */
+html[data-variant="v1"] .surface-mesh {
   background:
     radial-gradient(ellipse 60% 40% at 15% 0%, var(--brand-mesh-a), transparent 55%),
     radial-gradient(ellipse 50% 35% at 85% 15%, var(--brand-mesh-b), transparent 50%),
@@ -500,188 +48,556 @@ html[data-variant="v6"] .surface-mesh {
     var(--surface-ink);
 }
 
-/* Accent glow on buttons */
-html[data-variant="v6"] .bg-accent {
+/* Gold accent glow on CTAs */
+html[data-variant="v1"] .bg-accent {
   box-shadow:
     0 0 0 1px rgb(255 255 255 / 0.1),
     0 10px 40px var(--brand-glow);
 }
 
-/* Display lighter violet glow */
-html[data-variant="v6"] .font-display {
-  letter-spacing: -0.02em;
-  text-shadow: 0 0 40px var(--brand-glow);
+html[data-variant="v1"] .font-display {
+  letter-spacing: -0.025em;
+  font-weight: 600;
 }
 
 @media (prefers-reduced-transparency: reduce) {
-  html[data-variant="v6"] .double-bezel-inner,
-  html[data-variant="v6"] .glass-pill {
+  html[data-variant="v1"] .double-bezel-inner,
+  html[data-variant="v1"] .glass-pill {
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
     background: var(--surface-panel);
   }
 }
 
-
-/* ---------- V7 NEON CYBER GRID ----------
-   Dark navy grid, glowing accent lines, HUD data readouts,
-   animated border-beam (MagicUI-style). Gaming/tech energy. */
-html[data-variant="v7"][data-theme="light"] {
-  /* V7 light is dim navy to keep grid identity */
-  --surface-ink: #0a1929;
-  --surface-ink-soft: #0d1f33;
-  --surface-panel: #102338;
-  --surface-panel-elevated: #142b48;
-  --surface-line: rgb(0 229 255 / 0.14);
-  --surface-line-strong: rgb(0 229 255 / 0.4);
-  --surface-mist: #6a8aa6;
-  --surface-fog: #b4d4ec;
-  --surface-snow: #e0f0ff;
-  --brand-accent: #00e5ff;
-  --brand-accent-dim: #00c2dd;
-  --brand-accent-soft: rgb(0 229 255 / 0.14);
-  --brand-glow: rgb(0 229 255 / 0.4);
-  --brand-mesh-a: rgb(0 229 255 / 0.12);
-  --brand-mesh-b: rgb(124 92 255 / 0.14);
-  --glass-bg: rgb(10 25 41 / 0.6);
-  --glass-border: rgb(0 229 255 / 0.2);
-  --btn-on-accent: #0a1929;
-  --nav-search-bg: rgb(10 25 41 / 0.5);
-  --font-display: "Space Mono", "Outfit", "Vazirmatn", monospace;
-  --radius-shell: 0.625rem;
-  --radius-core: 0.5rem;
+/* ---------- V2 EDITORIAL (Scroll Storytelling) ----------
+   ui-ux-pro-max: Scroll-Triggered Storytelling pattern, Libre Bodoni + Public Sans.
+   Editorial black + pink #EC4899, narrative chapter rhythm, fluid transitions,
+   progressive color reveal per section. */
+html[data-variant="v2"][data-theme="light"] {
+  --surface-ink: #fafaf8;
+  --surface-ink-soft: #ffffff;
+  --surface-panel: #ffffff;
+  --surface-panel-elevated: #f3f1ee;
+  --surface-line: rgb(9 9 11 / 0.12);
+  --surface-line-strong: rgb(9 9 11 / 0.22);
+  --surface-mist: #52525b;
+  --surface-fog: #27272a;
+  --surface-snow: #09090b;
+  --brand-accent: #ec4899;
+  --brand-accent-dim: #be185d;
+  --brand-accent-soft: rgb(236 72 153 / 0.1);
+  --brand-glow: rgb(236 72 153 / 0.2);
+  --brand-mesh-a: rgb(236 72 153 / 0.08);
+  --brand-mesh-b: rgb(120 90 60 / 0.05);
+  --glass-bg: rgb(255 255 255 / 0.85);
+  --glass-border: rgb(9 9 11 / 0.14);
+  --btn-on-accent: #ffffff;
+  --nav-search-bg: rgb(250 250 248 / 0.9);
+  --font-display: "Libre Bodoni", "Vazirmatn", Georgia, serif;
+  --font-sans: "Public Sans", "Vazirmatn", system-ui, sans-serif;
+  --radius-shell: 0.25rem;
+  --radius-core: 0.125rem;
 }
 
-html[data-variant="v7"][data-theme="dark"] {
-  --surface-ink: #050a18;
-  --surface-ink-soft: #0a1424;
-  --surface-panel: #0e1d33;
-  --surface-panel-elevated: #142640;
-  --surface-line: rgb(0 229 255 / 0.12);
-  --surface-line-strong: rgb(0 229 255 / 0.45);
-  --surface-mist: #5a7a96;
-  --surface-fog: #a4c4dc;
-  --surface-snow: #d4e8ff;
-  --brand-accent: #29e5ff;
-  --brand-accent-dim: #14c9ec;
-  --brand-accent-soft: rgb(41 229 255 / 0.14);
-  --brand-glow: rgb(41 229 255 / 0.48);
-  --brand-mesh-a: rgb(41 229 255 / 0.14);
-  --brand-mesh-b: rgb(155 124 255 / 0.18);
-  --glass-bg: rgb(5 10 24 / 0.55);
-  --glass-border: rgb(41 229 255 / 0.18);
-  --btn-on-accent: #050a18;
-  --nav-search-bg: rgb(5 10 24 / 0.5);
-  --font-display: "Space Mono", "Outfit", "Vazirmatn", monospace;
-  --radius-shell: 0.625rem;
-  --radius-core: 0.5rem;
+html[data-variant="v2"][data-theme="dark"] {
+  --surface-ink: #09090b;
+  --surface-ink-soft: #0c0c0e;
+  --surface-panel: #131316;
+  --surface-panel-elevated: #1a1a1e;
+  --surface-line: rgb(244 244 245 / 0.1);
+  --surface-line-strong: rgb(244 244 245 / 0.2);
+  --surface-mist: #a1a1aa;
+  --surface-fog: #d4d4d8;
+  --surface-snow: #fafafa;
+  --brand-accent: #f472b6;
+  --brand-accent-dim: #ec4899;
+  --brand-accent-soft: rgb(244 114 182 / 0.14);
+  --brand-glow: rgb(244 114 182 / 0.3);
+  --brand-mesh-a: rgb(244 114 182 / 0.12);
+  --brand-mesh-b: rgb(120 90 60 / 0.06);
+  --glass-bg: rgb(19 19 22 / 0.6);
+  --glass-border: rgb(244 244 245 / 0.12);
+  --btn-on-accent: #09090b;
+  --nav-search-bg: rgb(9 9 11 / 0.5);
+  --font-display: "Libre Bodoni", "Vazirmatn", Georgia, serif;
+  --font-sans: "Public Sans", "Vazirmatn", system-ui, sans-serif;
+  --radius-shell: 0.25rem;
+  --radius-core: 0.125rem;
 }
 
-/* V7 keyframes: border-beam + grid pulse */
-@keyframes dsk-border-beam {
-  0% { offset-distance: 0%; }
-  100% { offset-distance: 100%; }
+/* V2 structural: serif display, hairline rules, drop caps, pink ink */
+html[data-variant="v2"] .font-display {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.02;
 }
 
-@keyframes dsk-grid-pulse {
-  0%, 100% { opacity: 0.35; }
-  50% { opacity: 0.55; }
-}
-
-/* V7 structural: glowing grid background, neon hairline bevels */
-html[data-variant="v7"] .surface-mesh {
-  background:
-    linear-gradient(var(--surface-line) 1px, transparent 1px),
-    linear-gradient(90deg, var(--surface-line) 1px, transparent 1px),
-    radial-gradient(ellipse 50% 50% at 50% 0%, var(--brand-mesh-a), transparent 60%),
-    radial-gradient(ellipse 40% 40% at 90% 90%, var(--brand-mesh-b), transparent 60%),
-    var(--surface-ink);
-  background-size: 48px 48px, 48px 48px, 100% 100%, 100% 100%, 100% 100%;
-}
-
-html[data-variant="v7"][data-theme="light"] .surface-mesh {
-  animation: dsk-grid-pulse 6s ease-in-out infinite;
-}
-
-html[data-variant="v7"][data-theme="dark"] .surface-mesh {
-  animation: dsk-grid-pulse 6s ease-in-out infinite;
-}
-
-/* Cards: neon border, transparent fill, corner accents */
-html[data-variant="v7"] .double-bezel {
+html[data-variant="v2"] .double-bezel {
   padding: 0;
-  background: rgb(0 229 255 / 0.04);
-  border: 1px solid var(--surface-line-strong);
-  box-shadow:
-    0 0 0 1px rgb(0 229 255 / 0.06),
-    inset 0 0 30px rgb(0 229 255 / 0.06),
-    0 16px 60px rgb(0 0 0 / 0.5);
-}
-
-html[data-variant="v7"] .double-bezel-inner {
-  background: rgb(10 25 41 / 0.55);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background: transparent;
   border: none;
-  box-shadow: inset 0 0 24px rgb(0 229 255 / 0.05);
+  box-shadow: none;
+  border-top: 1px solid var(--surface-line);
+  border-bottom: 1px solid var(--surface-line);
 }
 
-/* Nav: HUD pill, cyan outline */
-html[data-variant="v7"] .glass-pill {
-  background: rgb(5 15 30 / 0.7);
-  backdrop-filter: blur(16px) saturate(160%);
-  -webkit-backdrop-filter: blur(16px) saturate(160%);
-  border: 1px solid var(--surface-line-strong);
-  box-shadow: 0 0 24px rgb(0 229 255 / 0.18), inset 0 1px 0 rgb(255 255 255 / 0.08);
+html[data-variant="v2"] .double-bezel-inner {
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border: none;
+  box-shadow: none;
 }
 
-/* Accent buttons: glowing cyan */
-html[data-variant="v7"] .bg-accent {
-  box-shadow:
-    0 0 0 1px rgb(255 255 255 / 0.14),
-    0 0 24px var(--brand-glow),
-    inset 0 1px 0 rgb(255 255 255 / 0.2);
+html[data-variant="v2"] .glass-pill {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: var(--glass-bg);
+  border: 1px solid var(--surface-line);
+  box-shadow: none;
+  border-radius: var(--radius-shell);
 }
 
-/* Display: mono uppercase, cyan glow */
-html[data-variant="v7"] .font-display {
+html[data-variant="v2"] .surface-mesh {
+  background:
+    linear-gradient(180deg, var(--brand-mesh-a), transparent 30%),
+    var(--surface-ink);
+}
+
+/* Editorial drop-cap on hero lead */
+html[data-variant="v2"] .hero-lead::first-letter {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 3.4em;
+  line-height: 0.82;
+  float: right;
+  margin-inline-start: 0.08em;
+  margin-inline-end: 0.12em;
+  color: var(--brand-accent);
+}
+
+/* Section number markers (chapter rhythm) */
+html[data-variant="v2"] .section-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.32em;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
-  text-shadow: 0 0 30px var(--brand-glow);
+  color: var(--brand-accent);
+  font-weight: 600;
 }
 
-/* Tabular numerals where data heavy */
-html[data-variant="v7"] .prose-product,
-html[data-variant="v7"] .font-display {
-  font-variant-numeric: tabular-nums;
+/* Pink underline accent on links/CTAs */
+html[data-variant="v2"] .bg-accent {
+  background: var(--surface-snow) !important;
+  color: var(--surface-ink) !important;
+  border: 1px solid var(--surface-snow);
+  border-radius: var(--radius-shell);
+  box-shadow: none;
 }
 
+html[data-variant="v2"] .text-accent {
+  color: var(--brand-accent);
+  text-decoration-color: var(--brand-accent-dim);
+  text-underline-offset: 0.18em;
+}
+
+/* ---------- V3 BRUTALIST (Portfolio Grid) ----------
+   ui-ux-pro-max: Portfolio Grid masonry, Space Mono, safety orange #F97316.
+   Industrial grey, exposed grid lines, 0 radius, scroll-snap, bold hover 200-300ms. */
+html[data-variant="v3"][data-theme="light"] {
+  --surface-ink: #f8fafc;
+  --surface-ink-soft: #ffffff;
+  --surface-panel: #ffffff;
+  --surface-panel-elevated: #f1f5f9;
+  --surface-line: rgb(15 23 42 / 0.18);
+  --surface-line-strong: rgb(15 23 42 / 0.85);
+  --surface-mist: #475569;
+  --surface-fog: #1e293b;
+  --surface-snow: #0f172a;
+  --brand-accent: #f97316;
+  --brand-accent-dim: #c2410c;
+  --brand-accent-soft: rgb(249 115 22 / 0.12);
+  --brand-glow: rgb(249 115 22 / 0.3);
+  --brand-mesh-a: rgb(15 23 42 / 0.04);
+  --brand-mesh-b: rgb(249 115 22 / 0.06);
+  --glass-bg: #ffffff;
+  --glass-border: rgb(15 23 42 / 0.85);
+  --btn-on-accent: #ffffff;
+  --nav-search-bg: #ffffff;
+  --font-display: "Space Mono", "Vazirmatn", monospace;
+  --font-sans: "Space Mono", "Vazirmatn", monospace;
+  --radius-shell: 0rem;
+  --radius-core: 0rem;
+}
+
+html[data-variant="v3"][data-theme="dark"] {
+  --surface-ink: #0a0a0a;
+  --surface-ink-soft: #0f0f0f;
+  --surface-panel: #131313;
+  --surface-panel-elevated: #1c1c1c;
+  --surface-line: rgb(248 250 252 / 0.16);
+  --surface-line-strong: rgb(248 250 252 / 0.9);
+  --surface-mist: #94a3b8;
+  --surface-fog: #e2e8f0;
+  --surface-snow: #f8fafc;
+  --brand-accent: #fb923c;
+  --brand-accent-dim: #f97316;
+  --brand-accent-soft: rgb(251 146 60 / 0.16);
+  --brand-glow: rgb(251 146 60 / 0.4);
+  --brand-mesh-a: rgb(248 250 252 / 0.03);
+  --brand-mesh-b: rgb(251 146 60 / 0.08);
+  --glass-bg: #131313;
+  --glass-border: rgb(248 250 252 / 0.9);
+  --btn-on-accent: #0a0a0a;
+  --nav-search-bg: #0f0f0f;
+  --font-display: "Space Mono", "Vazirmatn", monospace;
+  --font-sans: "Space Mono", "Vazirmatn", monospace;
+  --radius-shell: 0rem;
+  --radius-core: 0rem;
+}
+
+/* V3 structural: monospace, 0 radius, hard borders, exposed grid */
+html[data-variant="v3"] .font-display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  line-height: 0.95;
+}
+
+html[data-variant="v3"] .double-bezel {
+  padding: 0;
+  background: var(--surface-panel);
+  border: 2px solid var(--surface-line-strong);
+  box-shadow: 8px 8px 0 0 var(--surface-line-strong);
+  border-radius: 0;
+}
+
+html[data-variant="v3"] .double-bezel-inner {
+  background: var(--surface-panel);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+html[data-variant="v3"] .glass-pill {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  background: var(--glass-bg);
+  border: 2px solid var(--surface-line-strong);
+  box-shadow: 6px 6px 0 0 var(--brand-accent);
+  border-radius: 0;
+}
+
+html[data-variant="v3"] .surface-mesh {
+  background:
+    linear-gradient(var(--surface-line) 1px, transparent 1px) 0 0 / 100% 64px,
+    linear-gradient(90deg, var(--surface-line) 1px, transparent 1px) 0 0 / 64px 100%,
+    var(--surface-ink);
+}
+
+/* Brutalist product grid: masonry-ish via columns, scroll-snap on sections */
+html[data-variant="v3"] .product-grid {
+  display: block;
+  column-count: 3;
+  column-gap: 0;
+}
+@media (max-width: 1024px) {
+  html[data-variant="v3"] .product-grid { column-count: 2; }
+}
+@media (max-width: 640px) {
+  html[data-variant="v3"] .product-grid { column-count: 1; }
+}
+
+html[data-variant="v3"] .product-card {
+  break-inside: avoid;
+  border: 2px solid var(--surface-line-strong);
+  border-radius: 0;
+  box-shadow: 6px 6px 0 0 var(--surface-line-strong);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+html[data-variant="v3"] .product-card:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0 0 var(--brand-accent);
+}
+
+html[data-variant="v3"] .bg-accent {
+  border: 2px solid var(--surface-line-strong);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 0 var(--surface-line-strong);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+html[data-variant="v3"] .bg-accent:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 0 var(--surface-line-strong);
+}
+
+html[data-variant="v3"] .section-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--brand-accent);
+  font-weight: 700;
+}
+
+/* Scroll-snap on main scroll container for portfolio feel */
+html[data-variant="v3"] .snap-section {
+  scroll-snap-align: start;
+}
+
+/* ---------- V4 CYBER (Retro-Futurism) ----------
+   ui-ux-pro-max: Retro-Futurism, Syncopate + Space Mono, neon purple #7C3AED + rose #F43F5E.
+   CRT scanlines overlay, neon glow text-shadow, glitch hover, animated grid.
+   NOTE: V4 is dark-dominant in both modes (synthwave is inherently nocturnal). */
+html[data-variant="v4"][data-theme="light"] {
+  --surface-ink: #0f0f23;
+  --surface-ink-soft: #14142b;
+  --surface-panel: #1a1a35;
+  --surface-panel-elevated: #20203f;
+  --surface-line: rgb(124 58 237 / 0.35);
+  --surface-line-strong: rgb(124 58 237 / 0.7);
+  --surface-mist: #a78bfa;
+  --surface-fog: #ddd6fe;
+  --surface-snow: #f5f3ff;
+  --brand-accent: #7c3aed;
+  --brand-accent-dim: #6d28d9;
+  --brand-accent-soft: rgb(124 58 237 / 0.18);
+  --brand-glow: rgb(124 58 237 / 0.5);
+  --brand-mesh-a: rgb(124 58 237 / 0.22);
+  --brand-mesh-b: rgb(244 63 94 / 0.18);
+  --glass-bg: rgb(20 20 43 / 0.55);
+  --glass-border: rgb(124 58 237 / 0.5);
+  --btn-on-accent: #ffffff;
+  --nav-search-bg: rgb(15 15 35 / 0.6);
+  --cta-accent: #f43f5e;
+  --font-display: "Syncopate", "Vazirmatn", sans-serif;
+  --font-sans: "Space Mono", "Vazirmatn", monospace;
+  --radius-shell: 0.25rem;
+  --radius-core: 0.125rem;
+}
+
+html[data-variant="v4"][data-theme="dark"] {
+  --surface-ink: #07071a;
+  --surface-ink-soft: #0c0c22;
+  --surface-panel: #11112a;
+  --surface-panel-elevated: #181838;
+  --surface-line: rgb(167 139 250 / 0.3);
+  --surface-line-strong: rgb(167 139 250 / 0.7);
+  --surface-mist: #a78bfa;
+  --surface-fog: #e9d5ff;
+  --surface-snow: #faf5ff;
+  --brand-accent: #a78bfa;
+  --brand-accent-dim: #7c3aed;
+  --brand-accent-soft: rgb(167 139 250 / 0.16);
+  --brand-glow: rgb(167 139 250 / 0.6);
+  --brand-mesh-a: rgb(124 58 237 / 0.28);
+  --brand-mesh-b: rgb(244 63 94 / 0.22);
+  --glass-bg: rgb(17 17 42 / 0.5);
+  --glass-border: rgb(167 139 250 / 0.4);
+  --btn-on-accent: #07071a;
+  --nav-search-bg: rgb(7 7 26 / 0.55);
+  --cta-accent: #fb7185;
+  --font-display: "Syncopate", "Vazirmatn", sans-serif;
+  --font-sans: "Space Mono", "Vazirmatn", monospace;
+  --radius-shell: 0.25rem;
+  --radius-core: 0.125rem;
+}
+
+/* V4 structural: neon glow display, CRT scanlines, animated grid, glitch hover */
+html[data-variant="v4"] .font-display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1.05;
+  text-shadow:
+    0 0 8px var(--brand-glow),
+    0 0 24px var(--brand-mesh-a);
+}
+
+html[data-variant="v4"] .double-bezel {
+  padding: 1px;
+  background: linear-gradient(135deg, var(--brand-accent), var(--cta-accent));
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    0 0 0 1px var(--brand-accent-soft),
+    0 0 30px var(--brand-glow),
+    inset 0 0 20px var(--brand-mesh-a);
+  border-radius: var(--radius-shell);
+}
+
+html[data-variant="v4"] .double-bezel-inner {
+  background: var(--glass-bg);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: none;
+  box-shadow: inset 0 0 24px var(--brand-mesh-a);
+  border-radius: var(--radius-shell);
+}
+
+html[data-variant="v4"] .glass-pill {
+  backdrop-filter: blur(16px) saturate(150%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 0 24px var(--brand-glow);
+  border-radius: var(--radius-shell);
+}
+
+/* Animated synthwave grid + sun */
+html[data-variant="v4"] .surface-mesh {
+  position: relative;
+  background:
+    radial-gradient(ellipse 60% 40% at 50% 110%, var(--cta-accent), transparent 60%),
+    radial-gradient(ellipse 50% 35% at 50% 100%, var(--brand-accent), transparent 55%),
+    linear-gradient(var(--brand-mesh-a) 1px, transparent 1px) 0 0 / 100% 48px,
+    linear-gradient(90deg, var(--brand-mesh-a) 1px, transparent 1px) 0 0 / 48px 100%,
+    var(--surface-ink);
+  background-attachment: fixed;
+  animation: dsk-cyber-grid 6s linear infinite;
+}
+
+@keyframes dsk-cyber-grid {
+  from { background-position: 0 0, 0 0, 0 0, 0 0, 0 0; }
+  to { background-position: 0 0, 0 0, 0 48px, 48px 0, 0 0; }
+}
+
+/* CRT scanline overlay on whole body */
+html[data-variant="v4"] body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background: repeating-linear-gradient(
+    0deg,
+    rgb(0 0 0 / 0.12) 0,
+    rgb(0 0 0 / 0.12) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  mix-blend-mode: overlay;
+  opacity: 0.5;
+}
+
+/* Neon CTA */
+html[data-variant="v4"] .bg-accent {
+  background: var(--cta-accent) !important;
+  color: var(--btn-on-accent) !important;
+  border: 1px solid var(--cta-accent);
+  border-radius: var(--radius-shell);
+  box-shadow:
+    0 0 0 1px var(--brand-accent-soft),
+    0 0 24px var(--brand-glow);
+  text-shadow: 0 0 6px rgb(255 255 255 / 0.4);
+}
+
+html[data-variant="v4"] .text-accent {
+  color: var(--brand-accent);
+  text-shadow: 0 0 8px var(--brand-glow);
+}
+
+html[data-variant="v4"] .product-card {
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-shell);
+  box-shadow: 0 0 18px var(--brand-mesh-a);
+  transition: box-shadow 200ms ease, transform 200ms ease;
+}
+html[data-variant="v4"] .product-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 32px var(--brand-glow);
+  animation: dsk-glitch 280ms steps(2) 1;
+}
+
+@keyframes dsk-glitch {
+  0% { clip-path: inset(0 0 0 0); transform: translate(0); }
+  25% { clip-path: inset(20% 0 60% 0); transform: translate(-2px, 1px); }
+  50% { clip-path: inset(60% 0 10% 0); transform: translate(2px, -1px); }
+  75% { clip-path: inset(10% 0 75% 0); transform: translate(-1px, 0); }
+  100% { clip-path: inset(0 0 0 0); transform: translate(0); }
+}
+
+html[data-variant="v4"] .section-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--brand-accent);
+  font-weight: 700;
+  text-shadow: 0 0 6px var(--brand-glow);
+}
+
+/* ---------- GLOBAL SAFETY ---------- */
 @media (prefers-reduced-motion: reduce) {
-  html[data-variant="v7"] .surface-mesh {
-    animation: none;
-  }
+  html[data-variant="v4"] .surface-mesh { animation: none; }
+  html[data-variant="v4"] .product-card:hover { animation: none; }
+  html[data-variant="v4"] body::before { display: none; }
+  html[data-variant="v3"] .product-card,
+  html[data-variant="v3"] .bg-accent { transition: none; }
 }
 
 @media (prefers-reduced-transparency: reduce) {
-  html[data-variant="v7"] .double-bezel-inner,
-  html[data-variant="v7"] .glass-pill {
+  html[data-variant="v1"] .double-bezel-inner,
+  html[data-variant="v1"] .glass-pill,
+  html[data-variant="v4"] .double-bezel-inner,
+  html[data-variant="v4"] .glass-pill {
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
     background: var(--surface-panel);
   }
+  html[data-variant="v4"] body::before { display: none; }
 }
 
+/* ---------- PER-VARIANT HERO TREATMENT ---------- */
+/* V1 Premium: gold vignette + soft glass lift on hero title */
+html[data-variant="v1"] .dsk-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse 50% 40% at 75% 30%, var(--brand-glow), transparent 60%);
+  mix-blend-mode: screen;
+  z-index: 1;
+}
 
-/* ---------- GLOBAL SAFETY ----------
-   Reduced motion kills all transform/opacity transitions. */
+/* V2 Editorial: hairline pink rule beneath eyebrow + serif already */
+html[data-variant="v2"] .dsk-hero h1 {
+  border-bottom: 1px solid var(--brand-accent);
+  padding-bottom: 0.4em;
+  display: inline-block;
+}
+
+/* V3 Brutalist: hard offset frame on hero image, mono caption bar */
+html[data-variant="v3"] .dsk-hero img {
+  filter: contrast(1.08) saturate(0.85);
+}
+html[data-variant="v3"] .dsk-hero > div > div:first-child {
+  outline: 3px solid var(--surface-line-strong);
+  outline-offset: -10px;
+}
+
+/* V4 Cyber: neon hero border + extra scanline + glitch on title */
+html[data-variant="v4"] .dsk-hero {
+  box-shadow: inset 0 0 80px var(--brand-glow);
+}
+html[data-variant="v4"] .dsk-hero img {
+  filter: saturate(1.25) contrast(1.05) hue-rotate(-8deg);
+}
+html[data-variant="v4"] .dsk-hero h1 {
+  animation: dsk-cyber-flicker 4.5s steps(1) infinite;
+}
+@keyframes dsk-cyber-flicker {
+  0%, 92%, 100% { opacity: 1; }
+  93% { opacity: 0.6; }
+  94% { opacity: 1; }
+  96% { opacity: 0.75; }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-delay: 0s !important;
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
+  html[data-variant="v4"] .dsk-hero h1 { animation: none; }
 }
